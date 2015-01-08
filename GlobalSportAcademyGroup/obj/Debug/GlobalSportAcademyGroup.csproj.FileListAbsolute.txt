@@ -4,3 +4,9 @@ C:\Users\RobMac\Documents\GitHub\GlobalSportAcademyGroup\GlobalSportAcademyGroup
 C:\Users\RobMac\Documents\GitHub\GlobalSportAcademyGroup\GlobalSportAcademyGroup\obj\Debug\GlobalSportAcademyGroup.csprojResolveAssemblyReference.cache
 C:\Users\RobMac\Documents\GitHub\GlobalSportAcademyGroup\GlobalSportAcademyGroup\obj\Debug\GlobalSportAcademyGroup.dll
 C:\Users\RobMac\Documents\GitHub\GlobalSportAcademyGroup\GlobalSportAcademyGroup\obj\Debug\GlobalSportAcademyGroup.pdb
+C:\Users\RobS\Documents\GitHub\GlobalSportAcademyGroup\GlobalSportAcademyGroup\bin\GlobalSportAcademyGroup.dll.config
+C:\Users\RobS\Documents\GitHub\GlobalSportAcademyGroup\GlobalSportAcademyGroup\bin\GlobalSportAcademyGroup.dll
+C:\Users\RobS\Documents\GitHub\GlobalSportAcademyGroup\GlobalSportAcademyGroup\bin\GlobalSportAcademyGroup.pdb
+C:\Users\RobS\Documents\GitHub\GlobalSportAcademyGroup\GlobalSportAcademyGroup\obj\Debug\GlobalSportAcademyGroup.csprojResolveAssemblyReference.cache
+C:\Users\RobS\Documents\GitHub\GlobalSportAcademyGroup\GlobalSportAcademyGroup\obj\Debug\GlobalSportAcademyGroup.dll
+C:\Users\RobS\Documents\GitHub\GlobalSportAcademyGroup\GlobalSportAcademyGroup\obj\Debug\GlobalSportAcademyGroup.pdb
