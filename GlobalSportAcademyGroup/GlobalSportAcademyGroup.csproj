@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{761F3669-DF50-4EEF-8261-1716D9E074F3}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GlobalSportAcademyGroup</RootNamespace>
+    <AssemblyName>GlobalSportAcademyGroup</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="search\results.php" />
+    <Content Include="search.php" />
+    <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\FontAwesome.otf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <None Include="Properties\PublishProfiles\globalsportacademygroup - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\globalsportacademygroup - Web Deploy.pubxml" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="contact-us.html" />
+    <Content Include="css\bootstrap.css" />
+    <Content Include="css\camera.css" />
+    <Content Include="css\jquery.fancybox.css" />
+    <Content Include="css\style.css" />
+    <Content Include="fonts\font-awesome.css" />
+    <Content Include="fonts\fontawesome-webfont.svg" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="fonts\the-team.html" />
+    <Content Include="img\arrows.png" />
+    <Content Include="img\bg_pic.jpg" />
+    <Content Include="img\calder-cup.png" />
+    <Content Include="img\calder.png" />
+    <Content Include="img\camera-loader.gif" />
+    <Content Include="img\comment_icon.png" />
+    <Content Include="img\ea-2.PNG" />
+    <Content Include="img\error.png" />
+    <Content Include="img\fancybox_img\blank.gif" />
+    <Content Include="img\fancybox_img\fancybox-x.png" />
+    <Content Include="img\fancybox_img\fancybox-y.png" />
+    <Content Include="img\fancybox_img\fancybox.png" />
+    <Content Include="img\fancybox_img\fancybox_loading.gif" />
+    <Content Include="img\fancybox_img\fancybox_overlay.png" />
+    <Content Include="img\fancybox_img\fancybox_sprite.png" />
+    <Content Include="img\fancybox_img\fancy_close.png" />
+    <Content Include="img\fancybox_img\fancy_loading.png" />
+    <Content Include="img\fancybox_img\fancy_nav_left.png" />
+    <Content Include="img\fancybox_img\fancy_nav_right.png" />
+    <Content Include="img\fancybox_img\fancy_shadow_e.png" />
+    <Content Include="img\fancybox_img\fancy_shadow_n.png" />
+    <Content Include="img\fancybox_img\fancy_shadow_ne.png" />
+    <Content Include="img\fancybox_img\fancy_shadow_nw.png" />
+    <Content Include="img\fancybox_img\fancy_shadow_s.png" />
+    <Content Include="img\fancybox_img\fancy_shadow_se.png" />
+    <Content Include="img\fancybox_img\fancy_shadow_sw.png" />
+    <Content Include="img\fancybox_img\fancy_shadow_w.png" />
+    <Content Include="img\fancybox_img\fancy_title_left.png" />
+    <Content Include="img\fancybox_img\fancy_title_main.png" />
+    <Content Include="img\fancybox_img\fancy_title_over.png" />
+    <Content Include="img\fancybox_img\fancy_title_right.png" />
+    <Content Include="img\fancybox_img\image-blank.png" />
+    <Content Include="img\favicon.ico" />
+    <Content Include="img\follow_icon1.png" />
+    <Content Include="img\follow_icon2.png" />
+    <Content Include="img\follow_icon3.png" />
+    <Content Include="img\follow_icon4.png" />
+    <Content Include="img\follow_icon5.png" />
+    <Content Include="img\foo_logo.png" />
+    <Content Include="img\fsd-logo.png" />
+    <Content Include="img\gca-logo.png" />
+    <Content Include="img\ice-surface.jpg" />
+    <Content Include="img\list_arrow.png" />
+    <Content Include="img\logo.png" />
+    <Content Include="img\logo_old.png" />
+    <Content Include="img\magnify.png" />
+    <Content Include="img\media-mic.png" />
+    <Content Include="img\menu-marker.png" />
+    <Content Include="img\menu-marker2.png" />
+    <Content Include="img\menu_triangle.png" />
+    <Content Include="img\page1_pic1.jpg" />
+    <Content Include="img\page1_pic2.jpg" />
+    <Content Include="img\page1_pic3.jpg" />
+    <Content Include="img\page1_pic4.jpg" />
+    <Content Include="img\page1_pic5.jpg" />
+    <Content Include="img\page1_pic6.jpg" />
+    <Content Include="img\page1_pic7.jpg" />
+    <Content Include="img\page1_pic8.jpg" />
+    <Content Include="img\page1_pic9.jpg" />
+    <Content Include="img\page2_icon1.png" />
+    <Content Include="img\page2_icon2.png" />
+    <Content Include="img\page2_icon3.png" />
+    <Content Include="img\page2_pic1.jpg" />
+    <Content Include="img\page3_pic1.jpg" />
+    <Content Include="img\page3_pic2.jpg" />
+    <Content Include="img\page3_pic3.jpg" />
+    <Content Include="img\page4_pic1.jpg" />
+    <Content Include="img\pattern1.png" />
+    <Content Include="img\pattern2.png" />
+    <Content Include="img\pattern3.png" />
+    <Content Include="img\pattern4.png" />
+    <Content Include="img\picture1.jpg" />
+    <Content Include="img\picture2.jpg" />
+    <Content Include="img\picture3.jpg" />
+    <Content Include="img\play.png" />
+    <Content Include="img\preloader.gif" />
+    <Content Include="img\quote.png" />
+    <Content Include="img\soccer.png" />
+    <Content Include="img\springbank.png" />
+    <Content Include="img\TDB-paradigm.png" />
+    <Content Include="img\team-member.jpg" />
+    <Content Include="img\top.png" />
+    <Content Include="index-1.html" />
+    <Content Include="index-2.html" />
+    <Content Include="index-3.html" />
+    <Content Include="index-4.html" />
+    <Content Include="index-5.html" />
+    <Content Include="index.html" />
+    <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\camera.js" />
+    <Content Include="js\html5shiv.js" />
+    <Content Include="js\jquery-migrate-1.2.1.min.js" />
+    <Content Include="js\jquery.easing.1.3.js" />
+    <Content Include="js\jquery.equalheights.js" />
+    <Content Include="js\jquery.fancybox.pack.js" />
+    <Content Include="js\jquery.js" />
+    <Content Include="js\jquery.mobile.customized.min.js" />
+    <Content Include="js\jquery.mobilemenu.js" />
+    <Content Include="js\jquery.ui.totop.js" />
+    <Content Include="js\sForm.js" />
+    <Content Include="js\superfish.js" />
+    <Content Include="js\tm-scripts.js" />
+    <Content Include="js\TMForm.js" />
+    <Content Include="our-vision.html" />
+    <Content Include="search\search.css" />
+    <Content Include="search\search.js" />
+    <Content Include="the-team.html" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="fonts\css\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>49431</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:49431/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
