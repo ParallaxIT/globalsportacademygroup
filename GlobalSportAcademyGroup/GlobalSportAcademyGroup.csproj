@@ -38,6 +38,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Dapper">
+      <HintPath>..\packages\Dapper.1.38\lib\net45\Dapper.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
@@ -57,8 +60,15 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="application.aspx" />
     <Content Include="img\globe.png" />
     <Content Include="img\GSAG_Logo.png" />
+    <Content Include="js\alerts\lib\alertify.js" />
+    <Content Include="js\alerts\lib\alertify.min.js" />
+    <Content Include="js\alerts\themes\alertify.bootstrap.css" />
+    <Content Include="js\alerts\themes\alertify.core.css" />
+    <Content Include="js\alerts\themes\alertify.default.css" />
+    <Content Include="js\date.js" />
     <Content Include="search\results.php" />
     <Content Include="search.php" />
     <Content Include="fonts\fontawesome-webfont.eot" />
@@ -68,6 +78,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="packages.config" />
     <None Include="Properties\PublishProfiles\globalsportacademygroup - FTP %282%29.pubxml" />
     <None Include="Properties\PublishProfiles\globalsportacademygroup - FTP.pubxml" />
     <None Include="Properties\PublishProfiles\globalsportacademygroup - Web Deploy %282%29.pubxml" />
@@ -199,6 +210,15 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="application.aspx.cs">
+      <DependentUpon>application.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="application.aspx.designer.cs">
+      <DependentUpon>application.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="classes\DAOBase.cs" />
+    <Compile Include="classes\StudentRecord.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
