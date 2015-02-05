@@ -4,7 +4,15 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
+    <title>Welcome To GlobalSportAcademyGroup.com</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <meta name="description" content="Your description">
+    <meta name="keywords" content="Your keywords">
+    <meta name="author" content="Parallax Consulting :: Rob Sutherland">
+    <meta name="format-detection" content="telephone=no" />
     <!--CSS-->
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
@@ -21,7 +29,6 @@
     <script src="js/camera.js"></script>
     <script src="js/jquery.fancybox.pack.js"></script>
     <script src="js/sForm.js"></script>
-      <script type="text/javascript" src="js/alerts/lib/alertify.min.js"></script>
     <script>
         $(document).ready(function () {
             jQuery('.camera_wrap').camera();
@@ -31,71 +38,7 @@
         $(window).load(function () {
             $(function () { $("a.various").fancybox(); });
         });
-
-        function validateForm() {
-
-            var studentName = $("#txtStudentName").val();
-            var presentSchool = $("#txtPresentSchool").val();
-           
-            //var studentName = $("#txtStudentName").val();
-            //var studentName = $("#txtStudentName").val();
-            //var studentName = $("#txtStudentName").val();
-            //var studentName = $("#txtStudentName").val();
-            //var studentName = $("#txtStudentName").val();
-            //var studentName = $("#txtStudentName").val();
-           
-
-            if (studentName == '') {
-                $('#txtStudentName').focus();
-                alertify.alert("Please enter a Students Name!");
-                return false;
-            }
-
-            if ($("#ddlGender").val() == 'Select') {
-                $('#ddlGender').focus();
-                alertify.alert("Please choose a Gender!");
-                return false;
-            }
-
-            if (presentSchool == '') {
-                $('#txtPresentSchool').focus();
-                alertify.alert("Please enter a Present School");
-                return false;
-            }
-            
-            if ($("#ddlPresentGrade").val() == 'Select') {
-                $('#ddlPresentGrade').focus();
-                alertify.alert("Please choose a present Grade!");
-                return false;
-            }
-            if ($("#ddlSchoolOfChoice").val() == 'Select') {
-                $('#ddlSchoolOfChoice').focus();
-                alertify.alert("Please choose a School!");
-                return false;
-            }
-            if ($("#ddlSportOfChoice").val() == 'Select') {
-                $('#ddlSportOfChoice').focus();
-                alertify.alert("Please choose a Sport!");
-                return false;
-            }
-            if ($("#ddlGradeRequested").val() == 'Select') {
-                $('#ddlGradeRequested').focus();
-                alertify.alert("Please choose a Requested Grade!");
-                return false;
-            }
-            return true;           
-        }
     </script>
-      <%--Alertify--%>
-    <link rel="stylesheet" href="js/alerts/themes/alertify.core.css" />
-    <link rel="stylesheet" href="js/alerts/themes/alertify.default.css" id="toggleCSS" />
-    <script type="text/javascript" src="js/date.js"></script>
-    <style type="text/css">
-        .alertify-log-custom {
-            background: blue;
-        }
-    </style>
-    <%--Alertify--%>
     <!--[if (gt IE 9)|!(IE)]><!-->
     <script src="js/jquery.mobile.customized.min.js"></script>
     <!--<![endif]-->
@@ -108,47 +51,211 @@
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
-    <style type="text/css">
-        .submit-button {
-            margin-top: 10px;
-        }
-    </style>
-    
-    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css"/>
-  <script src="//code.jquery.com/jquery-1.10.2.js"></script>
-  <script src="//code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
- <script>
-      $(function () {
-          $("#txtBirthdate").datepicker({
-              changeMonth: true,
-              changeYear: true
-          });
-      });
-  </script>
-
-    <script type="text/javascript">
-
-        // ==============================
-        // Standard Dialogs
-        $("#notification").on('click', function () {
-            reset();
-            alertify.log("Standard log message");
-            return false;
-        });
-
-        $("#success").on('click', function () {
-            reset();
-            alertify.success("Success");
-            return false;
-        });
-
-        $("#error").on('click', function () {
-            reset();
-            alertify.error("Error");
-            return false;
-        });
+    <script>
 
     </script>
+    <!-- Add jQuery library -->
+    <script type="text/javascript" src="js/fancybox/lib/jquery-1.10.1.min.js"></script>
+
+    <!-- Add mousewheel plugin (this is optional) -->
+    <script type="text/javascript" src="js/fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+
+    <!-- Add fancyBox main JS and CSS files -->
+    <script type="text/javascript" src="js/fancybox/source/jquery.fancybox.js?v=2.1.5"></script>
+    <link rel="stylesheet" type="text/css" href="js/fancybox/source/jquery.fancybox.css?v=2.1.5" media="screen" />
+
+    <!-- Add Button helper (this is optional) -->
+    <link rel="stylesheet" type="text/css" href="js/fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" />
+    <script type="text/javascript" src="js/fancybox/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+
+    <!-- Add Thumbnail helper (this is optional) -->
+    <link rel="stylesheet" type="text/css" href="js/fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" />
+    <script type="text/javascript" src="js/fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+
+    <!-- Add Media helper (this is optional) -->
+    <script type="text/javascript" src="js/fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            /*
+			 *  Simple image gallery. Uses default settings
+			 */
+
+            $('.fancybox').fancybox();
+
+            /*
+			 *  Different effects
+			 */
+
+            // Change title type, overlay closing speed
+            $(".fancybox-effects-a").fancybox({
+                helpers: {
+                    title: {
+                        type: 'outside'
+                    },
+                    overlay: {
+                        speedOut: 0
+                    }
+                }
+            });
+
+            // Disable opening and closing animations, change title type
+            $(".fancybox-effects-b").fancybox({
+                openEffect: 'none',
+                closeEffect: 'none',
+
+                helpers: {
+                    title: {
+                        type: 'over'
+                    }
+                }
+            });
+
+            // Set custom style, close if clicked, change title type and overlay color
+            $(".fancybox-effects-c").fancybox({
+                wrapCSS: 'fancybox-custom',
+                closeClick: true,
+
+                openEffect: 'none',
+
+                helpers: {
+                    title: {
+                        type: 'inside'
+                    },
+                    overlay: {
+                        css: {
+                            'background': 'rgba(238,238,238,0.85)'
+                        }
+                    }
+                }
+            });
+
+            // Remove padding, set opening and closing animations, close if clicked and disable overlay
+            $(".fancybox-effects-d").fancybox({
+                padding: 0,
+
+                openEffect: 'elastic',
+                openSpeed: 150,
+
+                closeEffect: 'elastic',
+                closeSpeed: 150,
+
+                closeClick: true,
+
+                helpers: {
+                    overlay: null
+                }
+            });
+
+            /*
+			 *  Button helper. Disable animations, hide close button, change title type and content
+			 */
+
+            $('.fancybox-buttons').fancybox({
+                openEffect: 'none',
+                closeEffect: 'none',
+
+                prevEffect: 'none',
+                nextEffect: 'none',
+
+                closeBtn: false,
+
+                helpers: {
+                    title: {
+                        type: 'inside'
+                    },
+                    buttons: {}
+                },
+
+                afterLoad: function () {
+                    this.title = 'Image ' + (this.index + 1) + ' of ' + this.group.length + (this.title ? ' - ' + this.title : '');
+                }
+            });
+
+
+            /*
+			 *  Thumbnail helper. Disable animations, hide close button, arrows and slide to next gallery item if clicked
+			 */
+
+            $('.fancybox-thumbs').fancybox({
+                prevEffect: 'none',
+                nextEffect: 'none',
+
+                closeBtn: false,
+                arrows: false,
+                nextClick: true,
+
+                helpers: {
+                    thumbs: {
+                        width: 50,
+                        height: 50
+                    }
+                }
+            });
+
+            /*
+			 *  Media helper. Group items, disable animations, hide arrows, enable media and button helpers.
+			*/
+            $('.fancybox-media')
+				.attr('rel', 'media-gallery')
+				.fancybox({
+				    openEffect: 'none',
+				    closeEffect: 'none',
+				    prevEffect: 'none',
+				    nextEffect: 'none',
+
+				    arrows: false,
+				    helpers: {
+				        media: {},
+				        buttons: {}
+				    }
+				});
+
+            /*
+			 *  Open manually
+			 */
+
+            $("#fancybox-manual-a").click(function () {
+                $.fancybox.open('1_b.jpg');
+            });
+
+            $("#fancybox-manual-b").click(function () {
+                $.fancybox.open({
+                    href: 'iframe.html',
+                    type: 'iframe',
+                    padding: 5
+                });
+            });
+
+            $("#fancybox-manual-c").click(function () {
+                $.fancybox.open([
+					{
+					    href: '1_b.jpg',
+					    title: 'My title'
+					}, {
+					    href: '2_b.jpg',
+					    title: '2nd title'
+					}, {
+					    href: '3_b.jpg'
+					}
+                ], {
+                    helpers: {
+                        thumbs: {
+                            width: 75,
+                            height: 50
+                        }
+                    }
+                });
+            });
+
+
+        });
+    </script>
+    <style type="text/css">
+        .fancybox-custom .fancybox-skin {
+            box-shadow: 0 0 50px #222;
+        }
+    </style>
 </head>
 <body>
     <logoheader>
@@ -166,239 +273,99 @@
         </section>
     </logoheader>
     <div class="container">
-        <section class="box6">
-            <div class='row'>
-                <div class='col-md-3'></div>
-                <div class='col-md-6'>
-                   
-                    <form id="form1" runat="server" onsubmit="return validateForm()">
-                       
-                      
-                        
-                         <div style="margin: 0; padding: 0; display: inline">
-                            <input name="utf8" type="hidden" value="✓" /><input name="_method" type="hidden" value="PUT" /><input name="authenticity_token" type="hidden" value="qLZ9cScer7ZxqulsUWazw4x3cSEzv899SP/7ThPCOV8=" />
+        <section class="box3">
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-sm-3 col-sm-offset-3">
+                    <div class="thumb-pad7">
+                        <div class="caption">
+                            <h5>www.globalsportacademygroup.com</h5>
+                            <br />
+                            Unit 6, 130 Commercial Drive
+                            <br />
+                            Range Road 33
+                            <br />
+                            Springbank AB, Canada
+                            <br />
+                            Phone: (403) 519-0661
                         </div>
-
-                        <div class='form-row'>
-                            <div class='col-md-12'>
-                                <div class='form-control total btn btn-info'>
-                                    <span class='amount'>Student Details</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class='form-row'>
-                            <div class='col-md-12'>
-                                <br/><br/>
-                            </div>
-                        </div>
-                        <div class='form-row'>
-                            <div class='col-xs-12 form-group required'>
-                                <label class='control-label'>Student Name:</label>
-                                <asp:TextBox ID="txtStudentName" class='form-control' size='4' type='text' runat="server"></asp:TextBox>
-                            </div>
-                        </div>
-                        <div class='form-row'>
-                            <div class='col-xs-12 form-group required'>
-                                <label class='control-label'>Student Birthdate:</label>
-                                <asp:TextBox class="form-control" size='4' type="text" name="dob" placeholder="Date Of Birth"
-                                                value="" ID="txtBirthdate" runat="server" TabIndex="18" MaxLength="10" required="true"></asp:TextBox>
-                            </div>
-                        </div>
-                        <div class='form-row'>
-                            <div class='col-xs-12 form-group required'>
-                                <label class='control-label'>Gender:</label>
-                                <asp:DropDownList ID="ddlGender" class='form-control' runat="server">
-                                    <asp:ListItem>Select</asp:ListItem>
-                                    <asp:ListItem>Male</asp:ListItem>
-                                    <asp:ListItem>Female</asp:ListItem>
-                                </asp:DropDownList>
-                            </div>
-                        </div>
-                        <div class='form-row'>
-                            <div class='col-xs-12 form-group required'>
-                                <label class='control-label'>Student Email (if applicable):</label>
-                                <asp:TextBox ID="txtStudentEmail" class='form-control' size='6' type='text' runat="server"></asp:TextBox>
-                            </div>
-                        </div>
-                        <div class='form-row'>
-                            <div class='col-xs-12 form-group required'>
-                                <label class='control-label'>Student Cell (if applicable):</label>
-                                <asp:TextBox ID="txtStudentCell" class='form-control' size='6' type='text' runat="server"></asp:TextBox>
-                            </div>
-                        </div>
-                        <div class='form-row'>
-                            <div class='col-xs-12 form-group required'>
-                                <label class='control-label'>Present School Attending:</label>
-                                <asp:TextBox ID="txtPresentSchool" class='form-control' size='6' type='text' runat="server"></asp:TextBox>
-                            </div>
-                        </div>
-                        <div class='form-row'>
-                            <div class='col-xs-12 form-group required'>
-                                <label class='control-label'>Present Grade:</label>
-                                <asp:DropDownList ID="ddlPresentGrade" class='form-control' runat="server">
-                                    <asp:ListItem>Select</asp:ListItem>
-                                    <asp:ListItem>6</asp:ListItem>
-                                    <asp:ListItem>7</asp:ListItem>
-                                    <asp:ListItem>8</asp:ListItem>
-                                    <asp:ListItem>9</asp:ListItem>
-                                    <asp:ListItem>10</asp:ListItem>
-                                    <asp:ListItem>11</asp:ListItem>
-                                    <asp:ListItem>12</asp:ListItem>
-                                </asp:DropDownList>
-                            </div>
-                        </div>
-
-
-                        <div class='form-row'>
-                            <div class='col-xs-12 form-group required'>
-                                <label class='control-label'>School Of Choice:</label>
-                                <asp:DropDownList ID="ddlSchoolOfChoice" class='form-control' runat="server">
-                                    <asp:ListItem>Select</asp:ListItem>
-                                    <asp:ListItem>Ecole Okotoks Junior High</asp:ListItem>
-                                    <asp:ListItem>Ecole Secondary Foothills Composite</asp:ListItem>
-                                    <asp:ListItem>Springbank Community High School</asp:ListItem>
-                                </asp:DropDownList>
-                            </div>
-                        </div>
-                        <div class='form-row'>
-                            <div class='col-xs-12 form-group required'>
-                                <label class='control-label'>Sport Of Choice:</label>
-                                <asp:DropDownList ID="ddlSportOfChoice" class='form-control' runat="server">
-                                    <asp:ListItem>Select</asp:ListItem>
-                                    <asp:ListItem>Hockey-Male</asp:ListItem>
-                                    <asp:ListItem>Hockey-Female</asp:ListItem>
-                                    <asp:ListItem>Golf</asp:ListItem>
-                                    <asp:ListItem>Soccer</asp:ListItem>
-                                </asp:DropDownList>
-                            </div>
-                        </div>
-                        <div class='form-row'>
-                            <div class='col-xs-12 form-group required'>
-                                <label class='control-label'>Grade Requested:</label>
-                                <asp:DropDownList ID="ddlGradeRequested" class='form-control' runat="server">
-                                    <asp:ListItem>Select</asp:ListItem>
-                                    <asp:ListItem>7</asp:ListItem>
-                                    <asp:ListItem>8</asp:ListItem>
-                                    <asp:ListItem>9</asp:ListItem>
-                                    <asp:ListItem>10</asp:ListItem>
-                                    <asp:ListItem>11</asp:ListItem>
-                                    <asp:ListItem>12</asp:ListItem>
-                                </asp:DropDownList>
-                            </div>
-                        </div>
-                        <div class='form-row'>
-                            <div class='col-md-12'>
-                                <div class='form-control total btn btn-info'>
-                                    <span class='amount'>Fathers Details</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class='form-row'>
-                            <div class='col-md-12'>
-                                <br/><br/>
-                            </div>
-                        </div>
-                        <div class='form-row'>
-                            <div class='col-xs-12 form-group required'>
-                                <label class='control-label'>Father:</label>
-                                <asp:TextBox ID="txtFatherName" class='form-control' size='4' type='text' runat="server"></asp:TextBox>
-                            </div>
-                        </div>
-                        <div class='form-row'>
-                            <div class='col-xs-12 form-group required'>
-                                <label class='control-label'>Mailing Address Father:</label>
-                                <asp:TextBox ID="txtFatherAddress" class='form-control' size='4' type='text' runat="server"></asp:TextBox>
-                            </div>
-                        </div>
-                        <div class='form-row'>
-                            <div class='col-xs-12 form-group required'>
-                                <label class='control-label'>Father Cell:</label>
-                                <asp:TextBox ID="txtFatherCell" class='form-control' size='4' type='text' runat="server"></asp:TextBox>
-                            </div>
-                        </div>
-                        <div class='form-row'>
-                            <div class='col-xs-12 form-group required'>
-                                <label class='control-label'>Father Email:</label>
-                                <asp:TextBox ID="txtFatherEmail" class='form-control' size='4' type='text' runat="server"></asp:TextBox>
-                            </div>
-                        </div>
-                        <div class='form-row'>
-                            <div class='col-md-12'>
-                                <div class='form-control total btn btn-info'>
-                                    <span class='amount'>Mothers Details</span>
-                                </div>
-                            </div>
-                        </div>
-                      <div class='form-row'>
-                            <div class='col-md-12'>
-                                <br/><br/>
-                            </div>
-                        </div>
-                        <div class='form-row'>
-                            <div class='col-xs-12 form-group required'>
-                                <label class='control-label'>Mother:</label>
-                                <asp:TextBox ID="txtMotherName" class='form-control' size='4' type='text' runat="server"></asp:TextBox>
-                            </div>
-                        </div>
-                        <div class='form-row'>
-                            <div class='col-xs-12 form-group required'>
-                                <label class='control-label'>Mailing Address Mother:</label>
-                                <asp:TextBox ID="txtMotherAddress" class='form-control' size='4' type='text' runat="server"></asp:TextBox>
-                            </div>
-                        </div>
-                        <div class='form-row'>
-                            <div class='col-xs-12 form-group required'>
-                                <label class='control-label'>Mother Cell:</label>
-                                <asp:TextBox ID="txtMotherCell" class='form-control' size='4' type='text' runat="server"></asp:TextBox>
-                            </div>
-                        </div>
-                        <div class='form-row'>
-                            <div class='col-xs-12 form-group required'>
-                                <label class='control-label'>Mother Email:</label>
-                                <asp:TextBox ID="txtMotherEmail" class='form-control' size='4' type='text' runat="server"></asp:TextBox>
-                            </div>
-                        </div>
-
-
-                        <%--  <div class='form-row'>
-                            <div class='col-xs-4 form-group cvc required'>
-                                <label class='control-label'>CVC</label>
-                                <input autocomplete='off' class='form-control card-cvc' placeholder='ex. 311' size='4' type='text'>
-                            </div>
-                            <div class='col-xs-4 form-group expiration required'>
-                                <label class='control-label'>Expiration</label>
-                                <input class='form-control card-expiry-month' placeholder='MM' size='2' type='text'>
-                            </div>
-                            <div class='col-xs-4 form-group expiration required'>
-                                <label class='control-label'></label>
-                                <input class='form-control card-expiry-year' placeholder='YYYY' size='4' type='text'>
-                            </div>
-                        </div>--%>
-                        <%-- <div class='form-row'>
-                            <div class='col-md-12'>
-                                <div class='form-control total btn btn-info'>
-                                    Total:
-                  <span class='amount'>$300</span>
-                                </div>
-                            </div>
-                        </div>--%>
-                        <div class='form-row'>
-                            <div class='col-md-12 form-group'>
-                                <asp:Button runat="server" CssClass='form-control btn btn-primary submit-button' Text="Submit Application »" ID="btnSubmit" OnClick="btnSubmit_Click"></asp:Button>
-                            </div>
-                        </div>
-                        <div class='form-row'>
-                            <div class='col-md-12 error form-group hide'>
-                                <div class='alert-danger alert'>
-                                    Please correct the errors and try again.
-                                </div>
-                            </div>
-                        </div>
-                    </form>
+                    </div>
                 </div>
-                <div class='col-md-4'></div>
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                    <a href="https://www.facebook.com/mydrillbook">
+                        <button class="btn btn-danger btn-block">Facebook</button></a><br />
+                    <a href="http://www.twitter.com/thedrillbook">
+                        <button class="btn btn-danger btn-block">Twitter</button></a><br />
+                    <a href="#">
+                        <button class="btn btn-danger btn-block">Share Us</button></a>
+                </div>
             </div>
         </section>
+        <section class="box4">
+        <div class="container">
+            <div class="row">
+                <article class="col-lg-10 col-md-10 col-sm-10 col-sm-offset-2 historyBox">
+                    <h2>For general enquiries got to our contacts page to find the appropriate person. Click <a href="contact-us.html"><button class="btn btn-lg btn-danger"> HERE </button></a></h2>
+                </article>
+            </div>
+        </div>
+</section>
+         <section class="box3">
+            <div class="row">
+                <article class="col-lg-12 col-md-12 col-sm-12 professionalsBox">
+                 <%--   <h2>The best of professionals</h2>--%>
+                    <div class="row">
+                        <article class="col-lg-4 col-md-4 col-sm-4 col-xs-4 col-sm-offset-2">
+                            <div class="thumb-pad5">
+                                <div class="thumbnail">
+                                    <div class="caption">
+                                        <a href="#">Patrick Pool</a>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet volutpat tellus. Nulla vitaem alesuada diacus, convallis pharetra feugiat</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="col-lg-4 col-md-4 col-sm-4 col-xs-4 col-sm-offset-1">
+                            <div class="thumb-pad5">
+                                <div class="thumbnail">
+                                    <div class="caption">
+                                        <a href="#">John McCoist</a>
+                                        <p>Maecenas sit amet volutpat tellus. Nulla vitaem alesuada diacus, convallis pharetra feugiat sit amet, dapibus sed ipsum. In orci lectus.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </article>
+            </div>
+                <div class="row">
+                <article class="col-lg-12 col-md-12 col-sm-12 professionalsBox">
+                    <h2 class="text-center">Our Partners</h2>
+                    <div class="row">
+                        <article class="col-lg-4 col-md-4 col-sm-4 col-xs-4 col-sm-offset-2">
+                            <div class="thumb-pad5">
+                                <div class="thumbnail">
+                                    <div class="caption">
+                                        <a href="#">Patrick Pool</a>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet volutpat tellus. Nulla vitaem alesuada diacus, convallis pharetra feugiat</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="col-lg-4 col-md-4 col-sm-4 col-xs-4 col-sm-offset-1">
+                            <div class="thumb-pad5">
+                                <div class="thumbnail">
+                                    <div class="caption">
+                                        <a href="#">John McCoist</a>
+                                        <p>Maecenas sit amet volutpat tellus. Nulla vitaem alesuada diacus, convallis pharetra feugiat sit amet, dapibus sed ipsum. In orci lectus.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </article>
+            </div>
+
+    </section>
     </div>
 </body>
 </html>
