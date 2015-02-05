@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="application.aspx.cs" Inherits="GlobalSportAcademyGroup.application" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="signup-info.aspx.cs" Inherits="GlobalSportAcademyGroup.signup_info" %>
 
 <!DOCTYPE html>
 

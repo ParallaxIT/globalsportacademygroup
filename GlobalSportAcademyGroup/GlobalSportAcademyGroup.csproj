@@ -61,6 +61,30 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="application.aspx" />
+    <Content Include="coach-graphic_l.jpg" />
+    <Content Include="coach-graphic_s.jpg" />
+    <Content Include="img\coach-graphic_l.jpg" />
+    <Content Include="img\coach-graphic_s.jpg" />
+    <Content Include="js\fancybox\lib\jquery-1.10.1.min.js" />
+    <Content Include="js\fancybox\lib\jquery-1.9.0.min.js" />
+    <Content Include="js\fancybox\lib\jquery.mousewheel-3.0.6.pack.js" />
+    <Content Include="js\fancybox\source\blank.gif" />
+    <Content Include="js\fancybox\source\fancybox_loading%402x.gif" />
+    <Content Include="js\fancybox\source\fancybox_loading.gif" />
+    <Content Include="js\fancybox\source\fancybox_overlay.png" />
+    <Content Include="js\fancybox\source\fancybox_sprite%402x.png" />
+    <Content Include="js\fancybox\source\fancybox_sprite.png" />
+    <Content Include="js\fancybox\source\helpers\fancybox_buttons.png" />
+    <Content Include="js\fancybox\source\helpers\jquery.fancybox-buttons.css" />
+    <Content Include="js\fancybox\source\helpers\jquery.fancybox-buttons.js" />
+    <Content Include="js\fancybox\source\helpers\jquery.fancybox-media.js" />
+    <Content Include="js\fancybox\source\helpers\jquery.fancybox-thumbs.css" />
+    <Content Include="js\fancybox\source\helpers\jquery.fancybox-thumbs.js" />
+    <Content Include="js\fancybox\source\jquery.fancybox.css" />
+    <Content Include="js\fancybox\source\jquery.fancybox.js" />
+    <Content Include="js\fancybox\source\jquery.fancybox.pack.js" />
+    <Content Include="js\jquery.thumbhover.js" />
+    <Content Include="signup-info.aspx" />
     <Content Include="img\globe.png" />
     <Content Include="img\GSAG_Logo.png" />
     <Content Include="js\alerts\lib\alertify.js" />
@@ -219,6 +243,13 @@
     </Compile>
     <Compile Include="classes\DAOBase.cs" />
     <Compile Include="classes\StudentRecord.cs" />
+    <Compile Include="signup-info.aspx.cs">
+      <DependentUpon>signup-info.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="signup-info.aspx.designer.cs">
+      <DependentUpon>signup-info.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
