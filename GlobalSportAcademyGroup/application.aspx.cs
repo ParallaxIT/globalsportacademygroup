@@ -49,7 +49,7 @@ namespace GlobalSportAcademyGroup
 
             if (intRes > 0)
             {
-                //alertify.alert("End time must be greater than start time!");
+                Response.Redirect("success.aspx");
             }
 
         }

@@ -104,8 +104,10 @@
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="packages.config" />
     <None Include="Properties\PublishProfiles\globalsportacademygroup - FTP %282%29.pubxml" />
+    <None Include="Properties\PublishProfiles\globalsportacademygroup - FTP %283%29.pubxml" />
     <None Include="Properties\PublishProfiles\globalsportacademygroup - FTP.pubxml" />
     <None Include="Properties\PublishProfiles\globalsportacademygroup - Web Deploy %282%29.pubxml" />
+    <None Include="Properties\PublishProfiles\globalsportacademygroup - Web Deploy %283%29.pubxml" />
     <None Include="Properties\PublishProfiles\globalsportacademygroup - Web Deploy.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -206,11 +208,6 @@
     <Content Include="img\TDB-paradigm.png" />
     <Content Include="img\team-member.jpg" />
     <Content Include="img\top.png" />
-    <Content Include="index-1.html" />
-    <Content Include="index-2.html" />
-    <Content Include="index-3.html" />
-    <Content Include="index-4.html" />
-    <Content Include="index-5.html" />
     <Content Include="index.html" />
     <Content Include="js\bootstrap.min.js" />
     <Content Include="js\camera.js" />
@@ -230,6 +227,7 @@
     <Content Include="our-vision.html" />
     <Content Include="search\search.css" />
     <Content Include="search\search.js" />
+    <Content Include="success.aspx" />
     <Content Include="the-team.html" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -251,6 +249,13 @@
       <DependentUpon>signup-info.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="success.aspx.cs">
+      <DependentUpon>success.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="success.aspx.designer.cs">
+      <DependentUpon>success.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="fonts\css\" />
