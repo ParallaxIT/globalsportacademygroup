@@ -13,12 +13,13 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>GlobalSportAcademyGroup</RootNamespace>
     <AssemblyName>GlobalSportAcademyGroup</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -42,29 +43,34 @@
       <HintPath>..\packages\Dapper.1.38\lib\net45\Dapper.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="SendGridMail, Version=1.2.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\SendGridMail.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
-    <Reference Include="System.Core" />
-    <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Web.Extensions" />
-    <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Web" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Web.Services" />
     <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="application.aspx" />
+    <Content Include="bin\SendGridMail.dll" />
     <Content Include="coach-graphic_l.jpg" />
     <Content Include="coach-graphic_s.jpg" />
     <Content Include="img\coach-graphic_l.jpg" />
     <Content Include="img\coach-graphic_s.jpg" />
+    <Content Include="img\GSAG_Logo_620.png" />
     <Content Include="js\fancybox\lib\jquery-1.10.1.min.js" />
     <Content Include="js\fancybox\lib\jquery-1.9.0.min.js" />
     <Content Include="js\fancybox\lib\jquery.mousewheel-3.0.6.pack.js" />
@@ -229,7 +235,9 @@
     <Content Include="search\search.js" />
     <Content Include="success.aspx" />
     <Content Include="the-team.html" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="application.aspx.cs">
@@ -239,6 +247,8 @@
     <Compile Include="application.aspx.designer.cs">
       <DependentUpon>application.aspx</DependentUpon>
     </Compile>
+    <Compile Include="classes\ClsGlobalscs.cs" />
+    <Compile Include="classes\ClsUtilities.cs" />
     <Compile Include="classes\DAOBase.cs" />
     <Compile Include="classes\StudentRecord.cs" />
     <Compile Include="signup-info.aspx.cs">
