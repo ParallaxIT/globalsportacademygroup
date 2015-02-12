@@ -70,6 +70,7 @@
     <Content Include="coach-graphic_s.jpg" />
     <Content Include="img\coach-graphic_l.jpg" />
     <Content Include="img\coach-graphic_s.jpg" />
+    <Content Include="img\golfer.png" />
     <Content Include="img\GSAG_Logo_620.png" />
     <Content Include="js\fancybox\lib\jquery-1.10.1.min.js" />
     <Content Include="js\fancybox\lib\jquery-1.9.0.min.js" />

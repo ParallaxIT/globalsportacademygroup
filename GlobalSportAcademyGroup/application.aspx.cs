@@ -50,7 +50,8 @@ namespace GlobalSportAcademyGroup
             if (intRes > 0)
             {
 
-                bool res = ClsUtilities.MailSendSharedArticleNotificationToParent(studentRecord);
+                bool res = ClsUtilities.MailSendApplicationToParent(studentRecord);
+                bool res2 = ClsUtilities.MailSendApplicationToAdmin(studentRecord);
 
                 Response.Redirect("success.aspx");
             }
