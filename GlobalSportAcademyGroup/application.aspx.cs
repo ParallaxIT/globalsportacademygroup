@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Web.UI.WebControls;
 using GlobalSportAcademyGroup.classes;
 
 namespace GlobalSportAcademyGroup
@@ -7,6 +8,10 @@ namespace GlobalSportAcademyGroup
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (!Page.IsPostBack)
+            {
+                //ddlSchoolOfChoice.Attributes.Add("onChange", "setFalse();");
+            }
 
         }
 
@@ -56,6 +61,31 @@ namespace GlobalSportAcademyGroup
                 Response.Redirect("success.aspx");
             }
 
+        }
+
+        protected void ddlSchoolOfChoice_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            ddlSportOfChoice.Items.Clear();
+
+            if (ddlSchoolOfChoice.SelectedIndex == 1)
+            {
+                ddlSportOfChoice.Items.Add(new ListItem("Grade 7 Male Hockey", "Grade 7 Male Hockey"));
+                ddlSportOfChoice.Items.Add(new ListItem("Grade 8 Male Hockey", "Grade 8 Male Hockey"));
+                ddlSportOfChoice.Items.Add(new ListItem("Grade 9 Male Hockey", "Grade 9 Male Hockey"));
+               
+            }
+
+            if (ddlSchoolOfChoice.SelectedIndex == 2)
+            {
+                ddlSportOfChoice.Items.Add(new ListItem("Grade 9 Male Hockey", "Grade 9 Male Hockey"));
+                ddlSportOfChoice.Items.Add(new ListItem("Grade 9 Female Hockey", "Grade 9 Female Hockey"));
+                ddlSportOfChoice.Items.Add(new ListItem("Grade 9 Male and Female Golf", "Grade 9 Male and Female Golf"));
+                ddlSportOfChoice.Items.Add(new ListItem("Grade 9 Male and Female Soccer", "Grade 9 Male and Female Soccer"));
+                ddlSportOfChoice.Items.Add(new ListItem("Grade 10-12 Male Hockey", "Grade 10-12 Male Hockey"));
+                ddlSportOfChoice.Items.Add(new ListItem("Grade 10-12 Female Hockey", "Grade 10-12 Female Hockey"));
+                ddlSportOfChoice.Items.Add(new ListItem("Grade 10-12  Male and Female Golf", "Grade 10-12  Male and Female Golf"));
+                ddlSportOfChoice.Items.Add(new ListItem("Grade 10-12 Male and Female Soccer", "Grade 10-12 Male and Female Soccer"));
+            }
         }
     }
 }

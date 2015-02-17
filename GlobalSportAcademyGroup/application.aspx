@@ -21,7 +21,7 @@
     <script src="js/camera.js"></script>
     <script src="js/jquery.fancybox.pack.js"></script>
     <script src="js/sForm.js"></script>
-      <script type="text/javascript" src="js/alerts/lib/alertify.min.js"></script>
+    <script type="text/javascript" src="js/alerts/lib/alertify.min.js"></script>
     <script>
         $(document).ready(function () {
             jQuery('.camera_wrap').camera();
@@ -32,17 +32,24 @@
             $(function () { $("a.various").fancybox(); });
         });
 
+        var isDDL = false;
+
+        function setFalse() {
+            isDDL = true;
+        }
+
         function validateForm() {
+
+            if (isDDL == true) {
+                isDDL = false;
+                return false;
+            }
 
             var studentName = $("#txtStudentName").val();
             var presentSchool = $("#txtPresentSchool").val();
+            var fatherEmail = $("#txtFatherEmail").val();
+            var motherEmail = $("#txtMotherEmail").val();
            
-            //var studentName = $("#txtStudentName").val();
-            //var studentName = $("#txtStudentName").val();
-            //var studentName = $("#txtStudentName").val();
-            //var studentName = $("#txtStudentName").val();
-            //var studentName = $("#txtStudentName").val();
-            //var studentName = $("#txtStudentName").val();
            
 
             if (studentName == '') {
@@ -62,7 +69,7 @@
                 alertify.alert("Please enter a Present School");
                 return false;
             }
-            
+
             if ($("#ddlPresentGrade").val() == 'Select') {
                 $('#ddlPresentGrade').focus();
                 alertify.alert("Please choose a present Grade!");
@@ -83,10 +90,17 @@
                 alertify.alert("Please choose a Requested Grade!");
                 return false;
             }
-            return true;           
+
+            if (fatherEmail == '' && motherEmail == '') {
+                $('#txtFatherEmail').focus();
+                alertify.alert("You must enter at least one parents details!");
+                return false;
+            }
+
+            return true;
         }
     </script>
-      <%--Alertify--%>
+    <%--Alertify--%>
     <link rel="stylesheet" href="js/alerts/themes/alertify.core.css" />
     <link rel="stylesheet" href="js/alerts/themes/alertify.default.css" id="toggleCSS" />
     <script type="text/javascript" src="js/date.js"></script>
@@ -113,18 +127,18 @@
             margin-top: 10px;
         }
     </style>
-    
-    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css"/>
-  <script src="//code.jquery.com/jquery-1.10.2.js"></script>
-  <script src="//code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
- <script>
-      $(function () {
-          $("#txtBirthdate").datepicker({
-              changeMonth: true,
-              changeYear: true
-          });
-      });
-  </script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css" />
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="//code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+    <script>
+        $(function () {
+            $("#txtBirthdate").datepicker({
+                changeMonth: true,
+                changeYear: true
+            });
+        });
+    </script>
 
     <script type="text/javascript">
 
@@ -149,6 +163,102 @@
         });
 
     </script>
+    <script type="text/javascript" language="javascript">
+
+        //function OnSelectedIndexChange() {
+
+        //    if ($("#ddlSchoolOfChoice").val() == 'Springbank Community High School') {
+
+        //        AddItemInListSCHS();
+        //    }
+        //    else if ($("#ddlSchoolOfChoice").val() == 'Ecole Okotoks Junior High') {
+        //        AddItemInListEOJHS();
+        //    }
+        //}
+
+        //function AddItemInListSCHS() {
+
+        //    RemoveItemsInList();
+
+        //    var list = document.getElementById('ddlSportOfChoice');
+        //    var newListItem1 = document.createElement('OPTION');
+        //    var newListItem2 = document.createElement('OPTION');
+        //    var newListItem3 = document.createElement('OPTION');
+        //    var newListItem4 = document.createElement('OPTION');
+        //    var newListItem5 = document.createElement('OPTION');
+        //    var newListItem6 = document.createElement('OPTION');
+        //    var newListItem7 = document.createElement('OPTION');
+        //    var newListItem8 = document.createElement('OPTION');
+
+        //    newListItem1.text = "Grade 9 Male Hockey";
+        //    newListItem1.value = "Grade 9 Male Hockey";
+        //    list.add(newListItem1);
+
+        //    newListItem2.text = "Grade 9 Female Hockey";
+        //    newListItem2.value = "Grade 9 Female Hockey";
+        //    list.add(newListItem2);
+
+        //    newListItem3.text = "Grade 9 Male and Female Golf";
+        //    newListItem3.value = "Grade 9 Male and Female Golf";
+        //    list.add(newListItem3);
+
+        //    newListItem4.text = "Grade 9 Male and Female Soccer";
+        //    newListItem4.value = "Grade 9 Male and Female Soccer";
+        //    list.add(newListItem4);
+
+        //    newListItem5.text = "Grade 10-12 Male Hockey";
+        //    newListItem5.value = "Grade 10-12 Male Hockey";
+        //    list.add(newListItem5);
+
+        //    newListItem6.text = "Grade 10-12 Female Hockey";
+        //    newListItem6.value = "Grade 10-12 Female Hockey";
+        //    list.add(newListItem6);
+
+        //    newListItem7.text = "Grade 10-12  Male and Female Golf";
+        //    newListItem7.value = "Grade 10-12  Male and Female Golf";
+        //    list.add(newListItem7);
+
+        //    newListItem8.text = "Grade 10-12 Male and Female Soccer";
+        //    newListItem8.value = "Grade 10-12 Male and Female Soccer";
+        //    list.add(newListItem8);
+        //}
+
+        //function AddItemInListEOJHS() {
+
+        //    RemoveItemsInList();
+
+        //    var list = document.getElementById('ddlSportOfChoice');
+        //    var newListItem1 = document.createElement('OPTION');
+        //    var newListItem2 = document.createElement('OPTION');
+        //    var newListItem3 = document.createElement('OPTION');
+
+        //    newListItem1.text = "Grade 7 Male Hockey";
+        //    newListItem1.value = "Grade 7 Male Hockey";
+        //    list.add(newListItem1);
+
+        //    newListItem2.text = "Grade 8 Male Hockey";
+        //    newListItem2.value = "Grade 8 Male Hockey";
+        //    list.add(newListItem2);
+
+        //    newListItem3.text = "Grade 9 Male Hockey";
+        //    newListItem3.value = "Grade 9 Male Hockey";
+        //    list.add(newListItem3);
+
+        //}
+
+        //function RemoveItemsInList() {
+
+        //    var list = document.getElementById('ddlSportOfChoice');
+        //    if (list.options.length > 0) {
+        //        for (var i = list.options.length - 1; i >= 0; i--) {
+        //            list.remove(i);
+        //        }
+        //    }
+        //    else {
+        //        alert('Unable to remove. List is Empty!');
+        //    }
+        //}
+    </script>
 </head>
 <body>
     <logoheader>
@@ -165,202 +275,212 @@
             </div>
         </section>
     </logoheader>
+
     <div class="container">
         <section class="box6">
             <div class='row'>
                 <div class='col-md-3'></div>
                 <div class='col-md-6'>
-                   
+
                     <form id="form1" runat="server" onsubmit="return validateForm()">
-                       
                       
-                        
-                         <div style="margin: 0; padding: 0; display: inline">
-                            <input name="utf8" type="hidden" value="✓" /><input name="_method" type="hidden" value="PUT" /><input name="authenticity_token" type="hidden" value="qLZ9cScer7ZxqulsUWazw4x3cSEzv899SP/7ThPCOV8=" />
-                        </div>
+                                <ajaxToolkit:ToolkitScriptManager ID="ScriptManager1" runat="server">
+                                </ajaxToolkit:ToolkitScriptManager>
+  <asp:UpdatePanel runat="server" ID="upCalData">
+                            <ContentTemplate>
 
-                        <div class='form-row'>
-                            <div class='col-md-12'>
-                                <div class='form-control total btn btn-info'>
-                                    <span class='amount'>Student Details</span>
+                                <div style="margin: 0; padding: 0; display: inline">
+                                    <input name="utf8" type="hidden" value="✓" /><input name="_method" type="hidden" value="PUT" /><input name="authenticity_token" type="hidden" value="qLZ9cScer7ZxqulsUWazw4x3cSEzv899SP/7ThPCOV8=" />
                                 </div>
-                            </div>
-                        </div>
-                        <div class='form-row'>
-                            <div class='col-md-12'>
-                                <br/><br/>
-                            </div>
-                        </div>
-                        <div class='form-row'>
-                            <div class='col-xs-12 form-group required'>
-                                <label class='control-label'>Student Name:</label>
-                                <asp:TextBox ID="txtStudentName" class='form-control' size='4' type='text' runat="server"></asp:TextBox>
-                            </div>
-                        </div>
-                        <div class='form-row'>
-                            <div class='col-xs-12 form-group required'>
-                                <label class='control-label'>Student Birthdate:</label>
-                                <asp:TextBox class="form-control" size='4' type="text" name="dob" placeholder="Date Of Birth"
-                                                value="" ID="txtBirthdate" runat="server" TabIndex="18" MaxLength="10" required="true"></asp:TextBox>
-                            </div>
-                        </div>
-                        <div class='form-row'>
-                            <div class='col-xs-12 form-group required'>
-                                <label class='control-label'>Gender:</label>
-                                <asp:DropDownList ID="ddlGender" class='form-control' runat="server">
-                                    <asp:ListItem>Select</asp:ListItem>
-                                    <asp:ListItem>Male</asp:ListItem>
-                                    <asp:ListItem>Female</asp:ListItem>
-                                </asp:DropDownList>
-                            </div>
-                        </div>
-                        <div class='form-row'>
-                            <div class='col-xs-12 form-group required'>
-                                <label class='control-label'>Student Email (if applicable):</label>
-                                <asp:TextBox ID="txtStudentEmail" class='form-control' size='6' type='text' runat="server"></asp:TextBox>
-                            </div>
-                        </div>
-                        <div class='form-row'>
-                            <div class='col-xs-12 form-group required'>
-                                <label class='control-label'>Student Cell (if applicable):</label>
-                                <asp:TextBox ID="txtStudentCell" class='form-control' size='6' type='text' runat="server"></asp:TextBox>
-                            </div>
-                        </div>
-                        <div class='form-row'>
-                            <div class='col-xs-12 form-group required'>
-                                <label class='control-label'>Present School Attending:</label>
-                                <asp:TextBox ID="txtPresentSchool" class='form-control' size='6' type='text' runat="server"></asp:TextBox>
-                            </div>
-                        </div>
-                        <div class='form-row'>
-                            <div class='col-xs-12 form-group required'>
-                                <label class='control-label'>Present Grade:</label>
-                                <asp:DropDownList ID="ddlPresentGrade" class='form-control' runat="server">
-                                    <asp:ListItem>Select</asp:ListItem>
-                                    <asp:ListItem>6</asp:ListItem>
-                                    <asp:ListItem>7</asp:ListItem>
-                                    <asp:ListItem>8</asp:ListItem>
-                                    <asp:ListItem>9</asp:ListItem>
-                                    <asp:ListItem>10</asp:ListItem>
-                                    <asp:ListItem>11</asp:ListItem>
-                                    <asp:ListItem>12</asp:ListItem>
-                                </asp:DropDownList>
-                            </div>
-                        </div>
 
-
-                        <div class='form-row'>
-                            <div class='col-xs-12 form-group required'>
-                                <label class='control-label'>School Of Choice:</label>
-                                <asp:DropDownList ID="ddlSchoolOfChoice" class='form-control' runat="server">
-                                    <asp:ListItem>Select</asp:ListItem>
-                                    <asp:ListItem>Ecole Okotoks Junior High</asp:ListItem>
-                                    <asp:ListItem>Ecole Secondary Foothills Composite</asp:ListItem>
-                                    <asp:ListItem>Springbank Community High School</asp:ListItem>
-                                </asp:DropDownList>
-                            </div>
-                        </div>
-                        <div class='form-row'>
-                            <div class='col-xs-12 form-group required'>
-                                <label class='control-label'>Sport Of Choice:</label>
-                                <asp:DropDownList ID="ddlSportOfChoice" class='form-control' runat="server">
-                                    <asp:ListItem>Select</asp:ListItem>
-                                    <asp:ListItem>Hockey-Male</asp:ListItem>
-                                    <asp:ListItem>Hockey-Female</asp:ListItem>
-                                    <asp:ListItem>Golf</asp:ListItem>
-                                    <asp:ListItem>Soccer</asp:ListItem>
-                                </asp:DropDownList>
-                            </div>
-                        </div>
-                        <div class='form-row'>
-                            <div class='col-xs-12 form-group required'>
-                                <label class='control-label'>Grade Requested:</label>
-                                <asp:DropDownList ID="ddlGradeRequested" class='form-control' runat="server">
-                                    <asp:ListItem>Select</asp:ListItem>
-                                    <asp:ListItem>7</asp:ListItem>
-                                    <asp:ListItem>8</asp:ListItem>
-                                    <asp:ListItem>9</asp:ListItem>
-                                    <asp:ListItem>10</asp:ListItem>
-                                    <asp:ListItem>11</asp:ListItem>
-                                    <asp:ListItem>12</asp:ListItem>
-                                </asp:DropDownList>
-                            </div>
-                        </div>
-                        <div class='form-row'>
-                            <div class='col-md-12'>
-                                <div class='form-control total btn btn-info'>
-                                    <span class='amount'>Fathers Details</span>
+                                <div class='form-row'>
+                                    <div class='col-md-12'>
+                                        <div class='form-control total btn btn-info'>
+                                            <span class='amount'>Student Details</span>
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class='form-row'>
-                            <div class='col-md-12'>
-                                <br/><br/>
-                            </div>
-                        </div>
-                        <div class='form-row'>
-                            <div class='col-xs-12 form-group required'>
-                                <label class='control-label'>Father:</label>
-                                <asp:TextBox ID="txtFatherName" class='form-control' size='4' type='text' runat="server"></asp:TextBox>
-                            </div>
-                        </div>
-                        <div class='form-row'>
-                            <div class='col-xs-12 form-group required'>
-                                <label class='control-label'>Mailing Address Father:</label>
-                                <asp:TextBox ID="txtFatherAddress" class='form-control' size='4' type='text' runat="server"></asp:TextBox>
-                            </div>
-                        </div>
-                        <div class='form-row'>
-                            <div class='col-xs-12 form-group required'>
-                                <label class='control-label'>Father Cell:</label>
-                                <asp:TextBox ID="txtFatherCell" class='form-control' size='4' type='text' runat="server"></asp:TextBox>
-                            </div>
-                        </div>
-                        <div class='form-row'>
-                            <div class='col-xs-12 form-group required'>
-                                <label class='control-label'>Father Email:</label>
-                                <asp:TextBox ID="txtFatherEmail" class='form-control' size='4' type='text' runat="server"></asp:TextBox>
-                            </div>
-                        </div>
-                        <div class='form-row'>
-                            <div class='col-md-12'>
-                                <div class='form-control total btn btn-info'>
-                                    <span class='amount'>Mothers Details</span>
+                                <div class='form-row'>
+                                    <div class='col-md-12'>
+                                        <br />
+                                        <br />
+                                    </div>
                                 </div>
-                            </div>
-                        </div>
-                      <div class='form-row'>
-                            <div class='col-md-12'>
-                                <br/><br/>
-                            </div>
-                        </div>
-                        <div class='form-row'>
-                            <div class='col-xs-12 form-group required'>
-                                <label class='control-label'>Mother:</label>
-                                <asp:TextBox ID="txtMotherName" class='form-control' size='4' type='text' runat="server"></asp:TextBox>
-                            </div>
-                        </div>
-                        <div class='form-row'>
-                            <div class='col-xs-12 form-group required'>
-                                <label class='control-label'>Mailing Address Mother:</label>
-                                <asp:TextBox ID="txtMotherAddress" class='form-control' size='4' type='text' runat="server"></asp:TextBox>
-                            </div>
-                        </div>
-                        <div class='form-row'>
-                            <div class='col-xs-12 form-group required'>
-                                <label class='control-label'>Mother Cell:</label>
-                                <asp:TextBox ID="txtMotherCell" class='form-control' size='4' type='text' runat="server"></asp:TextBox>
-                            </div>
-                        </div>
-                        <div class='form-row'>
-                            <div class='col-xs-12 form-group required'>
-                                <label class='control-label'>Mother Email:</label>
-                                <asp:TextBox ID="txtMotherEmail" class='form-control' size='4' type='text' runat="server"></asp:TextBox>
-                            </div>
-                        </div>
+                                <div class='form-row'>
+                                    <div class='col-xs-12 form-group required'>
+                                        <label class='control-label'>Student Name:</label>
+                                        <asp:TextBox ID="txtStudentName" class='form-control' size='4' type='text' runat="server"></asp:TextBox>
+                                    </div>
+                                </div>
+                                <div class='form-row'>
+                                    <div class='col-xs-12 form-group required'>
+                                        <label class='control-label'>Student Birthdate:</label>
+                                        <asp:TextBox class="form-control" size='4' type="text" name="dob" placeholder="Date Of Birth"
+                                            value="" ID="txtBirthdate" runat="server" TabIndex="18" MaxLength="10" required="true"></asp:TextBox>
+                                    </div>
+                                </div>
+                                <div class='form-row'>
+                                    <div class='col-xs-12 form-group required'>
+                                        <label class='control-label'>Gender:</label>
+                                        <asp:DropDownList ID="ddlGender" class='form-control' runat="server">
+                                            <asp:ListItem>Select</asp:ListItem>
+                                            <asp:ListItem>Male</asp:ListItem>
+                                            <asp:ListItem>Female</asp:ListItem>
+                                        </asp:DropDownList>
+                                    </div>
+                                </div>
+                                <div class='form-row'>
+                                    <div class='col-xs-12 form-group required'>
+                                        <label class='control-label'>Student Email (if applicable):</label>
+                                        <asp:TextBox ID="txtStudentEmail" class='form-control' size='6' type='text' runat="server"></asp:TextBox>
+                                    </div>
+                                </div>
+                                <div class='form-row'>
+                                    <div class='col-xs-12 form-group required'>
+                                        <label class='control-label'>Student Cell (if applicable):</label>
+                                        <asp:TextBox ID="txtStudentCell" class='form-control' size='6' type='text' runat="server"></asp:TextBox>
+                                    </div>
+                                </div>
+                                <div class='form-row'>
+                                    <div class='col-xs-12 form-group required'>
+                                        <label class='control-label'>Present School Attending:</label>
+                                        <asp:TextBox ID="txtPresentSchool" class='form-control' size='6' type='text' runat="server"></asp:TextBox>
+                                    </div>
+                                </div>
+                                <div class='form-row'>
+                                    <div class='col-xs-12 form-group required'>
+                                        <label class='control-label'>Present Grade:</label>
+                                        <asp:DropDownList ID="ddlPresentGrade" class='form-control' runat="server">
+                                            <asp:ListItem>Select</asp:ListItem>
+                                            <asp:ListItem>6</asp:ListItem>
+                                            <asp:ListItem>7</asp:ListItem>
+                                            <asp:ListItem>8</asp:ListItem>
+                                            <asp:ListItem>9</asp:ListItem>
+                                            <asp:ListItem>10</asp:ListItem>
+                                            <asp:ListItem>11</asp:ListItem>
+                                            <asp:ListItem>12</asp:ListItem>
+                                        </asp:DropDownList>
+                                    </div>
+                                </div>
 
 
-                        <%--  <div class='form-row'>
+                                <div class='form-row'>
+                                    <div class='col-xs-12 form-group required'>
+                                        <label class='control-label'>School Of Choice:</label>
+
+                                        <asp:DropDownList ID="ddlSchoolOfChoice" class='form-control' runat="server" AutoPostBack="true" OnSelectedIndexChanged="ddlSchoolOfChoice_SelectedIndexChanged">
+                                            <asp:ListItem>Select</asp:ListItem>
+                                            <asp:ListItem>Ecole Okotoks Junior High</asp:ListItem>
+                                            <asp:ListItem>Springbank Community High School</asp:ListItem>
+
+                                        </asp:DropDownList>
+
+                                    </div>
+                                </div>
+
+                                <div class='form-row'>
+                                    <div class='col-xs-12 form-group required'>
+                                        <label class='control-label'>Sport Of Choice:</label>
+                                        <asp:DropDownList ID="ddlSportOfChoice" class='form-control' runat="server">
+                                            <asp:ListItem>Select</asp:ListItem>
+                                            <asp:ListItem>Hockey-Male</asp:ListItem>
+                                            <asp:ListItem>Hockey-Female</asp:ListItem>
+                                            <asp:ListItem>Golf</asp:ListItem>
+                                            <asp:ListItem>Soccer</asp:ListItem>
+                                        </asp:DropDownList>
+                                    </div>
+                                </div>
+                                <div class='form-row'>
+                                    <div class='col-xs-12 form-group required'>
+                                        <label class='control-label'>Grade Requested:</label>
+                                        <asp:DropDownList ID="ddlGradeRequested" class='form-control' runat="server">
+                                            <asp:ListItem>Select</asp:ListItem>
+                                            <asp:ListItem>7</asp:ListItem>
+                                            <asp:ListItem>8</asp:ListItem>
+                                            <asp:ListItem>9</asp:ListItem>
+                                            <asp:ListItem>10</asp:ListItem>
+                                            <asp:ListItem>11</asp:ListItem>
+                                            <asp:ListItem>12</asp:ListItem>
+                                        </asp:DropDownList>
+                                    </div>
+                                </div>
+                                <div class='form-row'>
+                                    <div class='col-md-12'>
+                                        <div class='form-control total btn btn-info'>
+                                            <span class='amount'>Fathers Details</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class='form-row'>
+                                    <div class='col-md-12'>
+                                        <br />
+                                        <br />
+                                    </div>
+                                </div>
+                                <div class='form-row'>
+                                    <div class='col-xs-12 form-group required'>
+                                        <label class='control-label'>Father:</label>
+                                        <asp:TextBox ID="txtFatherName" class='form-control' size='4' type='text' runat="server"></asp:TextBox>
+                                    </div>
+                                </div>
+                                <div class='form-row'>
+                                    <div class='col-xs-12 form-group required'>
+                                        <label class='control-label'>Mailing Address Father:</label>
+                                        <asp:TextBox ID="txtFatherAddress" class='form-control' size='4' type='text' runat="server"></asp:TextBox>
+                                    </div>
+                                </div>
+                                <div class='form-row'>
+                                    <div class='col-xs-12 form-group required'>
+                                        <label class='control-label'>Father Cell:</label>
+                                        <asp:TextBox ID="txtFatherCell" class='form-control' size='4' type='text' runat="server"></asp:TextBox>
+                                    </div>
+                                </div>
+                                <div class='form-row'>
+                                    <div class='col-xs-12 form-group required'>
+                                        <label class='control-label'>Father Email:</label>
+                                        <asp:TextBox ID="txtFatherEmail" class='form-control' size='4' type='text' runat="server"></asp:TextBox>
+                                    </div>
+                                </div>
+                                <div class='form-row'>
+                                    <div class='col-md-12'>
+                                        <div class='form-control total btn btn-info'>
+                                            <span class='amount'>Mothers Details</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class='form-row'>
+                                    <div class='col-md-12'>
+                                        <br />
+                                        <br />
+                                    </div>
+                                </div>
+                                <div class='form-row'>
+                                    <div class='col-xs-12 form-group required'>
+                                        <label class='control-label'>Mother:</label>
+                                        <asp:TextBox ID="txtMotherName" class='form-control' size='4' type='text' runat="server"></asp:TextBox>
+                                    </div>
+                                </div>
+                                <div class='form-row'>
+                                    <div class='col-xs-12 form-group required'>
+                                        <label class='control-label'>Mailing Address Mother:</label>
+                                        <asp:TextBox ID="txtMotherAddress" class='form-control' size='4' type='text' runat="server"></asp:TextBox>
+                                    </div>
+                                </div>
+                                <div class='form-row'>
+                                    <div class='col-xs-12 form-group required'>
+                                        <label class='control-label'>Mother Cell:</label>
+                                        <asp:TextBox ID="txtMotherCell" class='form-control' size='4' type='text' runat="server"></asp:TextBox>
+                                    </div>
+                                </div>
+                                <div class='form-row'>
+                                    <div class='col-xs-12 form-group required'>
+                                        <label class='control-label'>Mother Email:</label>
+                                        <asp:TextBox ID="txtMotherEmail" class='form-control' size='4' type='text' runat="server"></asp:TextBox>
+                                    </div>
+                                </div>
+
+
+                                <%--  <div class='form-row'>
                             <div class='col-xs-4 form-group cvc required'>
                                 <label class='control-label'>CVC</label>
                                 <input autocomplete='off' class='form-control card-cvc' placeholder='ex. 311' size='4' type='text'>
@@ -374,7 +494,7 @@
                                 <input class='form-control card-expiry-year' placeholder='YYYY' size='4' type='text'>
                             </div>
                         </div>--%>
-                        <%-- <div class='form-row'>
+                                <%-- <div class='form-row'>
                             <div class='col-md-12'>
                                 <div class='form-control total btn btn-info'>
                                     Total:
@@ -382,23 +502,26 @@
                                 </div>
                             </div>
                         </div>--%>
-                        <div class='form-row'>
-                            <div class='col-md-12 form-group'>
-                                <asp:Button runat="server" CssClass='form-control btn btn-primary submit-button' Text="Submit Application »" ID="btnSubmit" OnClick="btnSubmit_Click"></asp:Button>
-                            </div>
-                        </div>
-                        <div class='form-row'>
-                            <div class='col-md-12 error form-group hide'>
-                                <div class='alert-danger alert'>
-                                    Please correct the errors and try again.
+                                <div class='form-row'>
+                                    <div class='col-md-12 form-group'>
+                                        <asp:Button runat="server" CssClass='form-control btn btn-primary submit-button' Text="Submit Application »" ID="btnSubmit" OnClick="btnSubmit_Click"></asp:Button>
+                                    </div>
                                 </div>
-                            </div>
-                        </div>
+                                <div class='form-row'>
+                                    <div class='col-md-12 error form-group hide'>
+                                        <div class='alert-danger alert'>
+                                            Please correct the errors and try again.
+                                        </div>
+                                    </div>
+                                </div>
+                            </ContentTemplate>
+                        </asp:UpdatePanel>
                     </form>
                 </div>
                 <div class='col-md-4'></div>
             </div>
         </section>
     </div>
+
 </body>
 </html>
