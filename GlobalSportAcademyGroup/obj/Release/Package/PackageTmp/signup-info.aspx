@@ -275,7 +275,7 @@
     <div class="container">
         <section class="box3">
             <div class="row">
-                <div class="col-lg-3 col-md-3 col-sm-3 col-sm-offset-3">
+                <div class="col-lg-3 col-md-3 col-sm-3 col-sm-offset-4">
                     <div class="thumb-pad7">
                         <div class="caption">
                             <h5>www.globalsportacademygroup.com</h5>
@@ -290,14 +290,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-4 col-sm-4">
-                    <a href="https://www.facebook.com/mydrillbook">
-                        <button class="btn btn-danger btn-block">Facebook</button></a><br />
-                    <a href="http://www.twitter.com/thedrillbook">
-                        <button class="btn btn-danger btn-block">Twitter</button></a><br />
-                   <%-- <a href="#">
-                        <button class="btn btn-danger btn-block">Share Us</button></a>--%>
-                </div>
+
             </div>
         </section>
         <section class="box4">
@@ -319,10 +312,11 @@
                                 <div class="thumbnail">
                                     <div class="caption">
                                         <button class="btn btn-danger btn-block">Foothills School Division Sports Academy</button>
-                                        <br/>
-                                        <p><strong>Program Director: Jamie Fox</strong><br/>
-                                            P: (403) 993-1916<br/>
-                                            E: <a href="mailto:jfox@globalsportacademygroup.com">jfox@globalsportacademygroup.com</a> 
+                                        <br />
+                                        <p>
+                                            <strong>Program Director: Jamie Fox</strong><br />
+                                            P: (403) 993-1916<br />
+                                            E: <a href="mailto:jfox@globalsportacademygroup.com">jfox@globalsportacademygroup.com</a>
                                         </p>
                                     </div>
                                 </div>
@@ -332,10 +326,11 @@
                             <div class="thumb-pad5">
                                 <div class="thumbnail">
                                     <div class="caption">
-                                       <button class="btn btn-danger btn-block">Springbank Community High School Sports Academy</button>
-                                        <br/>
-                                        <p><strong>Program Director:Jeff Ovens</strong><br/>
-                                            P: (403) 819-9747<br/>
+                                        <button class="btn btn-danger btn-block">Springbank Community High School Sports Academy</button>
+                                        <br />
+                                        <p>
+                                            <strong>Program Director:Jeff Ovens</strong><br />
+                                            P: (403) 819-9747<br />
                                             E: <a href="mailto:jovens@globalsportacademygroup.com">jovens@globalsportacademygroup.com</a>
                                         </p>
                                     </div>
@@ -383,7 +378,7 @@
                                             T3Z 2L9<br />
                                             P: (403) 246-4771<br />
                                             Principal: Pam Davidson<br />
-                                            Vice Principal + Academy Liason:Michael Fredrick<br />
+                                            Assistant Principal + Academy Liason:Michael Fredrich<br />
                                             P: (403) 246-4771<br />
                                             E: <a href="mailto:mfredrick@rockyview.ab.ca">mfredrick@rockyview.ab.ca</a>
                                         </p>
@@ -395,7 +390,7 @@
                 </article>
             </div>
 
-            <div class="row">
+           <%-- <div class="row">
                 <article class="col-lg-12 col-md-12 col-sm-12 professionalsBox">
                     <div class="row">
                         <article class="col-lg-4 col-md-4 col-sm-4 col-xs-4 col-sm-offset-2">
@@ -419,7 +414,7 @@
                         </article>
                     </div>
                 </article>
-            </div>
+            </div>--%>
         </section>
         <section class="box6">
             <div class="container">
@@ -429,9 +424,9 @@
                         <div class="row">
                             <article class="col-lg-12 col-md-12 col-sm-12">
                                 <h4 class="text-center color">* Please note that all schools do not offer all sport programs. Click on your school of choice below to determine sport availability at your location of choice *</h4>
-                                <h4 class="text-center text-danger"><strong>Hockey $4,995.00</strong></h4>
-                                <h4 class="text-center text-danger"><strong>Soccer $4,875.00</strong></h4>
-                                <h4 class="text-center text-danger"><strong>Golf $5,995.00</strong></h4>
+                                <h5 class="text-center text-danger"><strong>Grade 9 @ Springbank Sports Academy: Hockey - $3,995.00, Golf - $4,995.00, Soccer - $3,895.00</strong></h5>
+                                <h5 class="text-center text-danger"><strong>Grade 10-12 @ Springbank  Sports Academy : Hockey - $4,995.00, Golf - $6,9995.00, Soccer - $4,895.00</strong></h5>
+                                <h5 class="text-center text-danger"><strong>Grade 7,8,9 @ FSD Sports Academy: Hockey - $4,9995.00</strong></h5>
                                 <h4 class="text-center">A payment plan is available and financial aid is also available. These options will be presented at your interview. * If your student athlete is not accepted a full refund is issued</h4>
                             </article>
                         </div>
@@ -448,7 +443,7 @@
                                     <a href="application.aspx">
                                         <button class="btn btn-lg btn-block btn-danger">
                                             <br />
-                                            APPLY NOW!<br />
+                                            <h1>APPLY NOW!</h1><br />
                                             <br />
                                         </button>
                                     </a>
@@ -456,10 +451,23 @@
 
                             </div>
                         </div>
+                        <div class='row'>
+                             <div class="col-lg-2 col-md-2 col-sm-2">
+                               
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-4">
+                                <a href="https://www.facebook.com/mydrillbook">
+                                    <button class="btn btn-danger btn-block">Facebook</button></a><br />
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-4">
+                                <a href="http://www.twitter.com/thedrillbook">
+                                    <button class="btn btn-danger btn-block">Twitter</button></a><br />
+                            </div>
                     </div>
                 </div>
             </div>
-        </section>
+    </div>
+    </section>
     </div>
 </body>
 </html>
