@@ -292,7 +292,11 @@
                                 <div style="margin: 0; padding: 0; display: inline">
                                     <input name="utf8" type="hidden" value="✓" /><input name="_method" type="hidden" value="PUT" /><input name="authenticity_token" type="hidden" value="qLZ9cScer7ZxqulsUWazw4x3cSEzv899SP/7ThPCOV8=" />
                                 </div>
-
+                                 <div class='form-row'>
+                                    <div class='col-md-12 form-group'>
+                                        <asp:Button runat="server" CssClass='form-control btn btn-primary submit-button' Text="Coming Soon" ID="Button1" OnClick="btnSubmit_Click" Enabled="False"></asp:Button>
+                                    </div>
+                                </div>
                                 <div class='form-row'>
                                     <div class='col-md-12'>
                                         <div class='form-control total btn btn-info'>
@@ -504,7 +508,7 @@
                         </div>--%>
                                 <div class='form-row'>
                                     <div class='col-md-12 form-group'>
-                                        <asp:Button runat="server" CssClass='form-control btn btn-primary submit-button' Text="Submit Application »" ID="btnSubmit" OnClick="btnSubmit_Click"></asp:Button>
+                                        <asp:Button runat="server" CssClass='form-control btn btn-primary submit-button' Text="Coming Soon" ID="btnSubmit" OnClick="btnSubmit_Click" Enabled="False"></asp:Button>
                                     </div>
                                 </div>
                                 <div class='form-row'>
