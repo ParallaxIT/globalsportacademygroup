@@ -1360,7 +1360,7 @@ logoHeader ul li a:hover {
 .thumb-pad7 .thumbnail figure {
 	margin: 0;
 	padding: 7px;
-	background: #fed5a1;
+	background: none;
 	list-style: none;
 	float: left;
 	margin-right: 20px;
