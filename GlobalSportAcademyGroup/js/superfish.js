@@ -255,6 +255,6 @@
 	});
 
 })(jQuery);
-$(function(){
-	$('.sf-menu').superfish()
+$(function() {
+    $('.sf-menu').superfish();
 })

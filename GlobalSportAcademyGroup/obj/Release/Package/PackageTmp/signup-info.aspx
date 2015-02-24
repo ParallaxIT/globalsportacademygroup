@@ -425,8 +425,8 @@
                             <article class="col-lg-12 col-md-12 col-sm-12">
                                 <h4 class="text-center color">* Please note that all schools do not offer all sport programs. Click on your school of choice below to determine sport availability at your location of choice *</h4>
                                 <h5 class="text-center text-danger"><strong>Grade 9 @ Springbank Sports Academy: Hockey - $3,995.00, Golf - $4,995.00, Soccer - $3,895.00</strong></h5>
-                                <h5 class="text-center text-danger"><strong>Grade 10-12 @ Springbank  Sports Academy : Hockey - $4,995.00, Golf - $6,9995.00, Soccer - $4,895.00</strong></h5>
-                                <h5 class="text-center text-danger"><strong>Grade 7,8,9 @ FSD Sports Academy: Hockey - $4,9995.00</strong></h5>
+                                <h5 class="text-center text-danger"><strong>Grade 10-12 @ Springbank  Sports Academy : Hockey - $4,995.00, Golf - $6,995.00, Soccer - $4,895.00</strong></h5>
+                                <h5 class="text-center text-danger"><strong>Grade 7,8,9 @ FSD Sports Academy: Hockey - $4,995.00</strong></h5>
                                 <h4 class="text-center">A payment plan is available and financial aid is also available. These options will be presented at your interview. * If your student athlete is not accepted a full refund is issued</h4>
                             </article>
                         </div>

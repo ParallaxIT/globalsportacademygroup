@@ -42,6 +42,7 @@
 
             if (isDDL == true) {
                 isDDL = false;
+                OnSelectedIndexChange();
                 return false;
             }
 
@@ -165,99 +166,99 @@
     </script>
     <script type="text/javascript" language="javascript">
 
-        //function OnSelectedIndexChange() {
+        function OnSelectedIndexChange() {
 
-        //    if ($("#ddlSchoolOfChoice").val() == 'Springbank Community High School') {
+            if ($("#ddlSchoolOfChoice").val() == 'Springbank Community High School') {
 
-        //        AddItemInListSCHS();
-        //    }
-        //    else if ($("#ddlSchoolOfChoice").val() == 'Ecole Okotoks Junior High') {
-        //        AddItemInListEOJHS();
-        //    }
-        //}
+                AddItemInListSCHS();
+            }
+            else if ($("#ddlSchoolOfChoice").val() == 'Ecole Okotoks Junior High') {
+                AddItemInListEOJHS();
+            }
+        }
 
-        //function AddItemInListSCHS() {
+        function AddItemInListSCHS() {
 
-        //    RemoveItemsInList();
+            RemoveItemsInList();
 
-        //    var list = document.getElementById('ddlSportOfChoice');
-        //    var newListItem1 = document.createElement('OPTION');
-        //    var newListItem2 = document.createElement('OPTION');
-        //    var newListItem3 = document.createElement('OPTION');
-        //    var newListItem4 = document.createElement('OPTION');
-        //    var newListItem5 = document.createElement('OPTION');
-        //    var newListItem6 = document.createElement('OPTION');
-        //    var newListItem7 = document.createElement('OPTION');
-        //    var newListItem8 = document.createElement('OPTION');
+            var list = document.getElementById('ddlSportOfChoice');
+            var newListItem1 = document.createElement('OPTION');
+            var newListItem2 = document.createElement('OPTION');
+            var newListItem3 = document.createElement('OPTION');
+            var newListItem4 = document.createElement('OPTION');
+            var newListItem5 = document.createElement('OPTION');
+            var newListItem6 = document.createElement('OPTION');
+            var newListItem7 = document.createElement('OPTION');
+            var newListItem8 = document.createElement('OPTION');
 
-        //    newListItem1.text = "Grade 9 Male Hockey";
-        //    newListItem1.value = "Grade 9 Male Hockey";
-        //    list.add(newListItem1);
+            newListItem1.text = "Grade 9 Male Hockey";
+            newListItem1.value = "Grade 9 Male Hockey";
+            list.add(newListItem1);
 
-        //    newListItem2.text = "Grade 9 Female Hockey";
-        //    newListItem2.value = "Grade 9 Female Hockey";
-        //    list.add(newListItem2);
+            newListItem2.text = "Grade 9 Female Hockey";
+            newListItem2.value = "Grade 9 Female Hockey";
+            list.add(newListItem2);
 
-        //    newListItem3.text = "Grade 9 Male and Female Golf";
-        //    newListItem3.value = "Grade 9 Male and Female Golf";
-        //    list.add(newListItem3);
+            newListItem3.text = "Grade 9 Male and Female Golf";
+            newListItem3.value = "Grade 9 Male and Female Golf";
+            list.add(newListItem3);
 
-        //    newListItem4.text = "Grade 9 Male and Female Soccer";
-        //    newListItem4.value = "Grade 9 Male and Female Soccer";
-        //    list.add(newListItem4);
+            newListItem4.text = "Grade 9 Male and Female Soccer";
+            newListItem4.value = "Grade 9 Male and Female Soccer";
+            list.add(newListItem4);
 
-        //    newListItem5.text = "Grade 10-12 Male Hockey";
-        //    newListItem5.value = "Grade 10-12 Male Hockey";
-        //    list.add(newListItem5);
+            newListItem5.text = "Grade 10-12 Male Hockey";
+            newListItem5.value = "Grade 10-12 Male Hockey";
+            list.add(newListItem5);
 
-        //    newListItem6.text = "Grade 10-12 Female Hockey";
-        //    newListItem6.value = "Grade 10-12 Female Hockey";
-        //    list.add(newListItem6);
+            newListItem6.text = "Grade 10-12 Female Hockey";
+            newListItem6.value = "Grade 10-12 Female Hockey";
+            list.add(newListItem6);
 
-        //    newListItem7.text = "Grade 10-12  Male and Female Golf";
-        //    newListItem7.value = "Grade 10-12  Male and Female Golf";
-        //    list.add(newListItem7);
+            newListItem7.text = "Grade 10-12  Male and Female Golf";
+            newListItem7.value = "Grade 10-12  Male and Female Golf";
+            list.add(newListItem7);
 
-        //    newListItem8.text = "Grade 10-12 Male and Female Soccer";
-        //    newListItem8.value = "Grade 10-12 Male and Female Soccer";
-        //    list.add(newListItem8);
-        //}
+            newListItem8.text = "Grade 10-12 Male and Female Soccer";
+            newListItem8.value = "Grade 10-12 Male and Female Soccer";
+            list.add(newListItem8);
+        }
 
-        //function AddItemInListEOJHS() {
+        function AddItemInListEOJHS() {
 
-        //    RemoveItemsInList();
+            RemoveItemsInList();
 
-        //    var list = document.getElementById('ddlSportOfChoice');
-        //    var newListItem1 = document.createElement('OPTION');
-        //    var newListItem2 = document.createElement('OPTION');
-        //    var newListItem3 = document.createElement('OPTION');
+            var list = document.getElementById('ddlSportOfChoice');
+            var newListItem1 = document.createElement('OPTION');
+            var newListItem2 = document.createElement('OPTION');
+            var newListItem3 = document.createElement('OPTION');
 
-        //    newListItem1.text = "Grade 7 Male Hockey";
-        //    newListItem1.value = "Grade 7 Male Hockey";
-        //    list.add(newListItem1);
+            newListItem1.text = "Grade 7 Male Hockey";
+            newListItem1.value = "Grade 7 Male Hockey";
+            list.add(newListItem1);
 
-        //    newListItem2.text = "Grade 8 Male Hockey";
-        //    newListItem2.value = "Grade 8 Male Hockey";
-        //    list.add(newListItem2);
+            newListItem2.text = "Grade 8 Male Hockey";
+            newListItem2.value = "Grade 8 Male Hockey";
+            list.add(newListItem2);
 
-        //    newListItem3.text = "Grade 9 Male Hockey";
-        //    newListItem3.value = "Grade 9 Male Hockey";
-        //    list.add(newListItem3);
+            newListItem3.text = "Grade 9 Male Hockey";
+            newListItem3.value = "Grade 9 Male Hockey";
+            list.add(newListItem3);
 
-        //}
+        }
 
-        //function RemoveItemsInList() {
+        function RemoveItemsInList() {
 
-        //    var list = document.getElementById('ddlSportOfChoice');
-        //    if (list.options.length > 0) {
-        //        for (var i = list.options.length - 1; i >= 0; i--) {
-        //            list.remove(i);
-        //        }
-        //    }
-        //    else {
-        //        alert('Unable to remove. List is Empty!');
-        //    }
-        //}
+            var list = document.getElementById('ddlSportOfChoice');
+            if (list.options.length > 0) {
+                for (var i = list.options.length - 1; i >= 0; i--) {
+                    list.remove(i);
+                }
+            }
+            else {
+                alert('Unable to remove. List is Empty!');
+            }
+        }
     </script>
 </head>
 <body>
@@ -294,7 +295,7 @@
                                 </div>
                                  <div class='form-row'>
                                     <div class='col-md-12 form-group'>
-                                        <asp:Button runat="server" CssClass='form-control btn btn-primary submit-button' Text="Coming Soon" ID="Button1" OnClick="btnSubmit_Click" Enabled="False"></asp:Button>
+                                        <asp:Button runat="server" CssClass='form-control btn btn-danger submit-button' Text="Coming Soon" ID="Button1" OnClick="btnSubmit_Click" Enabled="False"></asp:Button>
                                     </div>
                                 </div>
                                 <div class='form-row'>
@@ -508,7 +509,7 @@
                         </div>--%>
                                 <div class='form-row'>
                                     <div class='col-md-12 form-group'>
-                                        <asp:Button runat="server" CssClass='form-control btn btn-primary submit-button' Text="Coming Soon" ID="btnSubmit" OnClick="btnSubmit_Click" Enabled="False"></asp:Button>
+                                        <asp:Button runat="server" CssClass='form-control btn btn-danger submit-button' Text="Coming Soon" ID="btnSubmit" OnClick="btnSubmit_Click" Enabled="false"></asp:Button>
                                     </div>
                                 </div>
                                 <div class='form-row'>

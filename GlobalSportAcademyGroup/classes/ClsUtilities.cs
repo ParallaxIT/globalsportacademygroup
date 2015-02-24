@@ -23,7 +23,21 @@ namespace GlobalSportAcademyGroup.classes
                 // Create an SMTP transport for sending email.
                 var transportWeb = Web.GetInstance(credentials);
 
-                mail.AddTo(studentRecord.FatherName + " <" + studentRecord.FatherEmail + ">");
+                //check to see who is getting the email
+                if (studentRecord.FatherEmail == "")
+                {
+                    mail.AddTo(studentRecord.MotherName + " <" + studentRecord.MotherEmail + ">");
+                }
+                else
+                {
+                    mail.AddTo(studentRecord.FatherName + " <" + studentRecord.FatherEmail + ">");
+                }
+
+                //if both are present, add the cc
+                if (studentRecord.FatherEmail != "" && studentRecord.MotherEmail != "")
+                {
+                    mail.AddCc(studentRecord.MotherName + " <" + studentRecord.MotherEmail + ">");
+                }
 
                 mail.Subject = "Welcome from the GlobalSportAcademyGroup";
 

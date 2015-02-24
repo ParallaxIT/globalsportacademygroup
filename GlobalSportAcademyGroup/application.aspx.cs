@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Web.UI;
 using System.Web.UI.WebControls;
 using GlobalSportAcademyGroup.classes;
 
@@ -10,16 +11,40 @@ namespace GlobalSportAcademyGroup
         {
             if (!Page.IsPostBack)
             {
-                //ddlSchoolOfChoice.Attributes.Add("onChange", "setFalse();");
+                ddlSchoolOfChoice.Attributes.Add("onChange", "setFalse();");
+
+               
             }
 
+        }
+
+        protected override void Render(HtmlTextWriter writer)
+        {
+            Page.ClientScript.RegisterForEventValidation(ddlSportOfChoice.UniqueID, "Grade 9 Male Hockey");
+            Page.ClientScript.RegisterForEventValidation(ddlSportOfChoice.UniqueID, "Grade 9 Female Hockey");
+            Page.ClientScript.RegisterForEventValidation(ddlSportOfChoice.UniqueID, "Grade 9 Male and Female Golf");
+            Page.ClientScript.RegisterForEventValidation(ddlSportOfChoice.UniqueID, "Grade 9 Male and Female Soccer");
+            Page.ClientScript.RegisterForEventValidation(ddlSportOfChoice.UniqueID, "Grade 10-12 Male Hockey");
+            Page.ClientScript.RegisterForEventValidation(ddlSportOfChoice.UniqueID, "Grade 10-12 Female Hockey");
+            Page.ClientScript.RegisterForEventValidation(ddlSportOfChoice.UniqueID, "Grade 10-12  Male and Female Golf");
+            Page.ClientScript.RegisterForEventValidation(ddlSportOfChoice.UniqueID, "Grade 10-12 Male and Female Soccer");
+            Page.ClientScript.RegisterForEventValidation(ddlSportOfChoice.UniqueID, "Grade 7 Male Hockey");
+            Page.ClientScript.RegisterForEventValidation(ddlSportOfChoice.UniqueID, "Grade 8 Male Hockey");
+            Page.ClientScript.RegisterForEventValidation(ddlSportOfChoice.UniqueID, "Grade 9 Male Hockey");
+
+            base.Render(writer);
+        }
+
+        protected void Page_PreRender(EventArgs e)
+        {
+           
         }
 
         protected void btnSubmit_Click(object sender, EventArgs e)
         {
             StudentRecord studentRecord;
 
-            studentRecord = new StudentRecord
+           studentRecord = new StudentRecord
             {
                 StudentName = txtStudentName.Text,
                 Birthdate = txtBirthdate.Text,
