@@ -297,7 +297,7 @@
             <div class="container">
                 <div class="row">
                     <article class="col-lg-10 col-md-10 col-sm-10 col-sm-offset-2 historyBox">
-                        <h2>For general enquiries got to our contacts page to find the appropriate person. Click <a href="contact-us.html">HERE </a></h2>
+                        <h2>For general enquiries go to our contacts page to find the appropriate person. Click <a href="contact-us.html">HERE </a></h2>
                     </article>
                 </div>
             </div>
