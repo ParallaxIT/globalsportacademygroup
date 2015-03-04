@@ -50,8 +50,8 @@
             var presentSchool = $("#txtPresentSchool").val();
             var fatherEmail = $("#txtFatherEmail").val();
             var motherEmail = $("#txtMotherEmail").val();
-           
-           
+
+
 
             if (studentName == '') {
                 $('#txtStudentName').focus();
@@ -136,7 +136,8 @@
         $(function () {
             $("#txtBirthdate").datepicker({
                 changeMonth: true,
-                changeYear: true
+                changeYear: true,
+                yearRange: "-100:-1"
             });
         });
     </script>
@@ -284,20 +285,16 @@
                 <div class='col-md-6'>
 
                     <form id="form1" runat="server" onsubmit="return validateForm()">
-                      
-                                <ajaxToolkit:ToolkitScriptManager ID="ScriptManager1" runat="server">
-                                </ajaxToolkit:ToolkitScriptManager>
-  <asp:UpdatePanel runat="server" ID="upCalData">
+
+                        <ajaxToolkit:ToolkitScriptManager ID="ScriptManager1" runat="server">
+                        </ajaxToolkit:ToolkitScriptManager>
+                        <asp:UpdatePanel runat="server" ID="upCalData">
                             <ContentTemplate>
 
                                 <div style="margin: 0; padding: 0; display: inline">
                                     <input name="utf8" type="hidden" value="✓" /><input name="_method" type="hidden" value="PUT" /><input name="authenticity_token" type="hidden" value="qLZ9cScer7ZxqulsUWazw4x3cSEzv899SP/7ThPCOV8=" />
                                 </div>
-                                 <div class='form-row'>
-                                    <div class='col-md-12 form-group'>
-                                        <asp:Button runat="server" CssClass='form-control btn btn-primary submit-button' Text="Coming Soon" ID="Button1" OnClick="btnSubmit_Click" Enabled="False"></asp:Button>
-                                    </div>
-                                </div>
+
                                 <div class='form-row'>
                                     <div class='col-md-12'>
                                         <div class='form-control total btn btn-info'>
@@ -445,6 +442,32 @@
                                         <label class='control-label'>Father Email:</label>
                                         <asp:TextBox ID="txtFatherEmail" class='form-control' size='4' type='text' runat="server"></asp:TextBox>
                                     </div>
+                                   <%-- <div class="span4">
+                                        <asp:RequiredFieldValidator ID="txtFatherEmailReqFieldValidator"
+                                            ControlToValidate="txtFatherEmail"
+                                            runat="server"
+                                            ErrorMessage="Primary Email Required"
+                                            Display="None"
+                                            SetFocusOnError="true" />
+                                        <ajaxToolkit:ValidatorCalloutExtender ID="txtFatherEmailFieldValidatorExtender" runat="server"
+                                            Enabled="True"
+                                            TargetControlID="txtFatherEmailReqFieldValidator">
+                                        </ajaxToolkit:ValidatorCalloutExtender>
+
+                                        <asp:CustomValidator ID="txtFatherEmailValidator" runat="server"
+                                            ClientValidationFunction="validateEmailAddress"
+                                            ControlToValidate="txtFatherEmail"
+                                            ForeColor="Red"
+                                            ErrorMessage="Email not valid"
+                                            SetFocusOnError="true"
+                                            ValidateEmptyText="false"
+                                            OnServerValidate="EmailAddressValidator_ServerValidate"
+                                            Display="None" />
+                                        <ajaxToolkit:ValidatorCalloutExtender ID="txtSigningEmail1EmailValidatorExtender" runat="server"
+                                            Enabled="True"
+                                            TargetControlID="txtFatherEmailValidator">
+                                        </ajaxToolkit:ValidatorCalloutExtender>
+                                    </div>--%>
                                 </div>
                                 <div class='form-row'>
                                     <div class='col-md-12'>
@@ -509,7 +532,7 @@
                         </div>--%>
                                 <div class='form-row'>
                                     <div class='col-md-12 form-group'>
-                                        <asp:Button runat="server" CssClass='form-control btn btn-primary submit-button' Text="Coming Soon" ID="btnSubmit" OnClick="btnSubmit_Click" Enabled="false"></asp:Button>
+                                        <asp:Button runat="server" CssClass='form-control btn btn-danger submit-button' Text="Submit Application" ID="btnSubmit" OnClick="btnSubmit_Click" Enabled="true"></asp:Button>
                                     </div>
                                 </div>
                                 <div class='form-row'>

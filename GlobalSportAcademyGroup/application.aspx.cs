@@ -40,6 +40,11 @@ namespace GlobalSportAcademyGroup
            
         }
 
+        protected void EmailAddressValidator_ServerValidate(object source, ServerValidateEventArgs args)
+        {
+            args.IsValid = Validation.ValidateEmailAddress(args.Value);
+        }
+
         protected void btnSubmit_Click(object sender, EventArgs e)
         {
             StudentRecord studentRecord;

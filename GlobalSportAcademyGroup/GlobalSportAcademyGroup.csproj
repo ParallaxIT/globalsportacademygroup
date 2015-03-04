@@ -84,6 +84,7 @@
     <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Web" />
+    <Reference Include="System.Web.WebPages, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Web.Services" />
@@ -93,6 +94,7 @@
   <ItemGroup>
     <Content Include="application.aspx" />
     <Content Include="bin\SendGridMail.dll" />
+    <Content Include="js\emailvalidation.js" />
     <Content Include="coach-graphic_l.jpg" />
     <Content Include="coach-graphic_s.jpg" />
     <Content Include="img\coach-graphic_l.jpg" />
@@ -286,6 +288,7 @@
     <Compile Include="classes\ClsUtilities.cs" />
     <Compile Include="classes\DAOBase.cs" />
     <Compile Include="classes\StudentRecord.cs" />
+    <Compile Include="classes\Validation.cs" />
     <Compile Include="signup-info.aspx.cs">
       <DependentUpon>signup-info.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

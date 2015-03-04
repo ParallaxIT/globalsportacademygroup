@@ -11,7 +11,7 @@ namespace GlobalSportAcademyGroup.classes
 
         public static string sgpw = "Enigma!2517";
         public static string sgun = "globalacademy";
-        public static string AdminEmail = "rsutherland@thedrillbook.com";
+        public static string AdminEmail = "cstockton@thedrillbook.com";
         public static string AdminName = "Christine Stockton";
 
         //if LIVE
