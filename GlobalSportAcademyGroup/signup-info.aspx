@@ -275,29 +275,35 @@
     <div class="container">
         <section class="box3">
             <div class="row">
-                <div class="col-lg-3 col-md-3 col-sm-3 col-sm-offset-4">
+                <div class="col-lg-5 col-md-5 col-sm-5 col-sm-offset-4">
                     <div class="thumb-pad7">
                         <div class="caption">
                             <h5>www.globalsportacademygroup.com</h5>
                             <br />
+                            <strong>Danni Macfarland</strong>
+                            <br/>
+                            Registrar - Springbank Sports Academy & Foothills School Division Sports Academy
+                            <br/>
+                            Phone: (403) 813-7186
+                            <br/>
+                            Email: dmacfarland@globalsportacademygroup.com
+                            <br/>
+                            <br/>
                             Unit 6, 130 Commercial Drive
                             <br />
                             Range Road 33
                             <br />
                             Springbank AB, Canada
-                            <br />
-                            Phone: (403) 519-0661
                         </div>
                     </div>
                 </div>
-
             </div>
         </section>
         <section class="box4">
             <div class="container">
                 <div class="row">
                     <article class="col-lg-10 col-md-10 col-sm-10 col-sm-offset-2 historyBox">
-                        <h2>For general enquiries go to our contacts page to find the appropriate person. Click <a href="contact-us.html">HERE </a></h2>
+                        <h2>For general enquiries go to our contacts page to find the appropriate person. Click <a href="contact-us.aspx">HERE </a></h2>
                     </article>
                 </div>
             </div>
@@ -420,14 +426,14 @@
             <div class="container">
                 <div class="row">
                     <article class="col-lg-8 col-md-8 col-sm-8 col-sm-offset-2">
-                        <h2 class="text-center">PROGRAM COSTS FOR 2015</h2>
+                        <h2 class="text-center">PROGRAM COSTS FOR 2015-2016</h2>
                         <div class="row">
                             <article class="col-lg-12 col-md-12 col-sm-12">
-                                <h4 class="text-center color">* Please note that all schools do not offer all sport programs. Click on your school of choice below to determine sport availability at your location of choice *</h4>
-                                <h5 class="text-center text-danger"><strong>Grade 9 @ Springbank Sports Academy: Hockey - $3,995.00, Golf - $4,995.00, Soccer - $3,895.00</strong></h5>
-                                <h5 class="text-center text-danger"><strong>Grade 10-12 @ Springbank  Sports Academy : Hockey - $4,995.00, Golf - $6,995.00, Soccer - $4,895.00</strong></h5>
-                                <h5 class="text-center text-danger"><strong>Grade 7,8,9 @ FSD Sports Academy: Hockey - $4,995.00</strong></h5>
-                                <h4 class="text-center">A payment plan is available and financial aid is also available. These options will be presented at your interview. * If your student athlete is not accepted a full refund is issued</h4>
+                                <h4 class="text-center color">* Please note that all schools do not offer all sport programs. </h4>
+                                <h5 class="text-center text-danger"><strong>Grade 9 @ Springbank Sports Academy: Hockey - $3,995.00, Golf - $4,995.00, Soccer - $3,895.00 (plus GST)</strong></h5>
+                                <h5 class="text-center text-danger"><strong>Grade 10-12 @ Springbank  Sports Academy : Hockey - $4,995.00, Golf - $6,995.00, Soccer - $4,895.00 (plus GST)</strong></h5>
+                                <h5 class="text-center text-danger"><strong>Grade 7,8,9 @ FSD Sports Academy: Hockey - $4,995.00 (plus GST)</strong></h5>
+                                <h4 class="text-center">If your student athlete is not accepted, a full refund will be issued. financial assistance is available upon request.</h4>
                             </article>
                         </div>
                     </article>

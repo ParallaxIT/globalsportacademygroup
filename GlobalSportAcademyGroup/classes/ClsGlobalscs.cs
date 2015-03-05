@@ -1,17 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Configuration;
-using System.Linq;
-using System.Web;
+﻿using System.Configuration;
 
 namespace GlobalSportAcademyGroup.classes
 {
     public class ClsGlobalscs
     {
 
-        public static string sgpw = "Enigma!2517";
+        public static string sgpw = "enigma169";
         public static string sgun = "globalacademy";
-        public static string AdminEmail = "cstockton@thedrillbook.com";
+        public static string AdminEmail = "cstockton@globalsportacademygroup.com";
         public static string AdminName = "Christine Stockton";
 
         //if LIVE

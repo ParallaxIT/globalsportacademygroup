@@ -23,6 +23,8 @@ namespace GlobalSportAcademyGroup.classes
                 // Create an SMTP transport for sending email.
                 var transportWeb = Web.GetInstance(credentials);
 
+                mail.AddTo(ClsGlobalscs.AdminName + " <" + ClsGlobalscs.AdminEmail + ">");
+
                 //check to see who is getting the email
                 if (studentRecord.FatherEmail == "")
                 {
@@ -151,8 +153,9 @@ namespace GlobalSportAcademyGroup.classes
 
                 return true;
             }
-            catch (Exception)
+            catch (Exception ex)
             {
+                Console.Write("Error: " + ex.Message.ToString());
 
                 return false;
             }
@@ -287,9 +290,129 @@ namespace GlobalSportAcademyGroup.classes
 
                 return true;
             }
-            catch (Exception)
+            catch (Exception ex)
             {
+                Console.Write("Error: " + ex.Message.ToString());
 
+                return false;
+            }
+        }
+
+        public static bool SendMailMessageToTheDrillBookFromContactPage(string subject, string userNameName, string userEmail, string message)
+        {
+            try
+            {
+                // Create the email object first, then add the properties.
+                var mail = SendGrid.GetInstance();
+
+                mail.From = new MailAddress("signup@GlobalSportAcademyGroup.com", "GlobalSportAcademyGroup");
+
+                // Create credentials, specifying your user name and password.
+                var credentials = new NetworkCredential(ClsGlobalscs.sgun, ClsGlobalscs.sgpw);
+
+                // Create an SMTP transport for sending email.
+                var transportWeb = Web.GetInstance(credentials);
+
+                mail.AddTo(ClsGlobalscs.AdminName + " <" + ClsGlobalscs.AdminEmail + ">");
+
+                mail.Subject = subject;
+
+                /********************/
+                string body = "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\"><html xmlns=\"http://www.w3.org/1999/xhtml\"><head></head>";
+                body += "<body style=\"font-size: 11px; margin: 0px; background: #ffffff; font-family: Lucida Grande, Lucida Sans Unicode, Arial, Verdana, sans-serif; color: #333; padding: 0px;\">";
+                body += "<table cellspacing=\"0\" border=\"0\" cellpadding=\"10\" width=\"100%\">";
+                body += "<tr>";
+                body += "<td align=\"center\" valign=\"top\" style=\"font-size: 11px; font-family: Lucida Grande, Lucida Sans Unicode, Arial, Verdana, sans-serif; color: #333;\" bgcolor=\"#FFFFFF\">";
+
+                body += "  <table cellspacing=\"0\" border=\"0\" cellpadding=\"0\" width=\"620\">";
+                body += "   <tr>";
+                body += "    <td align=\"left\" valign=\"top\" style=\"font-size: 11px; font-family: Lucida Grande, Lucida Sans Unicode, Arial, Verdana, sans-serif; color: #333;\" bgcolor=\"#da2626\">";
+                body += "     <table cellspacing=\"20\" border=\"0\" cellpadding=\"0\" width=\"620\">";
+                body += "      <tr>";
+                body += "         <td align=\"left\" valign=\"bottom\" style=\"font-size: 11px; font-family: Lucida Grande, Lucida Sans Unicode, Arial, Verdana, sans-serif; color: #333;\">";
+                body += "         <font color=\"#FFFFFF\" size=\"4\">TheDrillBook.Com </font>";
+                body += "         </td>";
+                body += "         <td align=\"right\" valign=\"bottom\" style=\"width=\"200\"> ";
+                // body += "         <font color=\"#FFFFFF\" size=\"4\">" + DateTime.Now + "</font>";
+                body += "         </td>";
+                body += "      </tr>";
+                body += "     </table>";
+                body += "    </td>";
+                body += "   </tr>";
+                body += "  <tr>";
+                body += "   <td align=\"center\" valign=\"top\" style=\"font-size: 11px; border-bottom: 1px solid #86919d;font-family: Lucida Grande, Lucida Sans Unicode, Arial, Verdana, sans-serif; border-right: 1px solid #86919d; color: #333; border-left: 1px solid #86919d;\" bgcolor=\"#FFFFFF\">";
+                body += "    <table cellspacing=\"0\" border=\"0\" cellpadding=\"0\" width=\"618\">";
+                body += "     <tr>";
+                body += "      <td bgcolor=\"#edeff0\" style=\"font-size: 11px; border-bottom: 1px solid #d7d8d9; font-family: Lucida Grande, Lucida Sans Unicode, Arial, Verdana, sans-serif; color: #333;\">";
+                body += "       <table cellspacing=\"0\" border=\"0\" cellpadding=\"0\" width=\"100%\">";
+                body += "        <tr>";
+                body += "         <td style=\"font-size: 11px; font-family: Lucida Grande, Lucida Sans Unicode, Arial, Verdana, sans-serif; color: #333;\">";
+                body += "          <table cellspacing=\"0\" border=\"0\" cellpadding=\"20\" width=\"100%\">";
+                body += "           <tr>";
+                body += "            <td>";
+                body += "             <strong>Hello, Christine<br>";
+                body += "             You have a message from " + userNameName + ". This was sent from the contact page on the website<br /></strong>";
+                body += "            </td>";
+                body += "           </tr>";
+                body += "          </table>";
+                body += "         </td>";
+                body += "        </tr>";
+                body += "       </table>";
+                body += "      </td>";
+                body += "     </tr>";
+                body += "     <tr>";
+                body += "      <td style=\"font-size: 11px; border-bottom: 1px solid #d7d8d9; font-family: Lucida Grande, Lucida Sans Unicode, Arial, Verdana, sans-serif; color: #333;\">";
+                body += "       <table cellspacing=\"20\" border=\"0\" cellpadding=\"0\" width=\"100%\">";
+                body += "        <tr>";
+                body += "         <td align=\"left\" valign=\"top\" style=\"font-size: 11px; font-family: Lucida Grande, Lucida Sans Unicode, Arial, Verdana, sans-serif; color: #333;\" colspan=\"2\">";
+                body += "          <strong>Email: </strong>" + userEmail + "<br><br>";
+                body += "          <strong>Message: </strong>" + message + "<br><br>";
+                body += "          <br><br><strong> - The Global Sport Academy Team </strong><br><br>";
+                body += "         </td>";
+                body += "        </tr>";
+                body += "       </table>";
+                body += "      </td>";
+                body += "     </tr>";
+                body += "     <tr>";
+                body += "      <td>";
+                body += "       <table width=\"100%\" border=\"0\" cellpadding=\"0\" cellspacing=\"20\" bgcolor=\"#edeff0\">";
+                body += "        <tr>";
+                body += "         <td>";
+                body += "           <a href=\"" + ClsGlobalscs.WebsiteURL + "\"><img alt=\"logo\" src=\"" + ClsGlobalscs.WebsiteURL + "/img/tdb_logo.png\" style=\"float:right;\"></a>";
+                body += "         </td>";
+                body += "        </tr>";
+                body += "       </table>";
+                body += "      </td>";
+                body += "     </tr>";
+                body += "    </table>";
+                body += "   </td>";
+                body += "  </tr>";
+                body += " </table>";
+                body += "</td>";
+                body += "</tr>";
+                body += "</table>";
+                body += "</body>";
+                body += "</html>";
+
+                /*********************/
+                mail.Html = body;
+                string textOnly = "";
+
+                textOnly += "You have a new message from User " + userNameName + Environment.NewLine;
+                textOnly += "Email: " + userEmail + "" + Environment.NewLine;
+                textOnly += "Message: " + message + "" + Environment.NewLine;
+                textOnly += " - The Global Sport Academy Team";
+
+                mail.Text = textOnly;
+
+                // Send the email.
+                transportWeb.Deliver(mail);
+
+                return true;
+            }
+            catch (Exception ex)
+            {
+                Console.Write("Error: " + ex.Message.ToString());
                 return false;
             }
         }

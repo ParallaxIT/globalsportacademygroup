@@ -8,7 +8,6 @@ C:\Users\RobS\Documents\GitHub\GlobalSportAcademyGroup\GlobalSportAcademyGroup\b
 C:\Users\RobS\Documents\GitHub\GlobalSportAcademyGroup\GlobalSportAcademyGroup\bin\GlobalSportAcademyGroup.pdb
 C:\Users\RobS\Documents\GitHub\GlobalSportAcademyGroup\GlobalSportAcademyGroup\obj\Release\GlobalSportAcademyGroup.dll
 C:\Users\RobS\Documents\GitHub\GlobalSportAcademyGroup\GlobalSportAcademyGroup\obj\Release\GlobalSportAcademyGroup.pdb
-C:\Users\RobS\Documents\GitHub\GlobalSportAcademyGroup\GlobalSportAcademyGroup\obj\Release\GlobalSportAcademyGroup.csprojResolveAssemblyReference.cache
 C:\Users\ParaHomeDev\Documents\GitHub\GlobalSportAcademyGroup\GlobalSportAcademyGroup\bin\GlobalSportAcademyGroup.dll.config
 C:\Users\ParaHomeDev\Documents\GitHub\GlobalSportAcademyGroup\GlobalSportAcademyGroup\bin\GlobalSportAcademyGroup.dll
 C:\Users\ParaHomeDev\Documents\GitHub\GlobalSportAcademyGroup\GlobalSportAcademyGroup\bin\GlobalSportAcademyGroup.pdb

@@ -281,33 +281,55 @@
                         <div class="row">
                             <article class="col-lg-12 col-md-12 col-sm-12">
                                 <h4 class="text-center color">Thank you for submitting your application! You will recieve an email with your details listed and a representative will be contacting you shortly to set up an interview time!</h4>
-                              
-                               
+
+
                             </article>
                         </div>
                     </article>
+                       <div class='row'>
+                        <div class='col-xs-12'>
+                            <br />
+                            <br />
+
+                        </div>
+                    </div>
+                    <div class='row'>
+                        <div class='col-xs-12'>
+                            <p class="text-center">
+                                <a href="docs/InterviewPackageMar2015.pdf" target="_blank">
+                                    <button class="btn btn-lg btn-block btn-danger" style="font-size: 300%">
+                                        <br />
+                                       PLEASE CLICK HERE TO PRINT THE PDF PACKAGE <br />WHICH MUST BE COMPLETED PRIOR TO YOUR MEETING.<br />
+                                        <br />
+                                    </button>
+                                </a>
+                            </p>
+
+                        </div>
+                    </div>
+
                     <div class='row'>
                         <div class='col-xs-12'>
                             <br />
                             <br />
 
                         </div>
-                        <div class='row'>
-                            <div class='col-xs-12'>
-                                <p class="text-center">
-                                    <a href="index.html">
-                                        <button class="btn btn-lg btn-block btn-danger">
-                                            <br />
-                                            BACK TO HOME PAGE<br />
-                                            <br />
-                                        </button>
-                                    </a>
-                                </p>
+                    </div>
+                    <div class='row'>
+                        <div class='col-xs-12'>
+                            <p class="text-center">
+                                <a href="index.html">
+                                    <button class="btn btn-lg btn-large btn-info">
+                                        <br />
+                                        BACK TO HOME PAGE<br />
+                                        <br />
+                                    </button>
+                                </a>
+                            </p>
 
-                            </div>
                         </div>
                     </div>
-                </div>
+    </div>
             </div>
         </section>
     </div>

@@ -1,4 +1,6 @@
-﻿<!DOCTYPE html>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="contact-us.aspx.cs" Inherits="GlobalSportAcademyGroup.contact_us" %>
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <title>Contact Us</title>
@@ -49,8 +51,8 @@
                         <img src="img/GSAG_Logo.png" />
                     </article>
                     <!--<article class="col-lg-4 col-md-4 col-sm-4">
-        <img src="img/calder.png" alt="Calder Cup">
-    </article>-->
+                        <img src="img/calder.png" alt="Calder Cup">
+                    </article>-->
 
                 </div>
             </div>
@@ -107,7 +109,7 @@
                                 </ul>
                             </li>-->
                             <li class="active">
-                                <a href="contact-us.html">
+                                <a href="contact-us.aspx">
                                     <h4>Contacts</h4>
                                 </a>
                             </li>
@@ -132,66 +134,95 @@
                         <h2>Address</h2>
                         <div class="info">
                             <h4>
-    Unit 6, 130 Commercial Drive<br>
-    Range Road 33<br>
-    Springbank, Alberta Canada<br>
-    T3Z 2A7</h4>
+                                Unit 6, 130 Commercial Drive<br>
+                                Range Road 33<br>
+                                Springbank, Alberta Canada<br>
+                                T3Z 2A7
+                            </h4>
                             <br>
                             <h2>Staff Contacts</h2>
 
                             <p><a href="mailto:mmaloney@globalsportacademygroup.com">Mark Maloney - President and Chief Executive Officer</a></p>
-    <p><a href="mailto:jovens@globalsportacademygroup.com">Jeff Ovens - Chief Operating Officer</a></p>
+                            <p><a href="mailto:jovens@globalsportacademygroup.com">Jeff Ovens - Chief Operating Officer</a></p>
                             <p><a href="mailto:jfox@globalsportacademygroup.com">Jamie Fox - Chief Revenue Officer</a></p>
                             <p><a href="mailto:jlong@globalsportacademygroup.com">Rob Kerr - Operations Manager/Director of Content & Media</a></p>
-    <p><a href="mailto:jlong@globalsportacademygroup.com">Joe Long - Director of Soccer</a></p>
-                            <p><a href="mailto:rsutherland@globalsportacademygroup.com">Rob Sutherland - Chief Technology Officer</a></p>
+                            <p><a href="mailto:jlong@globalsportacademygroup.com">Joe Long - Director of Soccer</a></p>
+                            <p><a href="mailto:agooch@globalsportacademygroup.com">Ashley Gooch - Head Coach - Soccer</a></p>
                             <p><a href="mailto:cdurbeniuk@globalsportacademygroup.com">Chris Durbeniuk - Director of Golf</a></p>
+                            <p><a href="mailto:rsutherland@globalsportacademygroup.com">Rob Sutherland - Chief Technology Officer</a></p>
                             <br>
                             <h2>Administration Team</h2>
                             <p><a href="mailto:cstockton@globalsportacademygroup.com">Christine Stockton - Adminstration Manager</a></p>
                             <p><a href="mailto:abrock@globalsportacademygroup.com">Annette Brock - Officer Manager</a></p>
-</div>
+                            <p><a href="mailto:dmacfarland@globalsportacademygroup.com">Danni Macfarland - Registrar</a></p>
+                            <p><a href="mailto:tsoumbasis@globalsportacademygroup.com">Tina Soumbasis -  Assistant Registrar</a></p>
+                        </div>
                     </article>
+                    <form runat="server">
                     <article class="col-lg-8 col-md-8 col-sm-8 contactBox2">
-                        <h2>Have a Question?</h2>
-                        <form id="contact-form">
-                            <div class="success-message">Contact form submitted.</div>
-                            <div class="holder">
-                                <div class="form-div-1 clearfix">
-                                    <label class="name">
-                                        <input type="text" placeholder="Name*:" data-constraints="@Required @JustLetters" />
-                                        <span class="empty-message">*This field is required.</span>
-                                        <span class="error-message">*This is not a valid name.</span>
-                                    </label>
-                                </div>
-                                <div class="form-div-2 clearfix">
-                                    <label class="email">
-                                        <input type="text" placeholder="Email*:" data-constraints="@Required @Email" />
-                                        <span class="empty-message">*This field is required.</span>
-                                        <span class="error-message">*This is not a valid email.</span>
-                                    </label>
-                                </div>
-                                <div class="form-div-3 clearfix">
-                                    <label class="phone notRequired">
-                                        <input type="text" placeholder="Phone:" data-constraints="@JustNumbers" />
-                                        <span class="empty-message">*This field is required.</span>
-                                        <span class="error-message">*This is not a valid phone.</span>
-                                    </label>
+                      <div class="col-lg-12 text-center" id="contact">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="span3">
+                                <h1 class="btn btn-primary btn-xlarge btn-block">Send Us A Message</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <br />
+                    <br />
+                    <fieldset>
+                        <div class="col-md-10 ">
+
+                            <div class="form-group">
+                                <label class="col-md-4 control-label pull-left" for="contact-name">
+                                    <strong>Name</strong> (required)</label>
+                                <div class="col-md-8">
+                                    <asp:TextBox name="name" value="" ID="contactName" runat="server" Font-Size="Larger" required="true" Width="500px"></asp:TextBox>
                                 </div>
                             </div>
-                            <div class="form-div-4 clearfix">
-                                <label class="message">
-                                    <textarea placeholder="Message*:" data-constraints='@Required @Length(min=20,max=999999)'></textarea>
-                                    <span class="empty-message">*This field is required.</span>
-                                    <span class="error-message">*The message is too short.</span>
-                                </label>
+                            <br/>
+                            <div class="form-group">
+                                <label class="col-md-4 control-label pull-left" for="contactEmaill">
+                                    <strong>Email</strong> (required)</label>
+                                <div class="col-md-8">
+                                    <asp:TextBox name="email" value="" ID="contactEmaill" runat="server" Font-Size="Larger" required="true" Width="500px"></asp:TextBox>
+                                </div>
                             </div>
-                            <div class="btns">
-                                <a href="#" data-type="submit" class="btn-default btn3">Submit</a>
-                                <p>*Required fields</p>
+                             <br/>
+                            <div class="form-group">
+                                <label class="col-md-4 control-label pull-left" for="contact-subject">
+                                    <strong>Subject</strong> (required)</label>
+                                <div class="col-md-8">
+                                    <asp:TextBox name="subject" value="" ID="contactSubject" runat="server" Font-Size="Larger" required="true" Width="500px"></asp:TextBox>
+                                </div>
                             </div>
-                        </form>
+                             <br/>
+                            <div class="form-group">
+                                <label class="col-md-4 control-label pull-left" for="contact-message">
+                                    <strong>Your Message</strong> (required)</label>
+                                <div class="col-md-8">
+                                    <asp:TextBox name="message" ID="contactMessage" runat="server" Font-Size="Larger" required="true" Height="125px" TextMode="multiline" Width="500px"></asp:TextBox>
+                                </div>
+                            </div>
+                             <br/>
+                            
+                              <div class="form-group">
+                                <div class="col-md-8 col-md-offset-4">
+                                      <p></p>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-md-8 col-md-offset-4">
+                                    <asp:Button ID="btnSendEmail" runat="server" Text="Submit" OnClick="btnSendEmail_Click" class="btn btn-block btn-danger" /><br />
+                                    <asp:Label ID="lblMessageResult" runat="server" Text=""></asp:Label>
+                                </div>
+                            </div>
+
+                        </div>
+                    </fieldset>
+                </div>
                     </article>
+                        </form>
                 </div>
             </div>
         </section>
@@ -207,7 +238,7 @@
                 </div>
             </div>
         </section>
-      
+
     </div>
     <!--footer-->
     <footer>
