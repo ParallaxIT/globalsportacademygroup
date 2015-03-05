@@ -149,6 +149,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="packages.config" />
     <Content Include="docs\InterviewPackageMar2015.pdf" />
+    <Content Include="docs\program-overview.pdf" />
     <None Include="Properties\PublishProfiles\globalsportacademygroup - FTP %282%29.pubxml" />
     <None Include="Properties\PublishProfiles\globalsportacademygroup - FTP %283%29.pubxml" />
     <None Include="Properties\PublishProfiles\globalsportacademygroup - FTP.pubxml" />

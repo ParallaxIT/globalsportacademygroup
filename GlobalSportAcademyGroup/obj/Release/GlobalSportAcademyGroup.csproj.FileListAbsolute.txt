@@ -79,3 +79,4 @@ C:\Users\RobS\Documents\GitHub\GlobalSportAcademyGroup\GlobalSportAcademyGroup\b
 C:\Users\RobS\Documents\GitHub\GlobalSportAcademyGroup\GlobalSportAcademyGroup\bin\ru\System.Spatial.resources.dll
 C:\Users\RobS\Documents\GitHub\GlobalSportAcademyGroup\GlobalSportAcademyGroup\bin\zh-Hans\System.Spatial.resources.dll
 C:\Users\RobS\Documents\GitHub\GlobalSportAcademyGroup\GlobalSportAcademyGroup\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\RobS\Documents\GitHub\GlobalSportAcademyGroup\GlobalSportAcademyGroup\obj\Release\GlobalSportAcademyGroup.csprojResolveAssemblyReference.cache
