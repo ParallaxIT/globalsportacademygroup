@@ -146,6 +146,7 @@
                             <p><a href="mailto:jovens@globalsportacademygroup.com">Jeff Ovens - Chief Operating Officer</a></p>
                             <p><a href="mailto:jfox@globalsportacademygroup.com">Jamie Fox - Chief Revenue Officer</a></p>
                             <p><a href="mailto:jlong@globalsportacademygroup.com">Rob Kerr - Operations Manager/Director of Content & Media</a></p>
+                             <p><a href="mailto:sfukami@globalsportacademygroup.com">Scott Fukami - Coach - Hockey</a></p>
                             <p><a href="mailto:jlong@globalsportacademygroup.com">Joe Long - Director of Soccer</a></p>
                             <p><a href="mailto:agooch@globalsportacademygroup.com">Ashley Gooch - Head Coach - Soccer</a></p>
                             <p><a href="mailto:cdurbeniuk@globalsportacademygroup.com">Chris Durbeniuk - Director of Golf</a></p>
