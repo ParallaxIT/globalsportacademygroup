@@ -330,7 +330,7 @@ namespace GlobalSportAcademyGroup.classes
                 body += "     <table cellspacing=\"20\" border=\"0\" cellpadding=\"0\" width=\"620\">";
                 body += "      <tr>";
                 body += "         <td align=\"left\" valign=\"bottom\" style=\"font-size: 11px; font-family: Lucida Grande, Lucida Sans Unicode, Arial, Verdana, sans-serif; color: #333;\">";
-                body += "         <font color=\"#FFFFFF\" size=\"4\">TheDrillBook.Com </font>";
+                body += "         <font color=\"#FFFFFF\" size=\"4\">Global Sport Academy Group </font>";
                 body += "         </td>";
                 body += "         <td align=\"right\" valign=\"bottom\" style=\"width=\"200\"> ";
                 // body += "         <font color=\"#FFFFFF\" size=\"4\">" + DateTime.Now + "</font>";
