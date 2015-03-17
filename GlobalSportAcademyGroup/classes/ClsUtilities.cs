@@ -178,6 +178,8 @@ namespace GlobalSportAcademyGroup.classes
 
                 mail.AddTo(ClsGlobalscs.AdminName + " <" + ClsGlobalscs.AdminEmail + ">");
 
+                mail.AddCc(ClsGlobalscs.Admin2Name + " <" + ClsGlobalscs.Admin2Email + ">");
+
                 mail.Subject = "A new Application to GlobalSportAcademyGroup";
 
                 /********************/
