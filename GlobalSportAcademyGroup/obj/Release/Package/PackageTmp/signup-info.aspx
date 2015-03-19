@@ -462,11 +462,11 @@
                                
                             </div>
                             <div class="col-lg-4 col-md-4 col-sm-4">
-                                <a href="https://www.facebook.com/mydrillbook">
+                                <a href="https://www.facebook.com/pages/Global-Sport-Academy-Group/826689104071742">
                                     <button class="btn btn-danger btn-block">Facebook</button></a><br />
                             </div>
                             <div class="col-lg-4 col-md-4 col-sm-4">
-                                <a href="http://www.twitter.com/thedrillbook">
+                                <a href="https://twitter.com/Global_sportaca"">
                                     <button class="btn btn-danger btn-block">Twitter</button></a><br />
                             </div>
                     </div>

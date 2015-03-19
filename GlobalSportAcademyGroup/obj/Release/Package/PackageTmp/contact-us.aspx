@@ -141,7 +141,6 @@
                             </h4>
                             <br>
                             <h2>Staff Contacts</h2>
-
                             <p><a href="mailto:mmaloney@globalsportacademygroup.com">Mark Maloney - President and Chief Executive Officer</a></p>
                             <p><a href="mailto:jovens@globalsportacademygroup.com">Jeff Ovens - Chief Operating Officer</a></p>
                             <p><a href="mailto:jfox@globalsportacademygroup.com">Jamie Fox - Chief Revenue Officer</a></p>
@@ -156,7 +155,7 @@
                             <p><a href="mailto:cstockton@globalsportacademygroup.com">Christine Stockton - Adminstration Manager</a></p>
                             <p><a href="mailto:abrock@globalsportacademygroup.com">Annette Brock - Officer Manager</a></p>
                             <p><a href="mailto:dmacfarland@globalsportacademygroup.com">Danni Macfarland - Registrar</a></p>
-                            <p><a href="mailto:tsoumbasis@globalsportacademygroup.com">Tina Soumbasis -  Assistant Registrar</a></p>
+                            <p><a href="mailto:tsoumbasis@globalsportacademygroup.com">Tina Soumbasis - Assistant Registrar</a></p>
                         </div>
                     </article>
                     <form runat="server">

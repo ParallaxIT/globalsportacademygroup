@@ -286,28 +286,113 @@
                             </article>
                         </div>
                     </article>
-                       <div class='row'>
+                    <div class='row'>
                         <div class='col-xs-12'>
                             <br />
                             <br />
 
                         </div>
                     </div>
-                    <div class='row'>
+                     <div class='row'>
                         <div class='col-xs-12'>
                             <p class="text-center">
-                                <a href="docs/InterviewPackageMar2015.pdf" target="_blank">
+                               
                                     <button class="btn btn-lg btn-block btn-danger" style="font-size: 300%">
                                         <br />
-                                       PLEASE CLICK HERE TO PRINT THE PDF PACKAGE <br />WHICH MUST BE COMPLETED PRIOR TO YOUR MEETING.<br />
+                                       PLEASE CLICK TO PRINT THE CORRECT PDF PACKAGE <br />WHICH MUST BE COMPLETED PRIOR TO YOUR MEETING.<br />
                                         <br />
                                     </button>
-                                </a>
+                               
                             </p>
 
                         </div>
                     </div>
+                    
+                    <div class="row">
+                           <div class='col-xs-6'>
+                            <p class="text-center">
+                                <button class="btn btn-lg btn-block btn-success">
+                                    <br />
+                                    <h1>SCHS</h1>
+                                    <br />
+                                </button>
+                           </p>
 
+                        </div>
+                        <div class='col-xs-6'>
+                            <p class="text-center"><a href="#">
+                                <button class="btn btn-lg btn-block btn-info">
+                                    <br />
+                                    <h1>FSD </h1>
+                                    <br />
+                                </button>
+                            </a></p>
+
+                        </div>
+                    </div>
+                    <div class='row'>
+                        <div class='col-xs-3'>
+                            <p class="text-center"><a href="docs/SCHS In Area-Grade 9.pdf">
+                                <button class="btn btn-lg btn-block btn-success">
+                                    <br />
+                                    <h1>IN AREA GR 9</h1>
+                                    <br />
+                                </button>
+                            </a></p>
+
+                        </div>
+                        <div class='col-xs-3'>
+                            <p class="text-center"><a href="docs/SCHS Out of Area-Grade 9.pdf">
+                                <button class="btn btn-lg btn-block btn-success">
+                                    <br />
+                                    <h1>OUT OF AREA GR 9</h1>
+                                    <br />
+                                </button>
+                            </a></p>
+
+                        </div>
+                        <div class='col-xs-6'>
+                            <p class="text-center"><a href="#">
+                                <button class="btn btn-lg btn-block btn-info">
+                                    <br />
+                                    <h1>EOJHS </h1>
+                                    <br />
+                                </button>
+                            </a></p>
+
+                        </div>
+                    </div>
+
+                    <div class='row'>
+                        <div class='col-xs-3'>
+                            <p class="text-center"><a href="docs/SCHS In Area Grades 10-12.pdf">
+                                <button class="btn btn-lg btn-block btn-success">
+                                    <br />
+                                    <h1>IN AREA GR 10-12</h1>
+                                    <br />
+                                </button>
+                            </a></p>
+
+                        </div>
+                        <div class='col-xs-3'>
+                            <p class="text-center"><a href="docs/SCHS Out of Area Grades10-12.pdf">
+                                <button class="btn btn-lg btn-block btn-success">
+                                    <br />
+                                    <h1>OUT OF AREA GR 10-12</h1>
+                                    <br />
+                                </button>
+                            </a></p>
+                        </div>
+                    </div>
+                     <article class="col-lg-12 col-md-12 col-sm-12">
+                       <div class="row">
+                            <article class="col-lg-12 col-md-12 col-sm-12">
+                                <h4 class="text-center color"><strong>* In-Area:</strong> Students who reside in the Springbank High School attendance area (Banded Peak School, Springbank Middle School)</h4>
+                                <h4 class="text-center color"><strong>* Out-Of-Area:</strong> Students who do not live within the Springbank area</h4>
+
+                            </article>
+                        </div>
+                    </article>
                     <div class='row'>
                         <div class='col-xs-12'>
                             <br />
@@ -319,7 +404,7 @@
                         <div class='col-xs-12'>
                             <p class="text-center">
                                 <a href="index.html">
-                                    <button class="btn btn-lg btn-large btn-info">
+                                    <button class="btn btn-lg btn-large btn-danger">
                                         <br />
                                         BACK TO HOME PAGE<br />
                                         <br />
@@ -329,7 +414,7 @@
 
                         </div>
                     </div>
-    </div>
+                </div>
             </div>
         </section>
     </div>

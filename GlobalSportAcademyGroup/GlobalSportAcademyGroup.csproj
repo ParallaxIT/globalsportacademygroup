@@ -95,7 +95,10 @@
     <Content Include="application.aspx" />
     <Content Include="bin\SendGridMail.dll" />
     <Content Include="contact-us.aspx" />
+    <Content Include="css\bootstrap-social.css" />
+    <Content Include="img\fsd-landing.jpg" />
     <Content Include="img\partners.png" />
+    <Content Include="img\springbank-landing.jpg" />
     <Content Include="js\emailvalidation.js" />
     <Content Include="coach-graphic_l.jpg" />
     <Content Include="coach-graphic_s.jpg" />
@@ -150,6 +153,10 @@
     <Content Include="packages.config" />
     <Content Include="docs\InterviewPackageMar2015.pdf" />
     <Content Include="docs\program-overview.pdf" />
+    <Content Include="docs\SCHS In Area Grades 10-12.pdf" />
+    <Content Include="docs\SCHS In Area-Grade 9.pdf" />
+    <Content Include="docs\SCHS Out of Area Grades10-12.pdf" />
+    <Content Include="docs\SCHS Out of Area-Grade 9.pdf" />
     <None Include="Properties\PublishProfiles\globalsportacademygroup - FTP %282%29.pubxml" />
     <None Include="Properties\PublishProfiles\globalsportacademygroup - FTP %283%29.pubxml" />
     <None Include="Properties\PublishProfiles\globalsportacademygroup - FTP.pubxml" />
