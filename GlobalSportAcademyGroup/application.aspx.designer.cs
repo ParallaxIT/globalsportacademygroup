@@ -58,6 +58,15 @@ namespace GlobalSportAcademyGroup {
         protected global::System.Web.UI.WebControls.TextBox txtStudentName;
         
         /// <summary>
+        /// lblStudentNameError control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblStudentNameError;
+        
+        /// <summary>
         /// txtBirthdate control.
         /// </summary>
         /// <remarks>
@@ -74,6 +83,15 @@ namespace GlobalSportAcademyGroup {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList ddlGender;
+        
+        /// <summary>
+        /// lblGenderError control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblGenderError;
         
         /// <summary>
         /// txtStudentEmail control.
@@ -103,6 +121,15 @@ namespace GlobalSportAcademyGroup {
         protected global::System.Web.UI.WebControls.TextBox txtPresentSchool;
         
         /// <summary>
+        /// lblPresentSchoolError control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblPresentSchoolError;
+        
+        /// <summary>
         /// ddlPresentGrade control.
         /// </summary>
         /// <remarks>
@@ -110,6 +137,15 @@ namespace GlobalSportAcademyGroup {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList ddlPresentGrade;
+        
+        /// <summary>
+        /// lblPresentGradeError control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblPresentGradeError;
         
         /// <summary>
         /// ddlSchoolOfChoice control.
@@ -121,13 +157,40 @@ namespace GlobalSportAcademyGroup {
         protected global::System.Web.UI.WebControls.DropDownList ddlSchoolOfChoice;
         
         /// <summary>
-        /// ddlSportOfChoice control.
+        /// lblSchoolOfChoiceError control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList ddlSportOfChoice;
+        protected global::System.Web.UI.WebControls.Label lblSchoolOfChoiceError;
+        
+        /// <summary>
+        /// ddlSportOfChoiceOkotoks control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList ddlSportOfChoiceOkotoks;
+        
+        /// <summary>
+        /// ddlSportOfChoiceSpringbank control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList ddlSportOfChoiceSpringbank;
+        
+        /// <summary>
+        /// lblSportOfChoiceError control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblSportOfChoiceError;
         
         /// <summary>
         /// ddlGradeRequested control.
@@ -137,6 +200,15 @@ namespace GlobalSportAcademyGroup {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList ddlGradeRequested;
+        
+        /// <summary>
+        /// lblGradeRequestedError control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblGradeRequestedError;
         
         /// <summary>
         /// txtFatherName control.
@@ -173,6 +245,15 @@ namespace GlobalSportAcademyGroup {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtFatherEmail;
+        
+        /// <summary>
+        /// lblParentEmailError control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblParentEmailError;
         
         /// <summary>
         /// txtMotherName control.

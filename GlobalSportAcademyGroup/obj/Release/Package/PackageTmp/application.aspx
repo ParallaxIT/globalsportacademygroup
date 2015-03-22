@@ -1,5 +1,4 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="application.aspx.cs" Inherits="GlobalSportAcademyGroup.application" %>
-
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -31,75 +30,6 @@
         $(window).load(function () {
             $(function () { $("a.various").fancybox(); });
         });
-
-        var isDDL = false;
-
-        function setFalse() {
-            isDDL = true;
-        }
-
-        function validateForm() {
-
-            if (isDDL == true) {
-                isDDL = false;
-                OnSelectedIndexChange();
-                return false;
-            }
-
-            var studentName = $("#txtStudentName").val();
-            var presentSchool = $("#txtPresentSchool").val();
-            var fatherEmail = $("#txtFatherEmail").val();
-            var motherEmail = $("#txtMotherEmail").val();
-
-
-
-            if (studentName == '') {
-                $('#txtStudentName').focus();
-                alertify.alert("Please enter a Students Name!");
-                return false;
-            }
-
-            if ($("#ddlGender").val() == 'Select') {
-                $('#ddlGender').focus();
-                alertify.alert("Please choose a Gender!");
-                return false;
-            }
-
-            if (presentSchool == '') {
-                $('#txtPresentSchool').focus();
-                alertify.alert("Please enter a Present School");
-                return false;
-            }
-
-            if ($("#ddlPresentGrade").val() == 'Select') {
-                $('#ddlPresentGrade').focus();
-                alertify.alert("Please choose a present Grade!");
-                return false;
-            }
-            if ($("#ddlSchoolOfChoice").val() == 'Select') {
-                $('#ddlSchoolOfChoice').focus();
-                alertify.alert("Please choose a School!");
-                return false;
-            }
-            if ($("#ddlSportOfChoice").val() == 'Select') {
-                $('#ddlSportOfChoice').focus();
-                alertify.alert("Please choose a Sport!");
-                return false;
-            }
-            if ($("#ddlGradeRequested").val() == 'Select') {
-                $('#ddlGradeRequested').focus();
-                alertify.alert("Please choose a Requested Grade!");
-                return false;
-            }
-
-            if (fatherEmail == '' && motherEmail == '') {
-                $('#txtFatherEmail').focus();
-                alertify.alert("You must enter at least one parents details!");
-                return false;
-            }
-
-            return true;
-        }
     </script>
     <%--Alertify--%>
     <link rel="stylesheet" href="js/alerts/themes/alertify.core.css" />
@@ -164,103 +94,7 @@
             return false;
         });
 
-    </script>
-    <script type="text/javascript" language="javascript">
-
-        function OnSelectedIndexChange() {
-
-            if ($("#ddlSchoolOfChoice").val() == 'Springbank Community High School') {
-
-                AddItemInListSCHS();
-            }
-            else if ($("#ddlSchoolOfChoice").val() == 'Ecole Okotoks Junior High') {
-                AddItemInListEOJHS();
-            }
-        }
-
-        function AddItemInListSCHS() {
-
-            RemoveItemsInList();
-
-            var list = document.getElementById('ddlSportOfChoice');
-            var newListItem1 = document.createElement('OPTION');
-            var newListItem2 = document.createElement('OPTION');
-            var newListItem3 = document.createElement('OPTION');
-            var newListItem4 = document.createElement('OPTION');
-            var newListItem5 = document.createElement('OPTION');
-            var newListItem6 = document.createElement('OPTION');
-            var newListItem7 = document.createElement('OPTION');
-            var newListItem8 = document.createElement('OPTION');
-
-            newListItem1.text = "Grade 9 Male Hockey";
-            newListItem1.value = "Grade 9 Male Hockey";
-            list.add(newListItem1);
-
-            newListItem2.text = "Grade 9 Female Hockey";
-            newListItem2.value = "Grade 9 Female Hockey";
-            list.add(newListItem2);
-
-            newListItem3.text = "Grade 9 Male and Female Golf";
-            newListItem3.value = "Grade 9 Male and Female Golf";
-            list.add(newListItem3);
-
-            newListItem4.text = "Grade 9 Male and Female Soccer";
-            newListItem4.value = "Grade 9 Male and Female Soccer";
-            list.add(newListItem4);
-
-            newListItem5.text = "Grade 10-12 Male Hockey";
-            newListItem5.value = "Grade 10-12 Male Hockey";
-            list.add(newListItem5);
-
-            newListItem6.text = "Grade 10-12 Female Hockey";
-            newListItem6.value = "Grade 10-12 Female Hockey";
-            list.add(newListItem6);
-
-            newListItem7.text = "Grade 10-12  Male and Female Golf";
-            newListItem7.value = "Grade 10-12  Male and Female Golf";
-            list.add(newListItem7);
-
-            newListItem8.text = "Grade 10-12 Male and Female Soccer";
-            newListItem8.value = "Grade 10-12 Male and Female Soccer";
-            list.add(newListItem8);
-        }
-
-        function AddItemInListEOJHS() {
-
-            RemoveItemsInList();
-
-            var list = document.getElementById('ddlSportOfChoice');
-            var newListItem1 = document.createElement('OPTION');
-            var newListItem2 = document.createElement('OPTION');
-            var newListItem3 = document.createElement('OPTION');
-
-            newListItem1.text = "Grade 7 Male Hockey";
-            newListItem1.value = "Grade 7 Male Hockey";
-            list.add(newListItem1);
-
-            newListItem2.text = "Grade 8 Male Hockey";
-            newListItem2.value = "Grade 8 Male Hockey";
-            list.add(newListItem2);
-
-            newListItem3.text = "Grade 9 Male Hockey";
-            newListItem3.value = "Grade 9 Male Hockey";
-            list.add(newListItem3);
-
-        }
-
-        function RemoveItemsInList() {
-
-            var list = document.getElementById('ddlSportOfChoice');
-            if (list.options.length > 0) {
-                for (var i = list.options.length - 1; i >= 0; i--) {
-                    list.remove(i);
-                }
-            }
-            else {
-                alert('Unable to remove. List is Empty!');
-            }
-        }
-    </script>
+    </script>   
 </head>
 <body>
     <logoheader>
@@ -283,12 +117,12 @@
             <div class='row'>
                 <div class='col-md-3'></div>
                 <div class='col-md-6'>
-
-                    <form id="form1" runat="server" onsubmit="return validateForm()">
+                  
+                    <form id="form1" runat="server">
 
                         <ajaxToolkit:ToolkitScriptManager ID="ScriptManager1" runat="server">
                         </ajaxToolkit:ToolkitScriptManager>
-                        <asp:UpdatePanel runat="server" ID="upCalData">
+                        <asp:UpdatePanel runat="server" ID="upCalData" UpdateMode="Conditional">
                             <ContentTemplate>
 
                                 <div style="margin: 0; padding: 0; display: inline">
@@ -312,6 +146,7 @@
                                     <div class='col-xs-12 form-group required'>
                                         <label class='control-label'>Student Name:</label>
                                         <asp:TextBox ID="txtStudentName" class='form-control' size='4' type='text' runat="server"></asp:TextBox>
+                                        <asp:Label runat="server" ID="lblStudentNameError" Visible="false" ForeColor="Red" Font-Bold="True"> ** Please enter a student name.</asp:Label>
                                     </div>
                                 </div>
                                 <div class='form-row'>
@@ -329,6 +164,7 @@
                                             <asp:ListItem>Male</asp:ListItem>
                                             <asp:ListItem>Female</asp:ListItem>
                                         </asp:DropDownList>
+                                         <asp:Label runat="server" ID="lblGenderError" Visible="false" ForeColor="Red" Font-Bold="True"> ** Please choose a Gender.</asp:Label>
                                     </div>
                                 </div>
                                 <div class='form-row'>
@@ -347,6 +183,7 @@
                                     <div class='col-xs-12 form-group required'>
                                         <label class='control-label'>Present School Attending:</label>
                                         <asp:TextBox ID="txtPresentSchool" class='form-control' size='6' type='text' runat="server"></asp:TextBox>
+                                         <asp:Label runat="server" ID="lblPresentSchoolError" Visible="false" ForeColor="Red" Font-Bold="True"> ** Please choose a Present School.</asp:Label>
                                     </div>
                                 </div>
                                 <div class='form-row'>
@@ -362,6 +199,7 @@
                                             <asp:ListItem>11</asp:ListItem>
                                             <asp:ListItem>12</asp:ListItem>
                                         </asp:DropDownList>
+                                          <asp:Label runat="server" ID="lblPresentGradeError" Visible="false" ForeColor="Red" Font-Bold="True"> ** Please choose a Present Grade.</asp:Label>
                                     </div>
                                 </div>
 
@@ -376,20 +214,31 @@
                                             <asp:ListItem>Springbank Community High School</asp:ListItem>
 
                                         </asp:DropDownList>
-
+                                          <asp:Label runat="server" ID="lblSchoolOfChoiceError" Visible="false" ForeColor="Red" Font-Bold="True"> ** Please choose a school.</asp:Label>
                                     </div>
                                 </div>
 
                                 <div class='form-row'>
                                     <div class='col-xs-12 form-group required'>
                                         <label class='control-label'>Sport Of Choice:</label>
-                                        <asp:DropDownList ID="ddlSportOfChoice" class='form-control' runat="server">
+                                        <asp:DropDownList ID="ddlSportOfChoiceOkotoks" class='form-control' runat="server" Visible="False">
                                             <asp:ListItem>Select</asp:ListItem>
-                                            <asp:ListItem>Hockey-Male</asp:ListItem>
-                                            <asp:ListItem>Hockey-Female</asp:ListItem>
-                                            <asp:ListItem>Golf</asp:ListItem>
-                                            <asp:ListItem>Soccer</asp:ListItem>
+                                            <asp:ListItem>Grade 7 Male Hockey</asp:ListItem>
+                                            <asp:ListItem>Grade 8 Male Hockey</asp:ListItem>
+                                            <asp:ListItem>Grade 9 Male Hockey</asp:ListItem>
                                         </asp:DropDownList>
+                                         <asp:DropDownList ID="ddlSportOfChoiceSpringbank" class='form-control' runat="server" Visible="False">
+                                            <asp:ListItem>Select</asp:ListItem>
+                                            <asp:ListItem>Grade 9 Male Hockey</asp:ListItem>
+                                            <asp:ListItem>Grade 9 Female Hockey</asp:ListItem>
+                                            <asp:ListItem>Grade 9 Male and Female Golf</asp:ListItem>
+                                            <asp:ListItem>Grade 9 Male and Female Soccer</asp:ListItem>
+                                               <asp:ListItem>Grade 10-12 Male Hockey</asp:ListItem>
+                                               <asp:ListItem>Grade 10-12 Female Hockey</asp:ListItem>
+                                               <asp:ListItem>Grade 10-12  Male and Female Golf</asp:ListItem>
+                                               <asp:ListItem>Grade 10-12 Male and Female Soccer</asp:ListItem>
+                                        </asp:DropDownList>
+                                          <asp:Label runat="server" ID="lblSportOfChoiceError" Visible="false" ForeColor="Red" Font-Bold="True"> ** Please choose a sport.</asp:Label>
                                     </div>
                                 </div>
                                 <div class='form-row'>
@@ -404,6 +253,7 @@
                                             <asp:ListItem>11</asp:ListItem>
                                             <asp:ListItem>12</asp:ListItem>
                                         </asp:DropDownList>
+                                         <asp:Label runat="server" ID="lblGradeRequestedError" Visible="false" ForeColor="Red" Font-Bold="True"> ** Please choose a grade.</asp:Label>
                                     </div>
                                 </div>
                                 <div class='form-row'>
@@ -441,6 +291,7 @@
                                     <div class='col-xs-12 form-group required'>
                                         <label class='control-label'>Father Email:</label>
                                         <asp:TextBox ID="txtFatherEmail" class='form-control' size='4' type='text' runat="server"></asp:TextBox>
+                                          <asp:Label runat="server" ID="lblParentEmailError" Visible="false" ForeColor="Red" Font-Bold="True"> ** Please fill in a Fathers or Mothers details.</asp:Label>
                                     </div>
                                    <%-- <div class="span4">
                                         <asp:RequiredFieldValidator ID="txtFatherEmailReqFieldValidator"
