@@ -320,13 +320,13 @@
 
                         </div>
                         <div class='col-xs-6'>
-                            <p class="text-center"><a href="#">
+                            <p class="text-center">
                                 <button class="btn btn-lg btn-block btn-info">
                                     <br />
                                     <h1>FSD </h1>
                                     <br />
                                 </button>
-                            </a></p>
+                            </p>
 
                         </div>
                     </div>
@@ -352,7 +352,7 @@
 
                         </div>
                         <div class='col-xs-6'>
-                            <p class="text-center"><a href="#">
+                            <p class="text-center"><a href="docs/EOJHS-package.pdf">
                                 <button class="btn btn-lg btn-block btn-info">
                                     <br />
                                     <h1>EOJHS </h1>

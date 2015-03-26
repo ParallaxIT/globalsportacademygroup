@@ -258,24 +258,23 @@
     </style>
 </head>
 <body>
-    <logoheader>
-        <section>
-            <div class="container">
-                <div class="row" style="background-color: white">
-                    <article class="col-lg-7 col-md-7 col-sm-7 col-lg-offset-1 col-md-offset-1 col-sm-offset-1">
-                        <img src="img/GSAG_Logo.png" />
-                    </article>
-                    <!--<article class="col-lg-4 col-md-4 col-sm-4">
-                        <img src="img/calder.png" alt="Calder Cup">
-                    </article>-->
-                </div>
+    <section style="background-color: white">
+        <div class="container">
+            <div class="row">
+                <article class="col-lg-7 col-md-7 col-sm-7 col-lg-offset-1 col-md-offset-1 col-sm-offset-1">
+                    <h1 class="navbar-brand navbar-brand_">
+                        <a href="index.html">
+                            <img src="img/GSAG_Logo.png" alt="" />
+                        </a>
+                    </h1>
+                </article>
             </div>
-        </section>
-    </logoheader>
+        </div>
+    </section>
     <div class="container">
         <section class="box3">
             <div class="row">
-                <div class="col-lg-5 col-md-5 col-sm-5 col-sm-offset-4">
+                <div class="col-lg-5 col-md-5 col-sm-5 col-sm-offset-4 col-xs-offset-1">
                     <div class="thumb-pad7">
                         <div class="caption">
                             <h5>www.globalsportacademygroup.com</h5>
@@ -302,7 +301,7 @@
         <section class="box4">
             <div class="container">
                 <div class="row">
-                    <article class="col-lg-10 col-md-10 col-sm-10 col-sm-offset-2 historyBox">
+                    <article class="col-lg-10 col-md-10 col-sm-10 col-sm-offset-2 col-xs-offset-1 historyBox">
                         <h2>For general enquiries go to our contacts page to find the appropriate person. Click <a href="contact-us.aspx">HERE </a></h2>
                     </article>
                 </div>
@@ -310,10 +309,10 @@
         </section>
         <section class="box3">
             <div class="row">
-                <article class="col-lg-12 col-md-12 col-sm-12 professionalsBox">
+                <article class="col-lg-10 col-md-10 col-sm-10 professionalsBox">
                     <%--   <h2>The best of professionals</h2>--%>
                     <div class="row">
-                        <article class="col-lg-4 col-md-4 col-sm-4 col-xs-4 col-sm-offset-2">
+                        <article class="col-lg-4 col-md-4 col-sm-6 col-xs-4 col-sm-offset-1 col-xs-offset-1">
                             <div class="thumb-pad5">
                                 <div class="thumbnail">
                                     <div class="caption">
@@ -328,7 +327,7 @@
                                 </div>
                             </div>
                         </article>
-                        <article class="col-lg-4 col-md-4 col-sm-4 col-xs-4 col-sm-offset-1">
+                        <article class="col-lg-4 col-md-4 col-sm-6 col-xs-4 col-sm-offset-1 col-xs-offset-1">
                             <div class="thumb-pad5">
                                 <div class="thumbnail">
                                     <div class="caption">
@@ -352,7 +351,7 @@
                     <h2 class="text-center">Our Partners</h2>
                     <hr />
                     <div class="row">
-                        <article class="col-lg-4 col-md-4 col-sm-4 col-xs-4 col-sm-offset-2">
+                        <article class="col-lg-4 col-md-4 col-sm-6 col-xs-5 col-sm-offset-2 col-xs-offset-1">
                             <div class="thumb-pad5">
                                 <div class="thumbnail">
                                     <div class="caption">
