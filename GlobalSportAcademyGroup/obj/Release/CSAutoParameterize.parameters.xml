@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <parameters>
   <parameter name="GlobalCS-Web.config Connection String" description="GlobalCS Connection String used in web.config by the application to access the database." defaultValue="Data Source=tcp:k5qm0q8re8.database.windows.net,1433;Initial Catalog=GlobalSportDB;User ID=rsutherland@k5qm0q8re8;Password=D1ll1g@f" tags="SqlConnectionString">
-    <parameterEntry kind="XmlFile" scope="C:\\Users\\RobS\\Documents\\GitHub\\GlobalSportAcademyGroup\\GlobalSportAcademyGroup\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='GlobalCS']/@connectionString" />
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\ParaHomeDev\\Documents\\GitHub\\GlobalSportAcademyGroup\\GlobalSportAcademyGroup\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='GlobalCS']/@connectionString" />
   </parameter>
 </parameters>
