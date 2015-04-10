@@ -96,6 +96,7 @@
     <Content Include="bin\SendGridMail.dll" />
     <Content Include="contact-us.aspx" />
     <Content Include="css\bootstrap-social.css" />
+    <Content Include="css\messi.css" />
     <Content Include="img\fsd-landing.jpg" />
     <Content Include="img\partners.png" />
     <Content Include="img\springbank-landing.jpg" />
@@ -132,6 +133,7 @@
     <Content Include="js\fancybox\source\jquery.fancybox.js" />
     <Content Include="js\fancybox\source\jquery.fancybox.pack.js" />
     <Content Include="js\jquery.thumbhover.js" />
+    <Content Include="js\messi.js" />
     <Content Include="signup-info.aspx" />
     <Content Include="img\globe.png" />
     <Content Include="img\GSAG_Logo.png" />
@@ -326,6 +328,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="fonts\css\" />
+    <Folder Include="sub\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
