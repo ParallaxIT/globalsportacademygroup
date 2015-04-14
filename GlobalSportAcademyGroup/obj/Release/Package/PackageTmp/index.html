@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="css/camera.css">
     <link rel="stylesheet" href="css/jquery.fancybox.css">
     <link href="fonts/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/messi.css" />
     <!--JS-->
     <script src="js/jquery.js"></script>
     <script src="js/jquery-migrate-1.2.1.min.js"></script>
@@ -28,10 +29,13 @@
     <script src="js/camera.js"></script>
     <script src="js/jquery.fancybox.pack.js"></script>
     <script src="js/sForm.js"></script>
+    <script src="js/messi.js"></script>
     <script>
         $(document).ready(function () {
             jQuery('.camera_wrap').camera();
         });
+
+     
     </script>
     <script>
         $(window).load(function () {
@@ -196,19 +200,19 @@
 			 *  Media helper. Group items, disable animations, hide arrows, enable media and button helpers.
 			*/
             $('.fancybox-media')
-				.attr('rel', 'media-gallery')
-				.fancybox({
-				    openEffect: 'none',
-				    closeEffect: 'none',
-				    prevEffect: 'none',
-				    nextEffect: 'none',
+                .attr('rel', 'media-gallery')
+                .fancybox({
+                    openEffect: 'none',
+                    closeEffect: 'none',
+                    prevEffect: 'none',
+                    nextEffect: 'none',
 
-				    arrows: false,
-				    helpers: {
-				        media: {},
-				        buttons: {}
-				    }
-				});
+                    arrows: false,
+                    helpers: {
+                        media: {},
+                        buttons: {}
+                    }
+                });
 
             /*
 			 *  Open manually
@@ -228,15 +232,15 @@
 
             $("#fancybox-manual-c").click(function () {
                 $.fancybox.open([
-					{
-					    href: '1_b.jpg',
-					    title: 'My title'
-					}, {
-					    href: '2_b.jpg',
-					    title: '2nd title'
-					}, {
-					    href: '3_b.jpg'
-					}
+                    {
+                        href: '1_b.jpg',
+                        title: 'My title'
+                    }, {
+                        href: '2_b.jpg',
+                        title: '2nd title'
+                    }, {
+                        href: '3_b.jpg'
+                    }
                 ], {
                     helpers: {
                         thumbs: {
@@ -503,10 +507,10 @@
 
                     </div>
 
-                    <!--<div class='col-lg-6 col-md-6 col-sm-6 col-xs-12'>
-                        <p class="text-center"><button class="btn btn-lg btn-block btn-success" style="font-size: 18pt">FOOTHILLS SCHOOL DIVISION SPORTS <br />ACADEMY INFO NIGHT <br />APR 1st AT ECOLE OKOTOKS<br />JUNIOR HIGH SCHOOL 7:00 TO 9:00pm<br /></button></p>
+                    <div class='col-lg-6 col-md-6 col-sm-6 col-xs-12'>
+                        <p class="text-center"><button class="btn btn-lg btn-block btn-success" style="font-size: 18pt">FOOTHILLS SCHOOL DIVISION SPORTS <br />ACADEMY INFO NIGHT <br />APR 28th AT ECOLE OKOTOKS<br />JUNIOR HIGH SCHOOL 7:00 TO 9:00pm<br /></button></p>
 
-                    </div>-->
+                    </div>
 
 
                 </div>
@@ -593,11 +597,18 @@
             <div class="row">
                 <article class="col-lg-10 col-md-10 col-sm-10">
                     <div class="extra-wrap">
-                        <h2>
-                           <br/> <p style="text-align: center">SPORT ASSOCIATION PORTAL</p>
-<p style="text-align: center">Leadership, Resources, Training, Education & New Age Vision</p></h2>
+                        <div class="row">
+                            <div class="col-lg-10 col-md-10 col-sm-10 col-lg-offset-2 col-md-offset-2 col-sm-offset-2">
+                                <h2>
+                                    <br /> <p style="text-align: center">SPORT ASSOCIATION PORTAL</p>
+                                    <p style="text-align: center">Leadership, Resources,  </p>
+                                    <p style="text-align: center">Training, Education & </p>
+                                    <p style="text-align: center">New Age Vision</p>
+</h2>
+                            </div>
+                        </div>
 
-                       
+
                         <div class="row">
                             <div class="col-lg-10 col-md-10 col-sm-10 col-lg-offset-2 col-md-offset-2 col-sm-offset-2">
                                 <h3>OVERVIEW AND PERSPECTIVE:</h3>
@@ -693,28 +704,28 @@
                                 <h3>If you would like a free consultation and introduction to our products and services contact us by accessing our contact page and connect with one of our team members.</h3>
 
                                 <p><b>For further information click on the appropriate button below. All pricing is included within each module below.</b></p>
-                                
+
                                 <div class='row'>
                                     <div class='col-lg-6 col-md-6 col-sm-10 col-xs-12'>
-                                        <p class="text-center"><button class="btn btn-lg btn-block btn-info">TECHNOLOGY FOR YOUR COACHES</button></p>
+                                        <p class="text-center"><a href="http://www.thedrillbook.com" target="_blank"><button class="btn btn-lg btn-block btn-info">TECHNOLOGY FOR YOUR COACHES</button></a></p>
                                     </div>
                                     <div class='col-lg-6 col-md-6 col-sm-10 col-xs-12'>
-                                        <p class="text-center"><button class="btn btn-lg btn-block btn-info">COACH DEVELOPMENT WORKSHOPS</button></p>
+                                        <p class="text-center"><a href="http://www.thedrillbook.com" target="_blank"><button class="btn btn-lg btn-block btn-info">TECHNOLOGY FOR YOUR MANAGERS</button></a></p>
                                     </div>
                                 </div>
                                 <div class='row'>
+
                                     <div class='col-lg-6 col-md-6 col-sm-10 col-xs-12'>
-                                        <p class="text-center"><button class="btn btn-lg btn-block btn-info">ON-ICE SESSION CLINIC MENU</button></p>
+                                        <p class="text-center"><a id="modalCoachWorkshops"><button class="btn btn-lg btn-block btn-info">COACH DEVELOPMENT WORKSHOPS</button></a></p>
                                     </div>
                                     <div class='col-lg-6 col-md-6 col-sm-6 col-xs-12'>
-                                        <p class="text-center"><button class="btn btn-lg btn-block btn-info">ASSOCIATION WORKSHOPS</button></p>
+                                        <p class="text-center"><a id="modalAssocWorkshops"><button class="btn btn-lg btn-block btn-info">ASSOCIATION WORKSHOPS</button></a></p>
                                     </div>
                                 </div>
                                 <div class='row'>
                                     <div class='col-lg-6 col-md-6 col-sm-10 col-xs-12'>
-                                        <p class="text-center"><button class="btn btn-lg btn-block btn-info">PARENT WORKSHOPS</button></p>
+                                        <p class="text-center"><a id="modalOnIce"><button class="btn btn-lg btn-block btn-info">ON-ICE SESSION CLINIC MENU</button></a></p>
                                     </div>
-
                                     <div class='col-lg-6 col-md-6 col-sm-6 col-xs-12'>
                                         <p class="text-center"><button class="btn btn-lg btn-block btn-info">GLOBAL SPORT ACADEMY GROUP STAFF</button></p>
                                     </div>
@@ -723,10 +734,22 @@
                         </div>
                     </div>
 
-                </article>
+</article>
             </div>
         </div>
     </section>
+    <script>
+        $('#modalCoachWorkshops').on('click', function () {
+            new Messi('<p>Coach Development is perhaps the most under-valued paradigm in sport associations and yet clearly the most valuable. Workshops are typically 2.5-3 hours in length and will provide your coaches with a solution based and hands on experience for your membership. We are portable and deliver all programming in your local community facility. We recommend that associations provide food and beverage for coaches who attend.</p> <b>Workshop Fee: $750.00 plus gst, for all Coach Development Workshops.</b><br /> <br /><b>Building a Championship Team Culture</b><br/> Establishing a relentlessly positive, safe and engaging environment is critical to team success. How do you do it? What are practical ideas coaches can utilize to develop this culture? We will provide a roadmap for your coaches during this presentation.  <br /> <br /><b>Bench Management & Creating Team Strategy</b><br/> “Learning to See”, is a challenging proposition for coaches. If coaches struggle to see why things are occurring then how can they be effective in communicating valuable information to their players? In this presentation, we identify the most common challenges team’s struggle with in games and provide strategies which will help coaches effectively manage the bench during games. We also assist coaches in building a vocabulary, establishing a game plan and executing tactics and team play concepts. A game observation occurs as part of this workshop. <br /> <br /><b>Maximization Ice Utilization and Randomized Learning via Small Area Games</b><br/> Coaches whom can execute innovative and and creative small area games will be effective users of the ice and blow the development curve off the charts for their players. The goal in this clinic is to allow the “Game to become the Teacher” and draw attention away from the coach who won’t  have to continue yelling instructions on a consistent basis to players. Learning to adapt and work with both full ice and 1/2 ice menu is also addressed. <br /> <br /><b>Goaltending</b><br/> In this clinic we work with the coaches to enable them to work more effectively with their goaltenders. In today’s game, many of the goaltending institutions teach a particular style or approach that may not suit everyone. We choose to focus on themes such as:  A. Building a Foundation of goaltending success.  B. Creating a pre-game routine.  C .Effective skill drills and games for goaltender development. <br /> <br /><b>Individual Skill and Tactical Player Development</b><br/> Building proficient skill sets is an art and craft. In this session, we address performance skating, puck handling/protection, passing, checking and shooting. To maximize skill development, work to rest ratios need to be on target and players need to be engaged and active throughout practices. <br /> <br />', { title: 'COACH DEVELOPMENT WORKSHOPS', modal: true, width: '800px' });
+        });
+        $('#modalOnIce').on('click', function () {
+            new Messi(' <p>A Global Sport Academy Instructor (or Instructors), will lead teams through specific themes and modules. All clinics are designed to be fun and enjoyable for the players. Cost for these sessions is <b>$175 per instructor hour, plus gst.</b> Travel time and mileage are included in the fee as well as 15 minutes of meeting time with coaches prior to and after sessions. </p><b>Checking & Body-checking Introductory</b><br/>Highly recommended for young players who have not experienced body-checking. Players work on the foundation for the effective giving and receiving of a body check which will enable them to develop contact confidence. This clinic specifically addresses the danger zone, technique of give and receive, head on a swivel awareness, checking from behind, body control and respect.  <br /> <br /> <b>Checking & Body-checking Advanced</b><br/>Highly recommended for young players whom have a foundation for checking and want to progress on their initial development. In this clinic we focus on attack and defend principles, gap control and timing as well as small area execution of puck protection and body contact in the challenging areas of the ice. <br /> <br /> <b>Shooting and Scoring</b><br/> Learning to score and attack with precision is a lifelong journey for players. In this clinic we provide players with a background on shooting technique, deking and scoring. <br /> <br /> <b>Hockey Association Evaluation Ice Sessions</b><br/> If your association requires an on-ice team of instructors to execute your evaluation ice sessions we are happy to assist. We can also provide direction on drill/game selection and customize ice sessions to your associations needs. <br /> <br /> <b>Goaltending</b><br/> Our goaltending specialist will attend an ice session and work with your goaltenders and coaches while focusing on specific needs and weaknesses. It is recommended that you request 3-4 sessions for this program to maximize its effectiveness. <br /> <br /> <b>High Tempo Skills and Games</b><br/> If your team needs a high intensity and invigorating ice session with fun and games, we’d recommend this session. We can link in your team weaknesses into the plan also for full benefit. <br /> <br /> <b>Team Tactics (A focus on Forecheck & BreakOut)</b><br/> Knowing how to work on tactical elements is a tricky proposition. We will provide coaches with effective and easy to teach drills and games to address both forecheck and breakout concepts.<br /> <br /> <b>Performance Skating</b><br/> Incorporating creative skating drills and games into practice can make traditionally boring skating sessions fun and interactive learning opportunities for players. We customize this clinic to your teams level and needs.<br /> <br />', { title: 'ON-ICE SESSION CLINIC MENU', modal: true, width: '800px' });
+        });
+        $('#modalAssocWorkshops').on('click', function () {
+            new Messi(' <p>These clinics/meetings assist associations in executing an effective and relevant program. We charge an hourly rate of <b>$200 per hour plus gst</b> for these sessions.</p> <p><b>PLAYER EVALUATION & TEAM SELECTION</b></p> Designed to assist associations in fine tuning their game plan for a successful player evaluation. If you require assistance with curriculum, program design, parental handouts….. we can help <br /> <br /><p><b>PARENT WORKSHOPS</b></p> We perform a 1 hour Parenting Session for parents of all ages. Sessions are all customized to the appropriate age levels. This session empowers parents and provides them with resources and ideas to assist them in navigating through the challenges of youth sport parenting. For additional information on this topic feel free to check out: <a href="http://www.changingthegameproject.com" >www.changingthegameproject.com</a><br /> <br /><p><b>Custom Built Sessions / Workshops</b></p> An array of specifically built programming can be developed specific to your associations needs. <br /> <br />', { title: 'ASSOCIATION WORKSHOPS', modal: true });
+        });
+
+    </script>
     <footer>
     <div class="container">
         <div class="row">
