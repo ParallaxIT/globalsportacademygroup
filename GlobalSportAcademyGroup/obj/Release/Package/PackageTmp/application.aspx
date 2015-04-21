@@ -114,8 +114,8 @@
     <div class="container">
         <section class="box6">
             <div class='row'>
-                <div class='col-md-3'></div>
-                <div class='col-md-6'>
+                <div class='col-xs-2 col-md-2 col-lg-2'></div>
+                <div class='col-xs-8 col-md-8 col-lg-8'>
                   
                     <form id="form1" runat="server">
 
@@ -128,35 +128,35 @@
                                     <input name="utf8" type="hidden" value="✓" /><input name="_method" type="hidden" value="PUT" /><input name="authenticity_token" type="hidden" value="qLZ9cScer7ZxqulsUWazw4x3cSEzv899SP/7ThPCOV8=" />
                                 </div>
 
-                                <div class='form-row'>
-                                    <div class='col-md-12'>
+                                <div class='row'>
+                                    <div class='col-xs-12 col-md-12 col-lg-12'>
                                         <div class='form-control total btn btn-info'>
                                             <span class='amount'>Student Details</span>
                                         </div>
                                     </div>
                                 </div>
-                                <div class='form-row'>
-                                    <div class='col-md-12'>
+                                <div class='row'>
+                                    <div class='col-xs-12 col-md-12 col-lg-12'>
                                         <br />
                                         <br />
                                     </div>
                                 </div>
-                                <div class='form-row'>
-                                    <div class='col-xs-12 form-group required'>
+                                <div class='row'>
+                                    <div class='col-xs-12 col-md-12 col-lg-12 form-group required'>
                                         <label class='control-label'>Student Name:</label>
                                         <asp:TextBox ID="txtStudentName" class='form-control' size='4' type='text' runat="server"></asp:TextBox>
                                         <asp:Label runat="server" ID="lblStudentNameError" Visible="false" ForeColor="Red" Font-Bold="True"> ** Please enter a student name.</asp:Label>
                                     </div>
                                 </div>
-                                <div class='form-row'>
-                                    <div class='col-xs-12 form-group required'>
+                                <div class='row'>
+                                    <div class='col-xs-12 col-md-12 col-lg-12 form-group required'>
                                         <label class='control-label'>Student Birthdate:</label>
                                         <asp:TextBox class="form-control" size='4' type="text" name="dob" placeholder="Date Of Birth"
                                             value="" ID="txtBirthdate" runat="server" TabIndex="18" MaxLength="10" required="true"></asp:TextBox>
                                     </div>
                                 </div>
-                                <div class='form-row'>
-                                    <div class='col-xs-12 form-group required'>
+                                <div class='row'>
+                                    <div class='col-xs-12 col-md-12 col-lg-12 form-group required'>
                                         <label class='control-label'>Gender:</label>
                                         <asp:DropDownList ID="ddlGender" class='form-control' runat="server">
                                             <asp:ListItem>Select</asp:ListItem>
@@ -166,27 +166,27 @@
                                          <asp:Label runat="server" ID="lblGenderError" Visible="false" ForeColor="Red" Font-Bold="True"> ** Please choose a Gender.</asp:Label>
                                     </div>
                                 </div>
-                                <div class='form-row'>
-                                    <div class='col-xs-12 form-group required'>
+                                <div class='row'>
+                                    <div class='col-xs-12 col-md-12 col-lg-12 form-group required'>
                                         <label class='control-label'>Student Email (if applicable):</label>
                                         <asp:TextBox ID="txtStudentEmail" class='form-control' size='6' type='text' runat="server"></asp:TextBox>
                                     </div>
                                 </div>
-                                <div class='form-row'>
-                                    <div class='col-xs-12 form-group required'>
+                                <div class='row'>
+                                    <div class='col-xs-12 col-md-12 col-lg-12 form-group required'>
                                         <label class='control-label'>Student Cell (if applicable):</label>
                                         <asp:TextBox ID="txtStudentCell" class='form-control' size='6' type='text' runat="server"></asp:TextBox>
                                     </div>
                                 </div>
-                                <div class='form-row'>
-                                    <div class='col-xs-12 form-group required'>
+                                <div class='row'>
+                                    <div class='col-xs-12 col-md-12 col-lg-12 form-group required'>
                                         <label class='control-label'>Present School Attending:</label>
                                         <asp:TextBox ID="txtPresentSchool" class='form-control' size='6' type='text' runat="server"></asp:TextBox>
                                          <asp:Label runat="server" ID="lblPresentSchoolError" Visible="false" ForeColor="Red" Font-Bold="True"> ** Please choose a Present School.</asp:Label>
                                     </div>
                                 </div>
-                                <div class='form-row'>
-                                    <div class='col-xs-12 form-group required'>
+                                <div class='row'>
+                                    <div class='col-xs-12 col-md-12 col-lg-12 form-group required'>
                                         <label class='control-label'>Present Grade:</label>
                                         <asp:DropDownList ID="ddlPresentGrade" class='form-control' runat="server">
                                             <asp:ListItem>Select</asp:ListItem>
@@ -203,8 +203,8 @@
                                 </div>
 
 
-                                <div class='form-row'>
-                                    <div class='col-xs-12 form-group required'>
+                                <div class='row'>
+                                    <div class='col-xs-12 col-md-12 col-lg-12 form-group required'>
                                         <label class='control-label'>School Of Choice:</label>
 
                                         <asp:DropDownList ID="ddlSchoolOfChoice" class='form-control' runat="server" AutoPostBack="true" OnSelectedIndexChanged="ddlSchoolOfChoice_SelectedIndexChanged">
@@ -217,8 +217,8 @@
                                     </div>
                                 </div>
 
-                                <div class='form-row'>
-                                    <div class='col-xs-12 form-group required'>
+                                <div class='row'>
+                                    <div class='col-xs-12 col-md-12 col-lg-12 form-group required'>
                                         <label class='control-label'>Sport Of Choice:</label>
                                         <asp:DropDownList ID="ddlSportOfChoiceOkotoks" class='form-control' runat="server" Visible="False">
                                             <asp:ListItem>Select</asp:ListItem>
@@ -240,8 +240,8 @@
                                           <asp:Label runat="server" ID="lblSportOfChoiceError" Visible="false" ForeColor="Red" Font-Bold="True"> ** Please choose a sport.</asp:Label>
                                     </div>
                                 </div>
-                                <div class='form-row'>
-                                    <div class='col-xs-12 form-group required'>
+                                <div class='row'>
+                                    <div class='col-xs-12 col-md-12 col-lg-12 form-group required'>
                                         <label class='control-label'>Grade Requested:</label>
                                         <asp:DropDownList ID="ddlGradeRequested" class='form-control' runat="server">
                                             <asp:ListItem>Select</asp:ListItem>
@@ -255,39 +255,39 @@
                                          <asp:Label runat="server" ID="lblGradeRequestedError" Visible="false" ForeColor="Red" Font-Bold="True"> ** Please choose a grade.</asp:Label>
                                     </div>
                                 </div>
-                                <div class='form-row'>
+                                <div class='row'>
                                     <div class='col-md-12'>
                                         <div class='form-control total btn btn-info'>
                                             <span class='amount'>Fathers Details</span>
                                         </div>
                                     </div>
                                 </div>
-                                <div class='form-row'>
+                                <div class='row'>
                                     <div class='col-md-12'>
                                         <br />
                                         <br />
                                     </div>
                                 </div>
-                                <div class='form-row'>
-                                    <div class='col-xs-12 form-group required'>
+                                <div class='row'>
+                                    <div class='col-xs-12 col-md-12 col-lg-12 form-group required'>
                                         <label class='control-label'>Father:</label>
                                         <asp:TextBox ID="txtFatherName" class='form-control' size='4' type='text' runat="server"></asp:TextBox>
                                     </div>
                                 </div>
-                                <div class='form-row'>
-                                    <div class='col-xs-12 form-group required'>
+                                <div class='row'>
+                                    <div class='col-xs-12 col-md-12 col-lg-12 form-group required'>
                                         <label class='control-label'>Mailing Address Father:</label>
                                         <asp:TextBox ID="txtFatherAddress" class='form-control' size='4' type='text' runat="server"></asp:TextBox>
                                     </div>
                                 </div>
-                                <div class='form-row'>
-                                    <div class='col-xs-12 form-group required'>
+                                <div class='row'>
+                                    <div class='col-xs-12 col-md-12 col-lg-12 form-group required'>
                                         <label class='control-label'>Father Cell:</label>
                                         <asp:TextBox ID="txtFatherCell" class='form-control' size='4' type='text' runat="server"></asp:TextBox>
                                     </div>
                                 </div>
-                                <div class='form-row'>
-                                    <div class='col-xs-12 form-group required'>
+                                <div class='row'>
+                                    <div class='col-xs-12 col-md-12 col-lg-12 form-group required'>
                                         <label class='control-label'>Father Email:</label>
                                         <asp:TextBox ID="txtFatherEmail" class='form-control' size='4' type='text' runat="server"></asp:TextBox>
                                           <asp:Label runat="server" ID="lblParentEmailError" Visible="false" ForeColor="Red" Font-Bold="True"> ** Please fill in a Fathers or Mothers details.</asp:Label>
@@ -319,46 +319,46 @@
                                         </ajaxToolkit:ValidatorCalloutExtender>
                                     </div>--%>
                                 </div>
-                                <div class='form-row'>
+                                <div class='row'>
                                     <div class='col-md-12'>
                                         <div class='form-control total btn btn-info'>
                                             <span class='amount'>Mothers Details</span>
                                         </div>
                                     </div>
                                 </div>
-                                <div class='form-row'>
+                                <div class='row'>
                                     <div class='col-md-12'>
                                         <br />
                                         <br />
                                     </div>
                                 </div>
-                                <div class='form-row'>
-                                    <div class='col-xs-12 form-group required'>
+                                <div class='row'>
+                                    <div class='col-xs-12 col-md-12 col-lg-12 form-group required'>
                                         <label class='control-label'>Mother:</label>
                                         <asp:TextBox ID="txtMotherName" class='form-control' size='4' type='text' runat="server"></asp:TextBox>
                                     </div>
                                 </div>
-                                <div class='form-row'>
-                                    <div class='col-xs-12 form-group required'>
+                                <div class='row'>
+                                    <div class='col-xs-12 col-md-12 col-lg-12 form-group required'>
                                         <label class='control-label'>Mailing Address Mother:</label>
                                         <asp:TextBox ID="txtMotherAddress" class='form-control' size='4' type='text' runat="server"></asp:TextBox>
                                     </div>
                                 </div>
-                                <div class='form-row'>
-                                    <div class='col-xs-12 form-group required'>
+                                <div class='row'>
+                                    <div class='col-xs-12 col-md-12 col-lg-12 form-group required'>
                                         <label class='control-label'>Mother Cell:</label>
                                         <asp:TextBox ID="txtMotherCell" class='form-control' size='4' type='text' runat="server"></asp:TextBox>
                                     </div>
                                 </div>
-                                <div class='form-row'>
-                                    <div class='col-xs-12 form-group required'>
+                                <div class='row'>
+                                    <div class='col-xs-12 col-md-12 col-lg-12 form-group required'>
                                         <label class='control-label'>Mother Email:</label>
                                         <asp:TextBox ID="txtMotherEmail" class='form-control' size='4' type='text' runat="server"></asp:TextBox>
                                     </div>
                                 </div>
 
 
-                                <%--  <div class='form-row'>
+                                <%--  <div class='row'>
                             <div class='col-xs-4 form-group cvc required'>
                                 <label class='control-label'>CVC</label>
                                 <input autocomplete='off' class='form-control card-cvc' placeholder='ex. 311' size='4' type='text'>
@@ -372,7 +372,7 @@
                                 <input class='form-control card-expiry-year' placeholder='YYYY' size='4' type='text'>
                             </div>
                         </div>--%>
-                                <%-- <div class='form-row'>
+                                <%-- <div class='row'>
                             <div class='col-md-12'>
                                 <div class='form-control total btn btn-info'>
                                     Total:
@@ -380,12 +380,12 @@
                                 </div>
                             </div>
                         </div>--%>
-                                <div class='form-row'>
+                                <div class='row'>
                                     <div class='col-md-12 form-group'>
                                         <asp:Button runat="server" CssClass='form-control btn btn-danger submit-button' Text="Submit Application" ID="btnSubmit" OnClick="btnSubmit_Click" Enabled="true"></asp:Button>
                                     </div>
                                 </div>
-                                <div class='form-row'>
+                                <div class='row'>
                                     <div class='col-md-12 error form-group hide'>
                                         <div class='alert-danger alert'>
                                             Please correct the errors and try again.
@@ -396,7 +396,7 @@
                         </asp:UpdatePanel>
                     </form>
                 </div>
-                <div class='col-md-4'></div>
+                <div class='col-xs-2 col-md-2 col-lg-2'></div>
             </div>
         </section>
     </div>
