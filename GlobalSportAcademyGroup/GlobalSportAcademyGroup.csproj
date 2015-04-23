@@ -98,6 +98,7 @@
     <Content Include="css\bootstrap-social.css" />
     <Content Include="css\messi.css" />
     <Content Include="img\fsd-landing.jpg" />
+    <Content Include="img\global-team.png" />
     <Content Include="img\partners.png" />
     <Content Include="img\springbank-landing.jpg" />
     <Content Include="js\emailvalidation.js" />
