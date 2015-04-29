@@ -135,6 +135,7 @@
     <Content Include="js\fancybox\source\jquery.fancybox.pack.js" />
     <Content Include="js\jquery.thumbhover.js" />
     <Content Include="js\messi.js" />
+    <Content Include="news.aspx" />
     <Content Include="signup-info.aspx" />
     <Content Include="img\globe.png" />
     <Content Include="img\GSAG_Logo.png" />
@@ -162,6 +163,7 @@
     <Content Include="docs\SCHS Out of Area-Grade 9.pdf" />
     <Content Include="docs\fsd-program-overview.pdf" />
     <Content Include="docs\EOJHS-package.pdf" />
+    <Content Include="docs\FSD Sports Academy News Release_Final.pdf" />
     <None Include="Properties\PublishProfiles\globalsportacademygroup - FTP %282%29.pubxml" />
     <None Include="Properties\PublishProfiles\globalsportacademygroup - FTP %283%29.pubxml" />
     <None Include="Properties\PublishProfiles\globalsportacademygroup - FTP.pubxml" />
@@ -183,7 +185,6 @@
     <Content Include="fonts\font-awesome.css" />
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
-    <Content Include="fonts\the-team.html" />
     <Content Include="img\arrows.png" />
     <Content Include="img\bg_pic.jpg" />
     <Content Include="img\calder-cup.png" />
@@ -310,6 +311,13 @@
     </Compile>
     <Compile Include="contact-us.aspx.designer.cs">
       <DependentUpon>contact-us.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="news.aspx.cs">
+      <DependentUpon>news.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="news.aspx.designer.cs">
+      <DependentUpon>news.aspx</DependentUpon>
     </Compile>
     <Compile Include="signup-info.aspx.cs">
       <DependentUpon>signup-info.aspx</DependentUpon>
