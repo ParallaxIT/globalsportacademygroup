@@ -177,7 +177,7 @@
                                         <div class="panel-heading">
                                             <h4 class="panel-title" data-toggle="collapse" data-target="#collapseOne1">
                                                 <img class="img-thumbnail" style="width: 75px" src="img/globe.png" alt="Media Pic">
-                                                 Foothills School Division Press Release  <i class="glyphicon glyphicon-zoom-in"></i> <span class="small">click to read</span>
+                                                 Foothills School Division Press Release  <i class="glyphicon glyphicon-zoom-in"></i>
                                             </h4>
                                         </div>
                                         <div id="collapseOne1" class="panel-collapse collapse">
