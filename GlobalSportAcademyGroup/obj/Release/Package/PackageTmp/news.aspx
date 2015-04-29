@@ -8,9 +8,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="img/favicon.ico" type="image/x-icon">
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
-    <meta name="description" content="Your description">
-    <meta name="keywords" content="Your keywords">
-    <meta name="author" content="Your name">
+       <meta name="description" content="If you are passionate about your youngster developing a high performance lifestyle you have found the right portal. We are not a sport program or a physical education class. We are visionary leaders in the sport industry and have built a philosophy and approach which is modelled by outstanding coach leaders and is offered to high achieving and goal oriented youth.">
+    <meta name="keywords" content="Sport Academies,Hockey Training,Sport Training,Youth Sports,Sport Academy,Global Sport AcademyHockey Development,Sport Excellence,Foothills School Division Sport Academy,FSD Sports Academy,Springbank Sports Academy,Hockey Excellence,Hockey Program">
+    <meta name="author" content="Parallax Consulting :: Rob Sutherland">
+
     <meta name="format-detection" content="telephone=no" />
     <!--CSS-->
     <link rel="stylesheet" href="css/bootstrap.css">
@@ -177,7 +178,7 @@
                                         <div class="panel-heading">
                                             <h4 class="panel-title" data-toggle="collapse" data-target="#collapseOne1">
                                                 <img class="img-thumbnail" style="width: 75px" src="img/globe.png" alt="Media Pic">
-                                                 Foothills School Division Press Release  <i class="glyphicon glyphicon-zoom-in"></i>
+                                                 Foothills School Division Press Release  <i class="glyphicon glyphicon-zoom-in"></i> <span class="small">click to read</span>
                                             </h4>
                                         </div>
                                         <div id="collapseOne1" class="panel-collapse collapse">
