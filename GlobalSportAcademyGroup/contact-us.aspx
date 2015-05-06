@@ -141,13 +141,13 @@
                             </h4>
                             <br>
                             <h2>Staff Contacts</h2>
-                            <p><a href="mailto:mmaloney@globalsportacademygroup.com">Mark Maloney - President and Chief Executive Officer</a></p>
+                            <p><a href="mailto:mmaloney@globalsportacademygroup.com">Mark Maloney - Co-Founder</a></p>
                             <p><a href="mailto:jovens@globalsportacademygroup.com">Jeff Ovens - Director of Springbank Sports Academy</a></p>
                             <p><a href="mailto:jfox@globalsportacademygroup.com">Jamie Fox - Director of Foothills School Division Sports Academy</a></p>
-                            <p><a href="mailto:jlong@globalsportacademygroup.com">Rob Kerr - Operations Manager/Director of Content & Media</a></p>
+                            <p><a href="mailto:jlong@globalsportacademygroup.com">Rob Kerr - Media Content Builder</a></p>
                              <p><a href="mailto:sfukami@globalsportacademygroup.com">Scott Fukami - Coach - Hockey</a></p>
-                            <p><a href="mailto:jlong@globalsportacademygroup.com">Joe Long - Director of Soccer</a></p>
-                            <p><a href="mailto:agooch@globalsportacademygroup.com">Ashley Gooch - Head Coach - Soccer</a></p>
+                            <%--<p><a href="mailto:jlong@globalsportacademygroup.com">Joe Long - Director of Soccer</a></p>
+                            <p><a href="mailto:agooch@globalsportacademygroup.com">Ashley Gooch - Head Coach - Soccer</a></p>--%>
                             <p><a href="mailto:cdurbeniuk@globalsportacademygroup.com">Chris Durbeniuk - Director of Golf</a></p>
                             <p><a href="mailto:rsutherland@globalsportacademygroup.com">Rob Sutherland - Chief Technology Officer</a></p>
                             <br>
