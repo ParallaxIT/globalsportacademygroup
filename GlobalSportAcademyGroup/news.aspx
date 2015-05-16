@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="img/favicon.ico" type="image/x-icon">
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
-       <meta name="description" content="If you are passionate about your youngster developing a high performance lifestyle you have found the right portal. We are not a sport program or a physical education class. We are visionary leaders in the sport industry and have built a philosophy and approach which is modelled by outstanding coach leaders and is offered to high achieving and goal oriented youth.">
+    <meta name="description" content="If you are passionate about your youngster developing a high performance lifestyle you have found the right portal. We are not a sport program or a physical education class. We are visionary leaders in the sport industry and have built a philosophy and approach which is modelled by outstanding coach leaders and is offered to high achieving and goal oriented youth.">
     <meta name="keywords" content="Sport Academies,Hockey Training,Sport Training,Youth Sports,Sport Academy,Global Sport AcademyHockey Development,Sport Excellence,Foothills School Division Sport Academy,FSD Sports Academy,Springbank Sports Academy,Hockey Excellence,Hockey Program">
     <meta name="author" content="Parallax Consulting :: Rob Sutherland">
 
@@ -178,7 +178,7 @@
                                         <div class="panel-heading">
                                             <h4 class="panel-title" data-toggle="collapse" data-target="#collapseOne1">
                                                 <img class="img-thumbnail" style="width: 75px" src="img/globe.png" alt="Media Pic">
-                                                 Foothills School Division Press Release  <i class="glyphicon glyphicon-zoom-in"></i> <span class="small">click to read</span>
+                                                Foothills School Division Press Release  <i class="glyphicon glyphicon-zoom-in"></i><span class="small">click to read</span>
                                             </h4>
                                         </div>
                                         <div id="collapseOne1" class="panel-collapse collapse">
@@ -213,22 +213,29 @@
 
                                                                         Partnership launches with grade 7-9 boys hockey program 
 
-                                                                        <br /><br />
+                                                                        <br />
+                                                                        <br />
                                                                         <strong>HIGH RIVER, AB, April 28, 2015</strong> – Foothills School Division is partnering with the Global Sport 
 Academy Group to offer enhanced sports programming for student athletes. Beginning in September 
 2015, Foothills School Division (FSD) and Global Sport Academy Group will collaborate on a hockey 
 program for boys entering grades 7 to 9, with an eye to expanding programming in the future. 
 
- <br /><br />Under the auspices of the new Foothills School Division Sports Academy, the male hockey program 
+ <br />
+                                                                        <br />
+                                                                        Under the auspices of the new Foothills School Division Sports Academy, the male hockey program 
 succeeds the Peak Athletics Hockey Program introduced by FSD in September 2013. 
 
- <br /><br />Global Sport Academy Group (Global) is a leader in the shifting paradigm of youth sports and 
+ <br />
+                                                                        <br />
+                                                                        Global Sport Academy Group (Global) is a leader in the shifting paradigm of youth sports and 
 development on a global scale, and collaborates with industry leaders throughout North America in 
 multi-sport disciplines. The programming and execution of this new approach to sport learning and 
 development will be brought to life within the framework of FSD’s vision for leading and supporting 
 student learning. 
 
- <br /><br />“In Foothills School Division, we are always striving to enhance our program offerings to meet the 
+ <br />
+                                                                        <br />
+                                                                        “In Foothills School Division, we are always striving to enhance our program offerings to meet the 
 needs and interests of our students. Operating the Peak program has been a rewarding experience 
 and we have learned a lot about how best to maintain the high quality programming we have 
 established in this area as we move forward into the future. Through this new partnership, FSD and 
@@ -236,34 +243,49 @@ Global Sport Academy Group will focus on our core strengths, delivering a winnin
 experience that integrates academics and athletics in a unified strategic vision,” says John Bailey, 
 Superintendent of Schools for Foothills School Division. 
 
- <br /><br />“Global is very excited to collaborate with Foothills School Division on this innovative program. From 
+ <br />
+                                                                        <br />
+                                                                        “Global is very excited to collaborate with Foothills School Division on this innovative program. From 
 the beginning we have recognized that our goals are clearly aligned and we all have a common 
 vision, which is to develop community leaders and well-rounded citizens who will impact their 
 communities in a positive way,” says Mark Maloney, CEO, Global Sport Academy Group. 
 
- <br /><br />In 2015-2016, the grade 7 to 9 boys hockey program will involve 20 to 24 players and four 
+ <br />
+                                                                        <br />
+                                                                        In 2015-2016, the grade 7 to 9 boys hockey program will involve 20 to 24 players and four 
 goaltenders per grade level. Participating students will continue to attend École Okotoks Junior High 
 School, while on-ice training will shift from the Scott Seaman Sports Rink at Heritage Heights to the 
 Okotoks Recreation Centre to reduce travel time between the school and the rink, and more closely 
 integrate the program into the Okotoks school community. For more information and to apply online 
 for the 2015-16 school year, interested students and families may visit 
-<a href="http://www.globalsportacademygroup.com" target="_blank">www.globalsportsacademygroup.com</a>. Two information evenings are also planned: <br /><br />
+                                                                        <a href="http://www.globalsportacademygroup.com" target="_blank">www.globalsportsacademygroup.com</a>. Two information evenings are also planned:
+                                                                        <br />
+                                                                        <br />
 
-                                                                        <ul><li>
-Tuesday, April 28 – 7:00-9:00 p.m. at École Okotoks Junior High School – 1 Pacific Ave.</li> 
-<li>Thursday, May 21 – 7:00-9:00 p.m. at École Okotoks Junior High School – 1 Pacific Ave. <br />
-</li></ul>
- <br />École Okotoks Junior High School Vice-Principal, Bill Holmes, will continue to serve as the lead 
+                                                                        <ul>
+                                                                            <li>Tuesday, April 28 – 7:00-9:00 p.m. at École Okotoks Junior High School – 1 Pacific Ave.</li>
+                                                                            <li>Thursday, May 21 – 7:00-9:00 p.m. at École Okotoks Junior High School – 1 Pacific Ave.
+                                                                                <br />
+                                                                            </li>
+                                                                        </ul>
+                                                                        <br />
+                                                                        École Okotoks Junior High School Vice-Principal, Bill Holmes, will continue to serve as the lead 
 administrator for the FSD Sports Academy program. FSD is also in the process of recruiting a 
 certificated teacher to serve as program liaison, focusing on curriculum alignment with the Alberta 
 Program of Studies, and student academic assessment, evaluation and reporting. 
 
- <br /><br />Looking ahead, FSD and Global will discuss expanding the boys hockey program into high school 
+ <br />
+                                                                        <br />
+                                                                        Looking ahead, FSD and Global will discuss expanding the boys hockey program into high school 
 and adding a girls hockey program. 
 
- <br /><br /><strong>About Foothills School Division (FSD)</strong> 
+ <br />
+                                                                        <br />
+                                                                        <strong>About Foothills School Division (FSD)</strong>
 
- <br /><br />FSD serves more than 8,000 students in junior kindergarten (pre-kindergarten) through grade 12, 
+                                                                        <br />
+                                                                        <br />
+                                                                        FSD serves more than 8,000 students in junior kindergarten (pre-kindergarten) through grade 12, 
 and employs over 800 teachers and support staff. Located on Calgary’s southern border within the 
 M.D. of Foothills, FSD serves the towns of Okotoks, High River, Turner Valley and Black Diamond, 
 and the communities served by our Blackie, Cayley, Heritage Heights, Longview, Millarville and Red 
@@ -273,9 +295,13 @@ public school division, we are here to improve learning for ALL students and off
 quality programs and services to meet the needs and interests of our students. For more information 
 please visit <a href="http://www.fsd38.ab.ca" target="_blank">www.fsd38.ab.ca</a>. 
 
- <br /><br /><strong>About Global Sport Academy Group (Global)</strong> 
+ <br />
+                                                                        <br />
+                                                                        <strong>About Global Sport Academy Group (Global)</strong>
 
- <br /><br />Global, which also operates the Springbank Sports Academy at Springbank Community High 
+                                                                        <br />
+                                                                        <br />
+                                                                        Global, which also operates the Springbank Sports Academy at Springbank Community High 
 School, is fortunate to work with some of the top players in the game. Program coaches have a vast 
 array of experience at all levels of the game from professional down to the grassroots. CEO Mark 
 Maloney, one of the program founders, along with Jeff Ovens and Jamie Fox, won the Calder Cup 
@@ -287,16 +313,24 @@ creator of FSD’s Peak Athletics Hockey Program and development coach with the 
 Tigers of the Western Hockey League, and Jamie Fox, a successful grassroots hockey development 
 builder. For more information please visit <a href="http://www.globalsportacademygroup.com" target="_blank">www.globalsportsacademygroup.com</a>. 
 
- <br /><br /><strong>For more information, please contact:</strong> 
+ <br />
+                                                                        <br />
+                                                                        <strong>For more information, please contact:</strong>
 
- <br /><br /><strong>Allen Davidson, Assistant Superintendent</strong>, Foothills School Division, 403-652-6501 
+                                                                        <br />
+                                                                        <br />
+                                                                        <strong>Allen Davidson, Assistant Superintendent</strong>, Foothills School Division, 403-652-6501 
 
- <br /><strong>Deborah Spence, Communications Manager</strong>, Foothills School Division, 403-652-6502 (direct), 
+ <br />
+                                                                        <strong>Deborah Spence, Communications Manager</strong>, Foothills School Division, 403-652-6502 (direct), 
 403-422-0915 (mobile) or <a href="mailto:SpenceD@fsd38.ab.ca">SpenceD@fsd38.ab.ca </a>
 
- <br /><strong>Jamie Fox, Director</strong> – Foothills School Division Sports Academy, Global Sport Academy Group, 
-403-993-1916 or <a href="mailto:jfox@globalsportacademygroup.com"> jfox@globalsportacademygroup.com </a>
-                                                                        <br /><br/><a href="docs/FSD Sports Academy News Release_Final.pdf" target="_blank">DOWNLOAD RELEASE</a>
+                                                                        <br />
+                                                                        <strong>Jamie Fox, Director</strong> – Foothills School Division Sports Academy, Global Sport Academy Group, 
+403-993-1916 or <a href="mailto:jfox@globalsportacademygroup.com">jfox@globalsportacademygroup.com </a>
+                                                                        <br />
+                                                                        <br />
+                                                                        <a href="docs/FSD Sports Academy News Release_Final.pdf" target="_blank">DOWNLOAD RELEASE</a>
 
                                                                     </td>
                                                                 </tr>
@@ -308,6 +342,58 @@ builder. For more information please visit <a href="http://www.globalsportacadem
                                             </div>
                                         </div>
                                     </div>
+                                    
+                                      <!-- sixth Panel -->
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                     <h4 class="panel-title" data-toggle="collapse" data-target="#collapseSix">
+                                                <img class="img-thumbnail" style="width: 75px" src="img/globe.png" alt="Media Pic">
+                                                Foothills School Division Radio Spot  <i class="glyphicon glyphicon-zoom-in"></i><span class="small">click to listen</span>
+                                            </h4>
+                                </div>
+                                <div id="collapseSix" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        <div class="row-fluid">
+                                           <%-- <div class="span3">
+                                                <img class="img-polaroid"
+                                                    src="img/globe.png"
+                                                    alt="User Pic">
+                                            </div>--%>
+                                            <div class="span7">
+                                                <strong>Eagle 100.9 FM and Sun Country 99.7 FM</strong><br>
+                                                <table class="table table-condensed table-responsive table-user-information">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>Date:</td>
+                                                            <td>Friday, May 15, 2015</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Description:</td>
+                                                            <td>Foothills School Division Radio Spot</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Topics</td>
+                                                            <td>Global Sports Academy, FSD, Students, Open House</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Listen</td>
+                                                            <td>
+
+                                                               <%-- <audio controls>
+                                                                    <source src="http://pmd.fan960.com/audio_on_demand_2013/Mark-Maloney-with-Rob-Kerr-MM,-RK-20140929-Interview.mp3" type="audio/mpeg">
+                                                                    Your browser does not support the audio element.
+                                                                </audio>--%>
+                                                                <object width="290" height="24" id="wistiaAudioEmbed" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"><param name="movie" value="https://embed-ssl.wistia.com/flash/audio_player.swf" /><param name="allowfullscreen" value="false" /><param name="allowscriptaccess" value="never" /><param name="wmode" value="transparent" /><param name="flashvars" value="playerID=1&soundFile=https%3A%2F%2Fembed-ssl.wistia.com%2Fdeliveries%2F6da836dc506857c31ea6b854036b06b130729f76.bin" /><embed src="https://embed-ssl.wistia.com/flash/audio_player.swf" width="290" height="24" name="wistiaAudioEmbed" type="application/x-shockwave-flash" wmode="transparent" flashvars="playerID=1&soundFile=https%3A%2F%2Fembed-ssl.wistia.com%2Fdeliveries%2F6da836dc506857c31ea6b854036b06b130729f76.bin"></embed></object>
+
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
 
                                     <%--  <!-- First Panel -->
                             <div class="panel panel-default">
