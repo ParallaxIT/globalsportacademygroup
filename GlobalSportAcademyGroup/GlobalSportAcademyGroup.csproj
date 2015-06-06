@@ -98,6 +98,7 @@
     <Content Include="css\bootstrap-social.css" />
     <Content Include="css\messi.css" />
     <Content Include="img\fsd-landing.jpg" />
+    <Content Include="img\FSD_Logo.jpg" />
     <Content Include="img\global-team.png" />
     <Content Include="img\Gsag_Brochure_l.png" />
     <Content Include="img\Gsag_Brochure_s.png" />
