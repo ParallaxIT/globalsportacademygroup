@@ -103,6 +103,7 @@
     <Content Include="img\Gsag_Brochure_l.png" />
     <Content Include="img\Gsag_Brochure_s.png" />
     <Content Include="img\partners.png" />
+    <Content Include="img\sask-conference.jpg" />
     <Content Include="img\springbank-landing.jpg" />
     <Content Include="js\emailvalidation.js" />
     <Content Include="coach-graphic_l.jpg" />
