@@ -19,17 +19,8 @@ C:\Users\ParaHomeDev\Documents\GitHub\GlobalSportAcademyGroup\GlobalSportAcademy
 C:\Users\ParaHomeDev\Documents\GitHub\GlobalSportAcademyGroup\GlobalSportAcademyGroup\bin\GlobalSportAcademyGroup.dll.config
 C:\Users\ParaHomeDev\Documents\GitHub\GlobalSportAcademyGroup\GlobalSportAcademyGroup\bin\GlobalSportAcademyGroup.dll
 C:\Users\ParaHomeDev\Documents\GitHub\GlobalSportAcademyGroup\GlobalSportAcademyGroup\bin\GlobalSportAcademyGroup.pdb
-C:\Users\ParaHomeDev\Documents\GitHub\GlobalSportAcademyGroup\GlobalSportAcademyGroup\bin\Dapper.dll
 C:\Users\ParaHomeDev\Documents\GitHub\GlobalSportAcademyGroup\GlobalSportAcademyGroup\bin\Dapper.pdb
 C:\Users\ParaHomeDev\Documents\GitHub\GlobalSportAcademyGroup\GlobalSportAcademyGroup\bin\Dapper.xml
-C:\Users\ParaHomeDev\Documents\GitHub\GlobalSportAcademyGroup\GlobalSportAcademyGroup\bin\AjaxControlToolkit.dll
-C:\Users\ParaHomeDev\Documents\GitHub\GlobalSportAcademyGroup\GlobalSportAcademyGroup\bin\AjaxMin.dll
-C:\Users\ParaHomeDev\Documents\GitHub\GlobalSportAcademyGroup\GlobalSportAcademyGroup\bin\HtmlAgilityPack.dll
-C:\Users\ParaHomeDev\Documents\GitHub\GlobalSportAcademyGroup\GlobalSportAcademyGroup\bin\Microsoft.Data.Edm.dll
-C:\Users\ParaHomeDev\Documents\GitHub\GlobalSportAcademyGroup\GlobalSportAcademyGroup\bin\Microsoft.Data.OData.dll
-C:\Users\ParaHomeDev\Documents\GitHub\GlobalSportAcademyGroup\GlobalSportAcademyGroup\bin\Microsoft.WindowsAzure.Configuration.dll
-C:\Users\ParaHomeDev\Documents\GitHub\GlobalSportAcademyGroup\GlobalSportAcademyGroup\bin\Microsoft.WindowsAzure.Storage.dll
-C:\Users\ParaHomeDev\Documents\GitHub\GlobalSportAcademyGroup\GlobalSportAcademyGroup\bin\System.Spatial.dll
 C:\Users\ParaHomeDev\Documents\GitHub\GlobalSportAcademyGroup\GlobalSportAcademyGroup\bin\HtmlAgilityPack.pdb
 C:\Users\ParaHomeDev\Documents\GitHub\GlobalSportAcademyGroup\GlobalSportAcademyGroup\bin\HtmlAgilityPack.xml
 C:\Users\ParaHomeDev\Documents\GitHub\GlobalSportAcademyGroup\GlobalSportAcademyGroup\bin\Microsoft.Data.Edm.xml
