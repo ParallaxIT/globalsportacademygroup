@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <parameters>
   <parameter name="IIS Web Application Name" description="" value="globalsportacademygroup" tags="IisApp">
-    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\ParaHomeDev\\Documents\\GitHub\\GlobalSportAcademyGroup\\GlobalSportAcademyGroup\\obj\\Release\\Package\\PackageTmp$" />
-    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\ParaHomeDev\\Documents\\GitHub\\GlobalSportAcademyGroup\\GlobalSportAcademyGroup\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^\\\\psf\\Home\\Documents\\GitHub\\GlobalSportAcademyGroup\\GlobalSportAcademyGroup\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^\\\\psf\\Home\\Documents\\GitHub\\GlobalSportAcademyGroup\\GlobalSportAcademyGroup\\obj\\Release\\Package\\PackageTmp$" />
   </parameter>
   <parameter name="GlobalCS-Web.config Connection String" description="" value="Data Source=tcp:k5qm0q8re8.database.windows.net,1433;Initial Catalog=GlobalSportDB;User ID=rsutherland@k5qm0q8re8;Password=D1ll1g@f" tags="">
-    <parameterEntry kind="XmlFile" scope="C:\\Users\\ParaHomeDev\\Documents\\GitHub\\GlobalSportAcademyGroup\\GlobalSportAcademyGroup\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='GlobalCS']/@connectionString" />
+    <parameterEntry kind="XmlFile" scope="\\\\psf\\Home\\Documents\\GitHub\\GlobalSportAcademyGroup\\GlobalSportAcademyGroup\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='GlobalCS']/@connectionString" />
   </parameter>
 </parameters>

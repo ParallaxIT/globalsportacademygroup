@@ -1,4 +1,6 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="application.aspx.cs" Inherits="GlobalSportAcademyGroup.application" %>
+
+<%@ Register TagPrefix="ajaxToolkit" Namespace="AjaxControlToolkit" Assembly="AjaxControlToolkit" %>
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -119,8 +121,8 @@
                   
                     <form id="form1" runat="server">
 
-                        <ajaxToolkit:ToolkitScriptManager ID="ScriptManager1" runat="server">
-                        </ajaxToolkit:ToolkitScriptManager>
+                        <asp:ScriptManager ID="ScriptManager1" runat="server">
+                        </asp:ScriptManager>
                         <asp:UpdatePanel runat="server" ID="upCalData" UpdateMode="Conditional">
                             <ContentTemplate>
 

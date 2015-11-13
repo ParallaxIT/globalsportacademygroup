@@ -139,3 +139,13 @@ C:\Users\ParaHomeDev\Documents\GitHub\GlobalSportAcademyGroup\GlobalSportAcademy
 C:\Users\ParaHomeDev\Documents\GitHub\GlobalSportAcademyGroup\GlobalSportAcademyGroup\bin\ru\System.Spatial.resources.dll
 C:\Users\ParaHomeDev\Documents\GitHub\GlobalSportAcademyGroup\GlobalSportAcademyGroup\bin\zh-Hans\System.Spatial.resources.dll
 C:\Users\ParaHomeDev\Documents\GitHub\GlobalSportAcademyGroup\GlobalSportAcademyGroup\bin\zh-Hant\System.Spatial.resources.dll
+\\psf\Home\Documents\GitHub\GlobalSportAcademyGroup\GlobalSportAcademyGroup\bin\GlobalSportAcademyGroup.dll.config
+\\psf\Home\Documents\GitHub\GlobalSportAcademyGroup\GlobalSportAcademyGroup\bin\GlobalSportAcademyGroup.dll
+\\psf\Home\Documents\GitHub\GlobalSportAcademyGroup\GlobalSportAcademyGroup\bin\GlobalSportAcademyGroup.pdb
+\\psf\Home\Documents\GitHub\GlobalSportAcademyGroup\GlobalSportAcademyGroup\bin\AjaxControlToolkit.dll
+\\psf\Home\Documents\GitHub\GlobalSportAcademyGroup\GlobalSportAcademyGroup\bin\Dapper.dll
+\\psf\Home\Documents\GitHub\GlobalSportAcademyGroup\GlobalSportAcademyGroup\bin\Dapper.pdb
+\\psf\Home\Documents\GitHub\GlobalSportAcademyGroup\GlobalSportAcademyGroup\bin\Dapper.xml
+\\psf\Home\Documents\GitHub\GlobalSportAcademyGroup\GlobalSportAcademyGroup\obj\Release\GlobalSportAcademyGroup.csprojResolveAssemblyReference.cache
+\\psf\Home\Documents\GitHub\GlobalSportAcademyGroup\GlobalSportAcademyGroup\obj\Release\GlobalSportAcademyGroup.dll
+\\psf\Home\Documents\GitHub\GlobalSportAcademyGroup\GlobalSportAcademyGroup\obj\Release\GlobalSportAcademyGroup.pdb

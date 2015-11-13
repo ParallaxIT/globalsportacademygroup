@@ -156,7 +156,7 @@
                             <p><a href="mailto:cstockton@globalsportacademygroup.com">Christine Stockton - Adminstration Manager</a></p>
                             <p><a href="mailto:abrock@globalsportacademygroup.com">Annette Brock - Officer Manager</a></p>
                             <p><a href="mailto:dmacfarland@globalsportacademygroup.com">Danni Macfarland - Registrar</a></p>
-                            <p><a href="mailto:tsoumbasis@globalsportacademygroup.com">Tina Soumbasis - Assistant Registrar</a></p>
+                           <%-- <p><a href="mailto:tsoumbasis@globalsportacademygroup.com">Tina Soumbasis - Assistant Registrar</a></p>--%>
                         </div>
                     </article>
                     <form runat="server">
