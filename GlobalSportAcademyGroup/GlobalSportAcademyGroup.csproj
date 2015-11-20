@@ -80,6 +80,9 @@
     <Content Include="img\global-team.png" />
     <Content Include="img\Gsag_Brochure_l.png" />
     <Content Include="img\Gsag_Brochure_s.png" />
+    <Content Include="img\nov18pic1.jpg" />
+    <Content Include="img\nov18pic2.jpg" />
+    <Content Include="img\nov18pic3.jpg" />
     <Content Include="img\partners.png" />
     <Content Include="img\sask-conference.jpg" />
     <Content Include="img\springbank-landing.jpg" />
@@ -148,8 +151,8 @@
     <Content Include="docs\FSD Sports Academy News Release_Final.pdf" />
     <Content Include="docs\FSD_Overview2.pdf" />
     <Content Include="docs\SSA_Overview2.pdf" />
-    <None Include="Properties\PublishProfiles\globalsportacademygroup - FTP.pubxml" />
-    <None Include="Properties\PublishProfiles\globalsportacademygroup - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\AIT - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\Home - Web Deploy.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

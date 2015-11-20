@@ -144,10 +144,10 @@
                             <p><a href="mailto:mmaloney@globalsportacademygroup.com">Mark Maloney - Co-Founder</a></p>
                             <p><a href="mailto:jovens@globalsportacademygroup.com">Jeff Ovens - Director of Springbank Sports Academy</a></p>
                             <p><a href="mailto:jfox@globalsportacademygroup.com">Jamie Fox - Director of Foothills School Division Sports Academy</a></p>
-                            <p><a href="mailto:jlong@globalsportacademygroup.com">Rob Kerr - Media Content Builder</a></p>
+                           <%-- <p><a href="mailto:jlong@globalsportacademygroup.com">Rob Kerr - Media Content Builder</a></p>--%>
                              <p><a href="mailto:sfukami@globalsportacademygroup.com">Scott Fukami - Coach - Hockey</a></p>
                              <p><a href="mailto:daddison@globalsportacademygroup.com">David Addison - Director of Goaltending</a></p>
-                             <p><a href="mailto:kostrow@globalsportacademygroup.com">Kyle Ostrow - Director of Denver Sports Academy</a></p>
+                            <%-- <p><a href="mailto:kostrow@globalsportacademygroup.com">Kyle Ostrow - Director of Denver Sports Academy</a></p>--%>
                              <p><a href="mailto:jlangager@globalsportacademygroup.com">Jay Langager - FSD Sports Academy Liaison & Coach</a></p>
                              <p><a href="mailto:tford@globalsportacademygroup.com">Todd Ford - FSD Sports Academy Goaltending Coach</a></p>
                              <p><a href="mailto:ksurbey@globalsportacademygroup.com">Kath Surbey - Female Hockey Coach</a></p>

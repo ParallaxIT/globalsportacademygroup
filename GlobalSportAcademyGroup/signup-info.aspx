@@ -5,20 +5,20 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title>Welcome To GlobalSportAcademyGroup.com</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon"/>
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
-     <meta name="description" content="If you are passionate about your youngster developing a high performance lifestyle you have found the right portal. We are not a sport program or a physical education class. We are visionary leaders in the sport industry and have built a philosophy and approach which is modelled by outstanding coach leaders and is offered to high achieving and goal oriented youth.">
-    <meta name="keywords" content="Sport Academies,Hockey Training,Sport Training,Youth Sports,Sport Academy,Global Sport AcademyHockey Development,Sport Excellence,Foothills School Division Sport Academy,FSD Sports Academy,Springbank Sports Academy,Hockey Excellence,Hockey Program">
-    <meta name="author" content="Parallax Consulting :: Rob Sutherland">
+    <meta name="description" content="If you are passionate about your youngster developing a high performance lifestyle you have found the right portal. We are not a sport program or a physical education class. We are visionary leaders in the sport industry and have built a philosophy and approach which is modelled by outstanding coach leaders and is offered to high achieving and goal oriented youth."/>
+    <meta name="keywords" content="Sport Academies,Hockey Training,Sport Training,Youth Sports,Sport Academy,Global Sport AcademyHockey Development,Sport Excellence,Foothills School Division Sport Academy,FSD Sports Academy,Springbank Sports Academy,Hockey Excellence,Hockey Program"/>
+    <meta name="author" content="Parallax Consulting :: Rob Sutherland"/>
 
     <meta name="format-detection" content="telephone=no" />
     <!--CSS-->
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/camera.css">
-    <link rel="stylesheet" href="css/jquery.fancybox.css">
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/camera.css"/>
+    <link rel="stylesheet" href="css/jquery.fancybox.css"/>
     <!--JS-->
     <script src="js/jquery.js"></script>
     <script src="js/jquery-migrate-1.2.1.min.js"></script>
@@ -52,9 +52,7 @@
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
-    <script>
 
-    </script>
     <!-- Add jQuery library -->
     <script type="text/javascript" src="js/fancybox/lib/jquery-1.10.1.min.js"></script>
 
@@ -254,6 +252,8 @@
     </script>
     <style type="text/css">
         .fancybox-custom .fancybox-skin {
+            -webkit-box-shadow: 0 0 50px #222;
+            -ms-box-shadow: 0 0 50px #222;
             box-shadow: 0 0 50px #222;
         }
     </style>
@@ -352,7 +352,7 @@
                     <h2 class="text-center">Our Partners</h2>
                     <hr />
                     <div class="row">
-                        <article class="col-lg-4 col-md-4 col-sm-6 col-xs-5 col-sm-offset-2 col-xs-offset-1">
+                        <article class="col-lg-3 col-md-3 col-sm-3 col-xs-3 col-sm-offset-1 col-xs-offset-1">
                             <div class="thumb-pad5">
                                 <div class="thumbnail">
                                     <div class="caption">
@@ -363,7 +363,7 @@
                                             Okotoks, AB<br />
                                             T1S 2A9<br />
                                             P:(403) 938-4426<br />
-                                            Principal: Mr Bryan Brandford<br />
+                                            Principal: Ms. Leah Kingston<br />
                                             Vice Principal + Academy Liason: Mr Bill Holmes<br />
                                             P: (403) 938-4426<br />
                                             E: <a href="mailto:holmesb@fsd38.ab.ca">holmesb@fsd38.ab.ca</a>
@@ -372,7 +372,7 @@
                                 </div>
                             </div>
                         </article>
-                        <article class="col-lg-4 col-md-4 col-sm-4 col-xs-4 col-sm-offset-1">
+                        <article class="col-lg-3 col-md-3 col-sm-3 col-xs-3 col-sm-offset-1 col-xs-offset-1">
                             <div class="thumb-pad5">
                                 <div class="thumbnail">
                                     <div class="caption">
@@ -387,6 +387,25 @@
                                             Assistant Principal + Academy Liason:Michael Fredrich<br />
                                             P: (403) 246-4771<br />
                                             E: <a href="mailto:mfredrick@rockyview.ab.ca">mfredrick@rockyview.ab.ca</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                         <article class="col-lg-3 col-md-3 col-sm-3 col-xs-3 col-sm-offset-1 col-xs-offset-1">
+                            <div class="thumb-pad5">
+                                <div class="thumbnail">
+                                    <div class="caption">
+                                        <a href="#">Foothills School Division<br />
+                                            Foothills Composite High School</a>
+                                        <p>
+                                           229 Woodhaven Dr.<br />
+                                            Okotoks, AB<br />
+                                            403-938-6116<br /><br />
+
+                                            Principal: Mr. Vince Hunter<br />
+                                            
+                                            E: <a href="mailto:hunterv@fsd38.ab.ca">hunterv@fsd38.ab.ca</a><br />
                                         </p>
                                     </div>
                                 </div>
@@ -426,14 +445,11 @@
             <div class="container">
                 <div class="row">
                     <article class="col-lg-8 col-md-8 col-sm-8 col-sm-offset-2">
-                        <h2 class="text-center">PROGRAM COSTS FOR 2015-2016</h2>
+                        <h2 class="text-center">PROGRAM OVERVIEW</h2>
                         <div class="row">
                             <article class="col-lg-12 col-md-12 col-sm-12">
-                                <h4 class="text-center color">* Please note that all schools do not offer all sport programs. </h4>
-                                <h5 class="text-center text-danger"><strong>Grade 9 @ Springbank Sports Academy: Hockey - $3,995.00, Golf - $4,995.00, Soccer - $3,895.00 (plus GST)</strong></h5>
-                                <h5 class="text-center text-danger"><strong>Grade 10-12 @ Springbank  Sports Academy : Hockey - $4,995.00, Golf - $6,995.00, Soccer - $4,895.00 (plus GST)</strong></h5>
-                                <h5 class="text-center text-danger"><strong>Grade 7,8,9 @ FSD Sports Academy: Hockey - $4,995.00 (plus GST)</strong></h5>
-                                <h4 class="text-center">If your student athlete is not accepted, a full refund will be issued. financial assistance is available upon request.</h4>
+                                <h4 class="text-center text-danger"><strong>Springbank Sports Academy <br /> Grade 9-12 Male/Female - Hockey and Golf</strong></h4>
+                                <h4 class="text-center text-danger"><strong>Foothills School District Sports Academy <br /> Grade 7-10 Male Hockey, Grade 7-12 Female Hockey</strong></h4>
                             </article>
                         </div>
                     </article>
@@ -466,7 +482,7 @@
                                     <button class="btn btn-danger btn-block">Facebook</button></a><br />
                             </div>
                             <div class="col-lg-4 col-md-4 col-sm-4">
-                                <a href="https://twitter.com/Global_sportaca"">
+                                <a href="https://twitter.com/Global_sportaca">
                                     <button class="btn btn-danger btn-block">Twitter</button></a><br />
                             </div>
                     </div>
