@@ -78,8 +78,12 @@
     <Content Include="img\fsd-landing.jpg" />
     <Content Include="img\FSD_Logo.jpg" />
     <Content Include="img\global-team.png" />
+    <Content Include="img\GSAG_Brochure_2015_l.jpg" />
+    <Content Include="img\GSAG_Brochure_2015_s.jpg" />
     <Content Include="img\Gsag_Brochure_l.png" />
     <Content Include="img\Gsag_Brochure_s.png" />
+    <Content Include="img\img_1_nov_2015.jpg" />
+    <Content Include="img\img_3_nov_2015.jpg" />
     <Content Include="img\nov18pic1.jpg" />
     <Content Include="img\nov18pic2.jpg" />
     <Content Include="img\nov18pic3.jpg" />
@@ -151,6 +155,8 @@
     <Content Include="docs\FSD Sports Academy News Release_Final.pdf" />
     <Content Include="docs\FSD_Overview2.pdf" />
     <Content Include="docs\SSA_Overview2.pdf" />
+    <Content Include="docs\global-fsd-2016 .pdf" />
+    <Content Include="docs\global-springbank-2016.pdf" />
     <None Include="Properties\PublishProfiles\AIT - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\Home - Web Deploy.pubxml" />
     <None Include="Web.Debug.config">
