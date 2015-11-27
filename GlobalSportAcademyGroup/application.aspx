@@ -211,8 +211,9 @@
 
                                         <asp:DropDownList ID="ddlSchoolOfChoice" class='form-control' runat="server" AutoPostBack="true" OnSelectedIndexChanged="ddlSchoolOfChoice_SelectedIndexChanged">
                                             <asp:ListItem>Select</asp:ListItem>
-                                            <asp:ListItem>Ecole Okotoks Junior High</asp:ListItem>
+                                            <asp:ListItem>Foothills School Division</asp:ListItem>
                                             <asp:ListItem>Springbank Community High School</asp:ListItem>
+                                        
 
                                         </asp:DropDownList>
                                           <asp:Label runat="server" ID="lblSchoolOfChoiceError" Visible="false" ForeColor="Red" Font-Bold="True"> ** Please choose a school.</asp:Label>
