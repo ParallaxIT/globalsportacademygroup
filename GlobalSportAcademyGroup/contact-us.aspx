@@ -141,21 +141,21 @@
                             </h4>
                             <br>
                             <h2>Staff Contacts</h2>
-                            <p><a href="mailto:mmaloney@globalsportacademygroup.com">Mark Maloney - Co-Founder</a></p>
+                            <p><a href="mailto:mmaloney@globalsportacademygroup.com">Mark Maloney - CEO</a></p>
                             <p><a href="mailto:jovens@globalsportacademygroup.com">Jeff Ovens - Director of Springbank Sports Academy</a></p>
                             <p><a href="mailto:jfox@globalsportacademygroup.com">Jamie Fox - Director of Foothills School Division Sports Academy</a></p>
-                           <%-- <p><a href="mailto:jlong@globalsportacademygroup.com">Rob Kerr - Media Content Builder</a></p>--%>
+                           <%-- <p><a href="mailto:jlong@globalsportacademygroup.com">Rob Kerr - Media Content Builder</a></p>
                              <p><a href="mailto:sfukami@globalsportacademygroup.com">Scott Fukami - Coach - Hockey</a></p>
                              <p><a href="mailto:daddison@globalsportacademygroup.com">David Addison - Director of Goaltending</a></p>
-                            <%-- <p><a href="mailto:kostrow@globalsportacademygroup.com">Kyle Ostrow - Director of Denver Sports Academy</a></p>--%>
+                           <p><a href="mailto:kostrow@globalsportacademygroup.com">Kyle Ostrow - Director of Denver Sports Academy</a></p>
                              <p><a href="mailto:jlangager@globalsportacademygroup.com">Jay Langager - FSD Sports Academy Liaison & Coach</a></p>
                              <p><a href="mailto:tford@globalsportacademygroup.com">Todd Ford - FSD Sports Academy Goaltending Coach</a></p>
-                             <p><a href="mailto:ksurbey@globalsportacademygroup.com">Kath Surbey - Female Hockey Coach</a></p>
+                             <p><a href="mailto:ksurbey@globalsportacademygroup.com">Kath Surbey - Female Hockey Coach</a></p>--%>
                             <br>
                             <h2>Administration Team</h2>
-                            <p><a href="mailto:cstockton@globalsportacademygroup.com">Christine Stockton - Adminstration Manager</a></p>
-                            <p><a href="mailto:abrock@globalsportacademygroup.com">Annette Brock - Officer Manager</a></p>
-                            <p><a href="mailto:dmacfarland@globalsportacademygroup.com">Danni Macfarland - Registrar</a></p>
+                            <p><a href="mailto:cstockton@globalsportacademygroup.com">Christine Stockton - Manager of Business Operations</a></p>
+                            <p><a href="mailto:abrock@globalsportacademygroup.com">Annette Brock - Director of Finance</a></p>
+                            <p><a href="mailto:dmacfarland@globalsportacademygroup.com">Danni Macfarland - Director of Admissions</a></p>
                            <%-- <p><a href="mailto:tsoumbasis@globalsportacademygroup.com">Tina Soumbasis - Assistant Registrar</a></p>--%>
                         </div>
                     </article>
