@@ -228,7 +228,7 @@
                                             <asp:ListItem>Grade 7 Male Hockey</asp:ListItem>
                                             <asp:ListItem>Grade 8 Male Hockey</asp:ListItem>
                                             <asp:ListItem>Grade 9 Male Hockey</asp:ListItem>
-                                            <asp:ListItem>Grade 10 Male Hockey</asp:ListItem>
+                                            <asp:ListItem>Grade 10-11 Male Hockey</asp:ListItem>
                                             <asp:ListItem>Grade 7 Female Hockey</asp:ListItem>
                                             <asp:ListItem>Grade 8 Female Hockey</asp:ListItem>
                                             <asp:ListItem>Grade 9 Female Hockey</asp:ListItem>
